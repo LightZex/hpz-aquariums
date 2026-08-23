@@ -1,0 +1,306 @@
+/* HPZ Aquariums - undersea theme */
+:root{
+  --bg-deep:#06121f;        /* navy biển sâu */
+  --bg-mid:#0a1f33;
+  --surface:rgba(10,31,51,.72);
+  --surface-2:rgba(15,42,66,.85);
+  --border:rgba(64,196,255,.22);
+  --ink:#eaf6ff;            /* chữ trắng xanh */
+  --muted:#8fb6cf;
+  --cyan:#3fd0ff;
+  --cyan-2:#22b8e6;
+  --accent:#ff8a3d;         /* cam từ logo */
+  --accent-2:#ffb15c;
+  --radius:16px;
+  --shadow:0 10px 40px rgba(0,0,0,.45);
+  --maxw:1420px;
+  --font:'Source Sans 3',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--bg-deep);
+  line-height:1.55;
+  min-height:100vh;
+  position:relative;
+  overflow-x:hidden;
+}
+/* nền fluid LiquidEther - lớp dưới cùng, transparent để lộ navy */
+#aquarium-bg{
+  position:fixed; inset:0; z-index:-1;
+  width:100%; height:100%;
+  display:block;
+}
+#aquarium-bg canvas{ display:block; }
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+/* Header */
+header.site{
+  position:sticky; top:0; z-index:50;
+  backdrop-filter:blur(10px);
+  background:linear-gradient(180deg,rgba(6,18,31,.92),rgba(6,18,31,.55));
+  border-bottom:1px solid var(--border);
+}
+.nav{display:flex;align-items:center;gap:18px;height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:42px;width:42px;border-radius:50%;border:2px solid var(--accent);box-shadow:0 0 14px rgba(255,138,61,.5)}
+.brand .name{font-weight:800;font-size:1.18rem;letter-spacing:.5px;
+  background:linear-gradient(90deg,var(--cyan),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand .name small{display:block;font-size:.62rem;letter-spacing:3px;color:var(--muted);font-weight:600}
+.nav ul{display:flex;gap:6px;list-style:none;margin-left:auto;flex-wrap:wrap}
+.nav a{color:var(--muted);text-decoration:none;padding:9px 14px;border-radius:10px;font-weight:600;font-size:.95rem;transition:.2s}
+.nav a:hover,.nav a.active{color:var(--ink);background:var(--surface-2)}
+.nav a.cta{background:linear-gradient(90deg,var(--cyan),var(--accent));color:#04121d;font-weight:800}
+.nav a.cta:hover{filter:brightness(1.08)}
+
+/* Hero */
+.hero{position:relative;padding:72px 0 56px}
+.hero-card{
+  position:relative;z-index:1;
+  max-width:1420px;
+  margin:0 auto;
+  background:linear-gradient(180deg,rgba(13,40,66,.78),rgba(8,25,43,.82));
+  border:1px solid var(--border);
+  border-radius:32px;
+  padding:72px 56px;
+  min-height:500px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  box-shadow:0 24px 70px rgba(0,0,0,.55), inset 0 1px 0 rgba(120,210,255,.12);
+  backdrop-filter:blur(8px);
+}
+.hero h1{margin-bottom:16px;font-weight:800;letter-spacing:-.5px;color:#eaf6ff;text-shadow:0 2px 30px rgba(0,0,0,.4)}
+.hero h1 span{display:block}
+.hl-top{
+  text-transform:uppercase;
+  font-size:clamp(1.3rem,3.2vw,2.1rem);
+  letter-spacing:8px;
+  font-weight:600;
+  color:#bfe6fa;
+  margin-bottom:10px;
+}
+.hl-main{
+  text-transform:uppercase;
+  font-size:clamp(2.1rem,5vw,3.9rem);
+  line-height:1.08;
+  background:linear-gradient(90deg,#7fe0ff,var(--cyan),var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p{color:#a9c8da;max-width:600px;margin:0 auto 28px;font-size:1.08rem;font-weight:400}
+.hero-actions{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;padding:13px 26px;border-radius:14px;font-weight:700;
+  background:linear-gradient(90deg,var(--cyan),var(--accent));color:#04121d;box-shadow:var(--shadow);transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn.ghost{background:transparent;border:1px solid var(--border);color:var(--ink)}
+
+/* Reviews carousel - marquee chạy liên tục chậm */
+.reviews{margin-top:18px}
+.reviews .section-sub{text-align:center}
+.carousel{position:relative;max-width:980px;margin:0 auto;overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.track{display:flex;transition:none;will-change:transform}
+.track .slide{min-width:46%;padding:8px;box-sizing:border-box}
+.review-card{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);
+  padding:26px 30px;box-shadow:var(--shadow);text-align:center;height:100%}
+.review-card .stars{color:var(--accent-2);font-size:1.1rem;letter-spacing:3px;margin-bottom:10px}
+.review-card .quote{color:var(--ink);font-size:1.05rem;font-style:italic;line-height:1.6}
+.review-card .who{color:var(--muted);font-size:.9rem;margin-top:14px;font-weight:600}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:18px}
+.dots button{width:9px;height:9px;border-radius:50%;border:0;background:var(--border);cursor:pointer;padding:0;transition:.2s}
+.dots button.active{background:var(--cyan);width:22px;border-radius:5px}
+@media(max-width:760px){
+  .track .slide{min-width:86%}
+}
+
+/* Section */
+section.block{padding:48px 0}
+.section-title{font-size:1.7rem;margin-bottom:6px}
+.section-sub{color:var(--muted);margin-bottom:24px}
+
+/* Teaser "Khám phá bể cá" - căn giữa + 4 loài phổ biến */
+.teaser{text-align:center}
+.teaser .section-sub{max-width:640px;margin-left:auto;margin-right:auto}
+.teaser-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+  max-width:900px;
+  margin:30px auto 6px;
+}
+.teaser-item{
+  display:block;
+  text-decoration:none;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:18px 12px 16px;
+  transition:.25s;
+}
+.teaser-item:hover{transform:translateY(-5px);border-color:var(--cyan)}
+.teaser-item .ph{
+  display:flex;align-items:center;justify-content:center;
+  height:86px;margin-bottom:10px;
+}
+.teaser-item .ph img{
+  width:84px;
+  filter:drop-shadow(0 8px 14px rgba(0,0,0,.4));
+  animation:tswim2 4.5s ease-in-out infinite;
+}
+.teaser-item:nth-child(2) .ph img{animation-delay:.7s;width:92px}
+.teaser-item:nth-child(3) .ph img{animation-delay:1.3s;width:78px}
+.teaser-item:nth-child(4) .ph img{animation-delay:2s;width:96px}
+@keyframes tswim2{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-7px) rotate(-3deg)}
+}
+.teaser-item .vn{display:block;font-weight:800;font-size:1.02rem;color:var(--ink)}
+.teaser-item .en{display:block;color:var(--muted);font-size:.82rem;font-style:italic;margin-top:2px}
+@media(max-width:760px){
+  .teaser-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+/* Search + filter */
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:26px}
+.search{flex:1;min-width:240px;display:flex;align-items:center;gap:10px;
+  background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:11px 14px}
+.search input{flex:1;background:transparent;border:0;outline:0;color:var(--ink);font-size:1rem;font-family:var(--font)}
+.search input::placeholder{color:var(--muted)}
+.search svg{flex:none;opacity:.7}
+
+/* Grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;transition:.25s;box-shadow:var(--shadow);position:relative}
+.card:hover{transform:translateY(-5px);border-color:var(--cyan)}
+.card .ph{aspect-ratio:16/10;background:
+  radial-gradient(ellipse at 50% 115%, rgba(63,208,255,.14), transparent 60%),
+  linear-gradient(180deg,#0e3352,#082238);
+  overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.card .ph img.fish-sprite{
+  width:52%;max-width:150px;
+  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45));
+  transition:.3s;
+  animation:cardswim 4.8s ease-in-out infinite;
+}
+.card:nth-child(3n) .ph img.fish-sprite{animation-delay:-1.6s;width:58%}
+.card:nth-child(3n+1) .ph img.fish-sprite{animation-delay:-3.1s;width:47%}
+.card:hover .ph img.fish-sprite{transform:translateX(6px) rotate(-4deg)}
+@keyframes cardswim{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-9px) rotate(-3deg)}
+}
+.badge{position:absolute;top:10px;left:10px;background:rgba(6,18,31,.8);border:1px solid var(--accent);
+  color:var(--accent-2);padding:4px 11px;border-radius:999px;font-size:.74rem;font-weight:800;letter-spacing:.4px}
+.card .body{padding:14px 16px 18px}
+.card .vn{font-size:1.12rem;font-weight:800}
+.card .en{color:var(--muted);font-size:.84rem;font-style:italic}
+
+/* Pagination */
+.pager{display:flex;gap:10px;justify-content:center;align-items:center;margin-top:34px}
+.pager button{background:var(--surface-2);border:1px solid var(--border);color:var(--ink);
+  padding:10px 18px;border-radius:10px;font-weight:700;cursor:pointer;font-family:var(--font);transition:.2s}
+.pager button:hover:not(:disabled){border-color:var(--cyan)}
+.pager button:disabled{opacity:.4;cursor:not-allowed}
+.pager .page-info{color:var(--muted);font-weight:600}
+
+/* Featured on home */
+.featured{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+.featured .card .ph{aspect-ratio:1/1}
+
+/* About / contact */
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);width:100%}
+.panel h2{margin-bottom:12px}
+.panel p{color:var(--muted);margin-bottom:12px}
+.info-row{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--border)}
+.info-row:last-child{border-bottom:0}
+.info-row .k{color:var(--cyan);font-weight:700;min-width:120px}
+
+/* Footer */
+footer.site{padding:40px 0 60px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border);margin-top:40px}
+footer.site a{color:var(--cyan);text-decoration:none}
+
+/* Section reveal on scroll (Lotte-style: fade + slide up, children stagger) */
+.reveal{opacity:0;transform:translateY(60px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal .reveal-child{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.reveal.in .reveal-child{opacity:1;transform:none}
+.reveal.in .reveal-child:nth-child(1){transition-delay:.05s}
+.reveal.in .reveal-child:nth-child(2){transition-delay:.15s}
+.reveal.in .reveal-child:nth-child(3){transition-delay:.25s}
+.reveal.in .reveal-child:nth-child(4){transition-delay:.35s}
+.reveal.in .reveal-child:nth-child(5){transition-delay:.45s}
+.reveal.in .reveal-child:nth-child(6){transition-delay:.55s}
+@media(prefers-reduced-motion:reduce){
+  .reveal,.reveal .reveal-child{opacity:1!important;transform:none!important;transition:none!important}
+}
+
+/* Shore - dải cát 300px cuối trang, mặt cát cong mượt trồi lên đè nhẹ phần liên hệ */
+.shore{
+  position:relative;
+  height:300px;
+  margin-top:64px;   /* chừa chỗ cho đường cát trồi lên */
+  background:
+    url('../img/scene/shore_curve.png?v=2') repeat-x bottom/1920px 300px,
+    linear-gradient(180deg, #14405e 0%, #1a4d6d 40%, #b89a68 72%, #dcc28c 100%);
+}
+/* nước mờ hoà vào mép trên của hình cát */
+.shore::before{
+  content:'';position:absolute;left:0;right:0;top:0;height:56px;z-index:1;
+  background:linear-gradient(180deg, rgba(13,44,71,.55) 0%, rgba(13,44,71,0) 100%);
+  pointer-events:none;
+}
+/* sóng cát lăn chậm ngang -> cảm giác biển động */
+.shore .sandimg{
+  position:absolute;inset:auto 0 0 0;height:300px;
+  background:url('../img/scene/shore_curve.png?v=2') repeat-x bottom/1920px 300px;
+  animation:dunedrift 14s ease-in-out infinite alternate;
+}
+@keyframes dunedrift{
+  from{background-position:0 bottom}
+  to{background-position:-96px bottom}
+}
+@media(prefers-reduced-motion:reduce){
+  .shore .sandimg{animation:none}
+}
+/* LỚP CÁT PHỦ ĐÈ (che gốc tảo chìm dưới cát) - vẽ trên canvas tảo */
+.shore::after{
+  content:'';position:absolute;left:0;right:0;bottom:0;height:300px;z-index:95;
+  background:url('../img/scene/shore_curve.png?v=2') repeat-x bottom/1920px 300px;
+  pointer-events:none;
+}
+.shore .sandlife{position:absolute;bottom:0;left:0;width:100%;height:320px;pointer-events:none;z-index:2}
+.shore footer.site{position:relative;z-index:3;border-top:0;margin-top:0;padding:0}
+.shore .foot-center{
+  position:absolute;left:50%;bottom:26px;transform:translateX(-50%);
+  text-align:center;width:max-content;max-width:90vw;
+  color:#ffffff;font-size:.95rem;font-weight:700;letter-spacing:.4px;
+  text-shadow:0 1px 3px rgba(20,40,60,.55);
+}
+.shore .foot-center a{color:#bfe6fa;text-decoration:none;border-bottom:1px dashed rgba(191,230,250,.6)}
+.shore .foot-center a:hover{color:#ffffff}
+.shore .sandlife img{position:absolute;bottom:0;filter:drop-shadow(0 3px 5px rgba(0,0,0,.35))}
+.shore .sandlife img.sway{animation:sandsway 5.5s ease-in-out infinite alternate;transform-origin:bottom center}
+@keyframes sandsway{
+  from{transform:rotate(-2.5deg)}
+  to{transform:rotate(2.5deg)}
+}
+@media(prefers-reduced-motion:reduce){
+  .shore .sandlife img.sway{animation:none}
+}
+
+
+@media(max-width:640px){
+  .nav{height:auto;padding:10px 0;flex-wrap:wrap}
+  .nav ul{width:100%;justify-content:flex-start;margin-left:0}
+  .hero{padding:36px 0 32px}
+  .hero-card{padding:56px 22px;border-radius:22px;min-height:420px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
