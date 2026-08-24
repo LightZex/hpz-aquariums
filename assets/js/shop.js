@@ -1,4 +1,4 @@
-/* HPZ Aquariums - catalogue: search + pagination 9/page */
+/* HPZ Aquariums - catalogue: search + pagination 12/page + click -> detail */
 (function(){
   const grid = document.getElementById('fish-grid');
   const search = document.getElementById('fish-search');
@@ -8,13 +8,17 @@
   let filtered = FISH.slice();
   let page = 1;
 
+  const vnd = n => n.toLocaleString('vi-VN') + '₫';
+
   function cardHTML(f){
     const style = f.filter ? ` style="filter:${f.filter}"` : '';
-    return `<article class="card">
+    return `<a class="card" href="fish.html?fish=${encodeURIComponent(f.en)}">
       <div class="ph">
-        <img class="fish-sprite" src="${f.src}" alt="${f.vn}" loading="lazy"${style}></div>
-      <div class="body"><div class="vn">${f.vn}</div><div class="en">${f.en}</div></div>
-    </article>`;
+        <img class="fish-sprite${f.photo ? ' photo' : ''}" src="${f.src}" alt="${f.vn}" loading="lazy"${style}>
+      </div>
+      <div class="body"><div class="vn">${f.vn}</div><div class="en">${f.en}</div>
+      <div class="price">${vnd(f.price || 0)}</div></div>
+    </a>`;
   }
 
   function render(){
@@ -26,7 +30,7 @@
     pager.innerHTML = `
       <button id="prev" ${page===1?'disabled':''}>← Trước</button>
       <span class="page-info">Trang ${page}/${pages} · ${filtered.length} cá</span>
-      <button id="next" ${page===pages?'disabled':''}>Sau →</button>`;
+      <button id="next" ${page<pages?'':'disabled'}>Sau →</button>`;
     const prev = document.getElementById('prev');
     const next = document.getElementById('next');
     if(prev) prev.onclick = ()=>{ if(page>1){page--; render();} };
