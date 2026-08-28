@@ -7,6 +7,12 @@
 const SPR = 'assets/img/scene/';
 const FISH = [
   {
+    vn: "Cá Cầu Vồng Bleheri", en: "Bleheri Rainbowfish", img: "bleheri_1.jpg", photo: true, price: 150000,
+    he: "Hệ Thủy Sinh", tank: "Thủy Sinh", status: "stock", eventPrice: "Không hỗ trợ",
+    desc: "Cá Cầu Vồng Bleheri (Melanotaenia bleheri) là dòng cá cảnh nước ngọt nổi bật với thân hình thon dài, vảy ánh kim và màu sắc rực rỡ pha giữa cam, đỏ, vàng, xanh lam hoặc xanh lá. Cá có dáng bơi linh hoạt, tính cách hiền lành, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có nhiều không gian bơi và ánh sáng nhẹ để lên màu đẹp. Ăn tạp (cám hạt, thức ăn đông lạnh), khỏe mạnh và dễ chăm sóc.",
+    origin: "Sông Après, Papua New Guinea", size: "5–7 cm", promo: "Không có", contactText: "", combo: {3:145000,5:136000,10:127000}, gallery: ["assets/img/bleheri_1.jpg", "assets/img/bleheri_2.jpg"]
+  },
+  {
     vn: "Cá Red Cherry AB Longfin", en: "Red Cherry AB Longfin", img: "redcherry_1.jpg", photo: true, price: 40000,
     he: "Hệ Thủy Sinh", tank: "Thủy Sinh", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Red Cherry AB Longfin là dòng cá cảnh nước ngọt nổi bật với sắc đỏ rực rỡ cùng bộ vây dài mềm mại, thướt tha khi bơi. Cá có tính cách hiền hòa, hơi nhút nhát, rất phù hợp nuôi theo đàn trong các bể thủy sinh nhiều cây, lũa và đá. Bơi ở tầng giữa, tính xã hội cao — nên nuôi nhóm 6–10 con để cá dạn và lên màu đẹp. Ăn tạp (cám hạt, thức ăn đông lạnh, bổ sung thức ăn thực vật), khỏe mạnh và dễ chăm sóc.",
