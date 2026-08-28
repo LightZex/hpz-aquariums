@@ -44,9 +44,6 @@
       <p class="detail-en">${f.en}</p>
       <p class="detail-desc">${f.desc}</p>
       <div class="specs">
-        ${row('Chương Trình Ưu Đãi', f.promo || 'Không có')}
-        ${row('Size', f.size)}
-        ${row('Tình Trạng', statusText)}
         ${row('Giá Niêm Yết', vnd(f.price || 0), true)}
       </div>
       <div class="detail-actions">
