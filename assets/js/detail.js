@@ -48,7 +48,10 @@
       </div>
     </div>
     <div class="detail-layer layer-price">
-      <div class="price-big">${priceNum}<span class="cur">₫</span></div>
+      <div class="price-row">
+        <span class="pl">Giá Niêm Yết</span>
+        <span class="pv">${priceNum}₫</span>
+      </div>
     </div>
     <div class="detail-layer layer-info">
       <h2 class="detail-name">${f.vn}</h2>
