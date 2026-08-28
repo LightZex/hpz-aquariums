@@ -29,8 +29,8 @@
   const STATUS = { 'stock':'Còn hàng', 'pre-order':'Đặt trước', 'sold out':'Hết hàng', 'hết hàng':'Hết hàng' };
   const statusText = STATUS[(f.status||'').toLowerCase()] || f.status || '';
   const ct = f.contactText || 'Liên hệ';
-  const row = (label, val) => val ? `
-    <div class="spec-row"><span class="spec-label">${label}</span><span class="spec-val">${val}</span></div>` : '';
+  const row = (label, val, big) => val ? `
+    <div class="spec-row${big?' price-row':''}"><span class="spec-label">${label}</span><span class="spec-val">${val}</span></div>` : '';
 
   root.innerHTML = `
   <nav class="fish-nav">
@@ -47,7 +47,7 @@
         ${row('Chương Trình Ưu Đãi', f.promo || 'Không có')}
         ${row('Size', f.size)}
         ${row('Tình Trạng', statusText)}
-        ${row('Giá Niêm Yết', vnd(f.price || 0))}
+        ${row('Giá Niêm Yết', vnd(f.price || 0), true)}
       </div>
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
