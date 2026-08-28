@@ -38,18 +38,20 @@
     <a class="nav-btn nav-next" href="fish.html?fish=${encodeURIComponent(nextF.en)}">Chuyển tiếp ›</a>
   </nav>
   <article class="detail">
-    <div class="detail-media">${imgs}</div>
-    <div class="detail-info">
-      <h2 class="section-title" style="margin-bottom:4px">${f.vn}</h2>
-      <p class="detail-en">${f.en}</p>
-      <p class="detail-desc">${f.desc}</p>
-      <div class="specs">
-        <div class="price-only">${vnd(f.price || 0)}</div>
+    <div class="detail-hero">
+      <div class="detail-media">${imgs}</div>
+      <div class="detail-info">
+        <h2 class="section-title" style="margin-bottom:4px">${f.vn}</h2>
+        <p class="detail-en">${f.en}</p>
+        <p class="detail-desc">${f.desc}</p>
       </div>
-      <div class="detail-actions">
-        <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
-        <a class="btn ghost" href="beca.html">← Xem thêm cá khác</a>
-      </div>
+    </div>
+    <div class="specs">
+      <div class="price-only"><span class="amount">${vnd(f.price || 0)}</span></div>
+    </div>
+    <div class="detail-actions">
+      <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
+      <a class="btn ghost" href="beca.html">← Xem thêm cá khác</a>
     </div>
   </article>`;
 })();

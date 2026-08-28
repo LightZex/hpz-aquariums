@@ -208,12 +208,14 @@ section.block{padding:48px 0}
 /* Fish detail page */
 .back-link{color:var(--cyan);text-decoration:none;font-weight:700}
 .back-link:hover{color:var(--accent-2)}
-.detail{display:grid;grid-template-columns:minmax(300px,520px) 1fr;gap:36px;align-items:start;
-  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
-  padding:32px;box-shadow:var(--shadow);backdrop-filter:blur(8px)}
-.detail-media{display:grid;gap:14px}
-.detail-img{width:100%;border-radius:14px;border:1px solid var(--border);display:block}
-.detail-img.fish-sprite{width:70%;margin:10px auto;
+.detail{display:flex;flex-direction:column;gap:28px;align-items:stretch;
+  background:linear-gradient(180deg,rgba(13,40,66,.82),rgba(6,18,33,.92));
+  border:1px solid rgba(63,208,255,.18);border-radius:28px;
+  padding:36px;box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 1px rgba(63,208,255,.06) inset;backdrop-filter:blur(10px)}
+.detail-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px;align-items:center}
+.detail-media{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.detail-img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;border:1px solid rgba(63,208,255,.18);display:block;background:#06121f}
+.detail-img.fish-sprite{width:70%;aspect-ratio:auto;margin:10px auto;
   filter:drop-shadow(0 10px 16px rgba(0,0,0,.45));
   animation:cardswim 4.8s ease-in-out infinite}
 .detail-en{color:var(--muted);font-style:italic;margin-bottom:10px}
@@ -225,7 +227,17 @@ section.block{padding:48px 0}
 .spec-label{color:var(--cyan);font-weight:700;min-width:110px;flex:none}
 .spec-val{color:var(--ink)}
 .spec-row:last-child .spec-val{font-size:32px;font-weight:800;color:var(--cyan)}
-.price-only{font-size:56px;font-weight:800;color:var(--cyan);letter-spacing:-1px;padding:18px 0 6px;text-align:center;background:linear-gradient(135deg,#3fd0ff,#22d3ee);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.price-only{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:38px 24px;border-radius:24px;
+  background:radial-gradient(ellipse at top,rgba(34,211,238,.18),rgba(13,40,66,.65) 60%);
+  border:1px solid rgba(63,208,255,.4);
+  box-shadow:0 0 60px rgba(34,211,238,.18),inset 0 1px 0 rgba(255,255,255,.06)}
+.price-only::before{content:"GIÁ BÁN";position:absolute;top:-12px;left:50%;transform:translateX(-50%);
+  padding:5px 18px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:3px;
+  background:linear-gradient(135deg,#3fd0ff,#a855f7);color:#04111d;box-shadow:0 6px 18px rgba(63,208,255,.35)}
+.price-only .amount{font-size:72px;font-weight:800;letter-spacing:-2px;line-height:1;
+  background:linear-gradient(135deg,#3fd0ff 0%,#a855f7 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  text-shadow:0 0 30px rgba(63,208,255,.25);margin-top:4px}
 .fish-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .nav-btn{display:inline-block;padding:6px 14px;border-radius:999px;
   background:var(--surface-2);border:1px solid var(--border);color:var(--muted);
