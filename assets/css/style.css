@@ -225,6 +225,7 @@ section.block{padding:48px 0}
 .spec-label{color:var(--cyan);font-weight:700;min-width:110px;flex:none}
 .spec-val{color:var(--ink)}
 .spec-row:last-child .spec-val{font-size:32px;font-weight:800;color:var(--cyan)}
+.price-only{font-size:56px;font-weight:800;color:var(--cyan);letter-spacing:-1px;padding:18px 0 6px;text-align:center;background:linear-gradient(135deg,#3fd0ff,#22d3ee);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .fish-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .nav-btn{display:inline-block;padding:6px 14px;border-radius:999px;
   background:var(--surface-2);border:1px solid var(--border);color:var(--muted);
