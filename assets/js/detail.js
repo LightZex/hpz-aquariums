@@ -36,10 +36,10 @@
         ${row('Size', f.size)}
         ${row('Tình Trạng', statusText)}
         ${row('Giá Niêm Yết', vnd(f.price || 0))}
-        ${row('Giá Event', f.eventPrice || 'Không hỗ trợ')}
-        ${row('Giá Combo 3', f.combo && f.combo[3] ? vnd(f.combo[3]) : 'Không hỗ trợ')}
-        ${row('Giá Combo 5', f.combo && f.combo[5] ? vnd(f.combo[5]) : 'Không hỗ trợ')}
-        ${row('Giá Combo 10', f.combo && f.combo[10] ? vnd(f.combo[10]) : 'Không hỗ trợ')}
+        ${row('Giá Event', f.eventPrice || 'Liên hệ')}
+        ${row('Giá Combo 3', f.combo && f.combo[3] ? vnd(f.combo[3]) : 'Liên hệ')}
+        ${row('Giá Combo 5', f.combo && f.combo[5] ? vnd(f.combo[5]) : 'Liên hệ')}
+        ${row('Giá Combo 10', f.combo && f.combo[10] ? vnd(f.combo[10]) : 'Liên hệ')}
       </div>
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
