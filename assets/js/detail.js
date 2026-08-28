@@ -44,7 +44,7 @@
       <p class="detail-en">${f.en}</p>
       <p class="detail-desc">${f.desc}</p>
       <div class="specs">
-        ${row('Giá Niêm Yết', vnd(f.price || 0), true)}
+        ${row('Giá Niêm Yết', vnd(f.price || 0))}
       </div>
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
