@@ -224,6 +224,11 @@ section.block{padding:48px 0}
 .spec-row{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--border)}
 .spec-label{color:var(--cyan);font-weight:700;min-width:110px;flex:none}
 .spec-val{color:var(--ink)}
+.fish-nav{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;margin-top:26px}
+.nav-btn{flex:1 1 0;min-width:120px;text-align:center;padding:12px 14px;border-radius:12px;
+  background:var(--surface-2);border:1px solid var(--border);color:var(--ink);
+  font-weight:700;text-decoration:none;transition:.2s}
+.nav-btn:hover{border-color:var(--cyan);color:var(--cyan);transform:translateY(-2px)}
 @media(max-width:860px){
   .detail{grid-template-columns:1fr;padding:22px}
 }

@@ -14,6 +14,10 @@
   }
   document.title = f.vn + ' — HPZ Aquariums';
 
+  const idx = FISH.findIndex(x => x.en.toLowerCase() === (f.en||'').toLowerCase());
+  const prevF = FISH[(idx - 1 + FISH.length) % FISH.length];
+  const nextF = FISH[(idx + 1) % FISH.length];
+
   const style = f.filter ? ` style="filter:${f.filter}"` : '';
   const gallery = (f.gallery && f.gallery.length ? f.gallery : [f.src]);
   const imgs = gallery.map((g,i) =>
@@ -47,5 +51,10 @@
         <a class="btn ghost" href="beca.html">← Xem thêm cá khác</a>
       </div>
     </div>
-  </article>`;
+  </article>
+  <nav class="fish-nav">
+    <a class="nav-btn" href="fish.html?fish=${encodeURIComponent(prevF.en)}">← ${prevF.vn}</a>
+    <a class="nav-btn" href="beca.html">Xem tất cả</a>
+    <a class="nav-btn" href="fish.html?fish=${encodeURIComponent(nextF.en)}">${nextF.vn} →</a>
+  </nav>`;
 })();
