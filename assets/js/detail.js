@@ -30,6 +30,10 @@
     <div class="spec-row"><span class="spec-label">${label}</span><span class="spec-val">${val}</span></div>` : '';
 
   root.innerHTML = `
+  <nav class="fish-nav">
+    <a class="nav-btn" href="fish.html?fish=${encodeURIComponent(prevF.en)}">‹ Quay lại</a>
+    <a class="nav-btn nav-next" href="fish.html?fish=${encodeURIComponent(nextF.en)}">Chuyển tiếp ›</a>
+  </nav>
   <article class="detail">
     <div class="detail-media">${imgs}</div>
     <div class="detail-info">
@@ -51,10 +55,5 @@
         <a class="btn ghost" href="beca.html">← Xem thêm cá khác</a>
       </div>
     </div>
-  </article>
-  <nav class="fish-nav">
-    <a class="nav-btn" href="fish.html?fish=${encodeURIComponent(prevF.en)}">← ${prevF.vn}</a>
-    <a class="nav-btn" href="beca.html">Xem tất cả</a>
-    <a class="nav-btn" href="fish.html?fish=${encodeURIComponent(nextF.en)}">${nextF.vn} →</a>
-  </nav>`;
+  </article>`;
 })();
