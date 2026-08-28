@@ -38,7 +38,6 @@
         ${row('Tình Trạng', statusText)}
         ${row('Giá Niêm Yết', vnd(f.price || 0))}
         ${row('Giá Event', f.eventPrice || 'Không hỗ trợ')}
-        ${row('Tính Cách', f.temperament)}
       </div>
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
