@@ -19,6 +19,8 @@
   const imgs = gallery.map((g,i) =>
     `<img src="${g}" alt="${f.vn} ${i+1}" class="detail-img${f.photo?'':' fish-sprite'}" ${!f.photo&&i===0?style:''} loading="lazy">`).join('');
 
+  const STATUS = { 'stock':'Còn hàng', 'pre-order':'Đặt trước', 'sold out':'Hết hàng', 'hết hàng':'Hết hàng' };
+  const statusText = STATUS[(f.status||'').toLowerCase()] || f.status || '';
   const row = (label, val) => val ? `
     <div class="spec-row"><span class="spec-label">${label}</span><span class="spec-val">${val}</span></div>` : '';
 
@@ -28,14 +30,15 @@
     <div class="detail-info">
       <h2 class="section-title" style="margin-bottom:4px">${f.vn}</h2>
       <p class="detail-en">${f.en}</p>
-      <p class="detail-price">${vnd(f.price || 0)} <span class="price-note">— giá tham khảo, liên hệ shop để có giá chính xác</span></p>
       <p class="detail-desc">${f.desc}</p>
       <div class="specs">
-        ${row('Nguồn gốc', f.origin)}
-        ${row('Nhiệt độ', f.temp)}
-        ${row('Kích thước', f.size)}
-        ${row('Tính cách', f.temperament)}
-        ${row('Thức ăn', f.food)}
+        ${row('Hệ', f.he)}
+        ${row('Phù Hợp Bể', f.tank)}
+        ${row('Size', f.size)}
+        ${row('Tình Trạng', statusText)}
+        ${row('Giá Niêm Yết', vnd(f.price || 0))}
+        ${row('Giá Event', f.eventPrice || 'Không hỗ trợ')}
+        ${row('Tính Cách', f.temperament)}
       </div>
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
