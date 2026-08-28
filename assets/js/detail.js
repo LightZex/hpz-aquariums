@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="specs">
-      <div class="price-only"><span class="amount">${vnd(f.price || 0)}</span></div>
+      ${row('Giá Niêm Yết', vnd(f.price || 0))}
     </div>
     <div class="detail-actions">
       <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
