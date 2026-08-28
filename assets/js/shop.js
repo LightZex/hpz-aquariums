@@ -9,6 +9,7 @@
   let page = 1;
 
   const vnd = n => n.toLocaleString('vi-VN') + '₫';
+  const priceText = f => (f.price && f.price > 0) ? vnd(f.price) : 'Liên hệ';
 
   function cardHTML(f){
     const style = f.filter ? ` style="filter:${f.filter}"` : '';
@@ -17,7 +18,7 @@
         <img class="fish-sprite${f.photo ? ' photo' : ''}" src="${f.src}" alt="${f.vn}" loading="lazy"${style}>
       </div>
       <div class="body"><div class="vn">${f.vn}</div><div class="en">${f.en}</div>
-      <div class="price">${vnd(f.price || 0)}</div></div>
+      <div class="price">${priceText(f)}</div></div>
     </a>`;
   }
 

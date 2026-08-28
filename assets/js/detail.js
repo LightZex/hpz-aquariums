@@ -47,7 +47,7 @@
         ${row('Chương Trình Ưu Đãi', f.promo || 'Không có')}
         ${row('Size', f.size)}
         ${row('Tình Trạng', statusText)}
-        ${row('Giá Niêm Yết', vnd(f.price || 0))}
+        ${row('Giá Niêm Yết', (f.price && f.price > 0) ? vnd(f.price) : 'Liên hệ')}
         ${row('Giá Event', f.eventPrice || ct)}
         ${row('Giá Combo 3', f.combo && f.combo[3] ? vnd(f.combo[3]) : ct)}
         ${row('Giá Combo 5', f.combo && f.combo[5] ? vnd(f.combo[5]) : ct)}
