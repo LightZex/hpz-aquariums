@@ -21,6 +21,16 @@
 
   const STATUS = { 'stock':'Còn hàng', 'pre-order':'Đặt trước', 'sold out':'Hết hàng', 'hết hàng':'Hết hàng' };
   const statusText = STATUS[(f.status||'').toLowerCase()] || f.status || '';
+  const comboHTML = (f) => {
+    if(!f.combo) return '';
+    const cells = [3,5,10].filter(q => f.combo[q]).map(q =>
+      `<div class="combo-cell"><div class="combo-qty">Combo ${q} con</div>`+
+      `<div class="combo-price">${vnd(f.combo[q])}</div>`+
+      `<div class="combo-unit">≈ ${vnd(Math.round(f.combo[q]/q))}/con</div></div>`).join('');
+    if(!cells) return '';
+    return `<div class="combo-box"><div class="combo-title">Ưu đãi Combo</div>`+
+      `<div class="combo-grid">${cells}</div></div>`;
+  };
   const row = (label, val) => val ? `
     <div class="spec-row"><span class="spec-label">${label}</span><span class="spec-val">${val}</span></div>` : '';
 
@@ -39,6 +49,7 @@
         ${row('Giá Niêm Yết', vnd(f.price || 0))}
         ${row('Giá Event', f.eventPrice || 'Không hỗ trợ')}
       </div>
+      ${comboHTML(f)}
       <div class="detail-actions">
         <a class="btn primary" href="index.html#contact">Liên hệ mua cá</a>
         <a class="btn ghost" href="beca.html">← Xem thêm cá khác</a>
