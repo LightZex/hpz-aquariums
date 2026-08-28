@@ -208,25 +208,25 @@ section.block{padding:48px 0}
 /* Fish detail page */
 .back-link{color:var(--cyan);text-decoration:none;font-weight:700}
 .back-link:hover{color:var(--accent-2)}
-.detail{display:grid;grid-template-columns:minmax(300px,520px) 1fr;gap:36px;align-items:start;
-  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
-  padding:32px;box-shadow:var(--shadow);backdrop-filter:blur(8px)}
-.detail-media{display:grid;gap:14px}
-.detail-img{width:100%;border-radius:14px;border:1px solid var(--border);display:block}
+.detail{display:grid;grid-template-columns:minmax(360px,620px) 1fr;gap:48px;align-items:start;
+  background:var(--surface);border:1px solid var(--border);border-radius:24px;
+  padding:48px 56px;box-shadow:var(--shadow);backdrop-filter:blur(8px);font-size:18px}
+.detail-media{display:grid;gap:18px}
+.detail-img{width:100%;border-radius:18px;border:1px solid var(--border);display:block}
 .detail-img.fish-sprite{width:70%;margin:10px auto;
-  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45));
-  animation:cardswim 4.8s ease-in-out infinite}
-.detail-en{color:var(--muted);font-style:italic;margin-bottom:10px}
+  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+.detail-info .section-title{font-size:2.4rem;margin-bottom:8px;letter-spacing:-0.5px}
+.detail-en{color:var(--muted);font-style:italic;margin-bottom:16px;font-size:1.15rem}
 .detail-price{font-size:1.5rem;font-weight:800;color:var(--accent-2);margin-bottom:16px}
 .detail-price .price-note{font-size:.85rem;font-weight:400;color:var(--muted)}
-.detail-desc{color:var(--ink);margin-bottom:22px;max-width:640px}
-.specs{border-top:1px solid var(--border);margin-bottom:30px}
-.spec-row{display:flex;align-items:baseline;gap:20px;padding:16px 0;border-bottom:1px solid var(--border)}
+.detail-desc{color:var(--ink);margin-bottom:28px;max-width:none;line-height:1.75;font-size:1.1rem}
+.specs{border-top:1px solid var(--border);margin-bottom:36px}
+.spec-row{display:flex;align-items:baseline;gap:24px;padding:18px 0;border-bottom:1px solid var(--border)}
 .spec-label{color:var(--cyan);font-weight:700;min-width:140px;flex:none;font-size:18px;letter-spacing:1px}
 .spec-val{color:var(--ink);font-size:20px;font-weight:600}
-.spec-row.price-row{background:rgba(34,211,238,.06);margin:0 -36px;padding:20px 36px;border-bottom:1px solid rgba(63,208,255,.25)}
-.spec-row.price-row .spec-label{font-size:22px}
-.spec-row.price-row .spec-val{font-size:38px;font-weight:800;color:var(--cyan)}
+.spec-row.price-row{background:rgba(34,211,238,.08);margin:0 -56px;padding:24px 56px;border-bottom:1px solid rgba(63,208,255,.3);border-top:1px solid rgba(63,208,255,.3)}
+.spec-row.price-row .spec-label{font-size:1.35rem}
+.spec-row.price-row .spec-val{font-size:2.6rem;font-weight:800;color:var(--cyan);letter-spacing:-1px}
 .fish-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .nav-btn{display:inline-block;padding:6px 14px;border-radius:999px;
   background:var(--surface-2);border:1px solid var(--border);color:var(--muted);
