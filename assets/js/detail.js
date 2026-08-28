@@ -41,11 +41,7 @@
   </nav>
   <article class="detail">
     <div class="detail-layer layer-media">
-      <div class="gallery-slider" id="${sliderId}">
-        <button class="gallery-btn prev" type="button" aria-label="Ảnh trước">‹</button>
-        <div class="gallery-track">${imgs}</div>
-        <button class="gallery-btn next" type="button" aria-label="Ảnh sau">›</button>
-      </div>
+      <div class="gallery-track">${imgs}</div>
     </div>
     <div class="detail-layer layer-price">
       <div class="price-row">
@@ -63,21 +59,4 @@
       </div>
     </div>
   </article>`;
-
-  // wire slider
-  const slider = document.getElementById(sliderId);
-  if(slider){
-    const track = slider.querySelector('.gallery-track');
-    const prev = slider.querySelector('.gallery-btn.prev');
-    const next = slider.querySelector('.gallery-btn.next');
-    const step = () => Math.max(track.clientWidth * 0.6, 200);
-    const update = () => {
-      prev.disabled = track.scrollLeft <= 2;
-      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
-    };
-    prev.onclick = () => track.scrollBy({left:-step(),behavior:'smooth'});
-    next.onclick = () => track.scrollBy({left: step(),behavior:'smooth'});
-    track.addEventListener('scroll', update, {passive:true});
-    update();
-  }
 })();
