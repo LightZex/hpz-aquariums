@@ -7,6 +7,24 @@
 const SPR = 'assets/img/scene/';
 const FISH = [
   {
+    vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "beo_1.jpg", photo: true, price: 595000,
+    he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Nhiệt Đới", status: "stock", eventPrice: "Không hỗ trợ",
+    desc: "Cá Đĩa Beo Tuyết (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ từ dòng Leopard kết hợp với các dòng Albino, nổi bật với nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá có dáng đĩa tròn dẹp đặc trưng, bơi chậm rãi uyển chuyển, tính cách hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+    origin: "Lai tạo chọn lọc (Malaysia, Thái Lan) từ cá đĩa Amazon", size: "15–20 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/beo_1.jpg", "assets/img/beo_2.jpg"]
+  },
+  {
+    vn: "Cá Pleco L155", en: "Snowball Pleco L155", img: "pleco_1.jpg", photo: true, price: 450000,
+    he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Tảo", status: "stock", eventPrice: "Không hỗ trợ",
+    desc: "Cá Pleco L155 (Hypancistrus sp. L155) là dòng cá lau kiếng quý hiếm có nguồn gốc từ lưu vực sông Amazon (Brazil), nổi bật với thân đen tuyền điểm những đốm trắng to tròn rải đều khắp thân và vây trông như những quả cầu tuyết. Đây là dòng Hypancistrus thuộc nhóm ăn tạp thiên về thức ăn protein (trùn chỉ, artemia, thức ăn viên chìm) hơn là ăn tảo, hoạt động chủ yếu về đêm, tính cách hiền lành nhưng đực trưởng thành có tính lãnh thổ nhẹ. Phù hợp bể thủy sinh có nhiều hang đá, lũa để trú ẩn, nước mềm ấm 26–30°C.",
+    origin: "Sông Amazon, Brazil", size: "12–15 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/pleco_1.jpg", "assets/img/pleco_2.jpg"]
+  },
+  {
+    vn: "Cá Diếc Vảy Rồng", en: "Odessa Barb", img: "odiec_1.jpg", photo: true, price: 32000,
+    he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
+    desc: "Cá Diếc Vảy Rồng (Pethia padamya, thường gọi là Odessa Barb) là dòng cá cảnh nhỏ thuộc họ Cyprinidae có nguồn gốc từ miền trung Myanmar, đặc biệt ở hạ lưu sông Chindwin. Cá nổi bật với thân bạc ánh kim có sọc đen dọc lưng kết hợp dải đỏ cam rực rỡ chạy dọc thân tạo vẻ ngoài sặc sỡ bắt mắt. Là loài cá bơi đàn linh hoạt, hiền lành, dễ chăm — rất phù hợp thả trong các bể thủy sinh cộng đồng, nên nuôi nhóm từ 6–8 con trở lên để cá dạn, lên màu đẹp và bơi theo đàn.",
+    origin: "Hạ lưu sông Chindwin, Myanmar", size: "4–5 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/odiec_1.jpg", "assets/img/odiec_2.jpg"]
+  },
+  {
     vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 362000,
     he: "Hệ Suối", tank: "Suối, Biotope, Thủy Sinh", status: "stock", eventPrice: "299.000₫",
     desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Đây là dòng cá suối được ưa chuộng nhờ màu sắc nổi bật, dáng bơi linh hoạt và rất hợp với các bể biotope suối đá. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
