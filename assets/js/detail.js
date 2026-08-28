@@ -3,8 +3,11 @@
   const root = document.getElementById('detail-root');
   if(!root) return;
   const q = new URLSearchParams(location.search).get('fish') || '';
-  const f = FISH.find(x => x.en.toLowerCase() === q.toLowerCase())
-        || FISH.find(x => x.en.toLowerCase().includes(q.toLowerCase()));
+  const ql = q.toLowerCase().trim();
+  const f = FISH.find(x => x.en.toLowerCase() === ql)
+        || FISH.find(x => x.en.toLowerCase().includes(ql))
+        || FISH.find(x => x.vn.toLowerCase().includes(ql))
+        || FISH[0];
   const vnd = n => n.toLocaleString('vi-VN') + '₫';
 
   if(!f){
