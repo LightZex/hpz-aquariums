@@ -7,6 +7,12 @@
 const SPR = 'assets/img/scene/';
 const FISH = [
   {
+    vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 362000,
+    he: "Hệ Suối", tank: "Suối, Biotope, Thủy Sinh", status: "stock", eventPrice: "299.000₫",
+    desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Đây là dòng cá suối được ưa chuộng nhờ màu sắc nổi bật, dáng bơi linh hoạt và rất hợp với các bể biotope suối đá. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
+    origin: "Lục An, An Huy, Trung Quốc", size: "20 cm", promo: "Cá mới về", contactText: "", combo: {3:326000,5:308000,10:271000}, gallery: ["assets/img/luclan_1.jpg", "assets/img/luclan_2.jpg"]
+  },
+  {
     vn: "Cá Cầu Vồng Bleheri", en: "Bleheri Rainbowfish", img: "bleheri_1.jpg", photo: true, price: 150000,
     he: "Hệ Thủy Sinh", tank: "Thủy Sinh", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Cầu Vồng Bleheri (Melanotaenia bleheri) là dòng cá cảnh nước ngọt nổi bật với thân hình thon dài, vảy ánh kim và màu sắc rực rỡ pha giữa cam, đỏ, vàng, xanh lam hoặc xanh lá. Cá có dáng bơi linh hoạt, tính cách hiền lành, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có nhiều không gian bơi và ánh sáng nhẹ để lên màu đẹp. Ăn tạp (cám hạt, thức ăn đông lạnh), khỏe mạnh và dễ chăm sóc.",
