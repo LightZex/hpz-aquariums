@@ -208,25 +208,13 @@ section.block{padding:48px 0}
 /* Fish detail page */
 .back-link{color:var(--cyan);text-decoration:none;font-weight:700}
 .back-link:hover{color:var(--accent-2)}
-.detail{display:flex;flex-direction:column;gap:0;align-items:stretch;
-  background:linear-gradient(180deg,rgba(13,40,66,.82),rgba(6,18,33,.92));
-  border:1px solid rgba(63,208,255,.18);border-radius:28px;overflow:hidden;
-  box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 1px rgba(63,208,255,.06) inset;backdrop-filter:blur(10px)}
-.detail-layer{padding:32px 36px}
-.detail-layer.layer-media{flex:0 0 auto;background:rgba(3,13,22,.55)}
-.detail-layer.layer-price{flex:0 0 auto;background:radial-gradient(ellipse at center,rgba(34,211,238,.12),transparent 70%);
-  border-top:1px solid rgba(63,208,255,.18);border-bottom:1px solid rgba(63,208,255,.18);padding:24px 36px}
-.detail-layer.layer-info{flex:1 1 auto;min-height:0}
-.detail-name{margin:0 0 4px;font-size:30px;font-weight:800;color:var(--ink);letter-spacing:-0.5px}
-.detail-en{color:var(--muted);font-style:italic;margin:0 0 14px;font-size:15px}
-.detail-desc{color:var(--ink);font-size:16px;line-height:1.7;max-width:none}
-.price-row{display:flex;align-items:baseline;justify-content:space-between;gap:18px;width:100%}
-.price-row .pl{color:var(--cyan);font-weight:700;font-size:18px;letter-spacing:1px}
-.price-row .pv{color:var(--ink);font-size:36px;font-weight:800;letter-spacing:-0.5px}
-.gallery-track{flex:1;display:flex;flex-direction:column;align-items:center;gap:18px;padding:8px 4px}
-.gallery-track .detail-img{width:100%;max-width:680px;height:auto;max-height:420px;aspect-ratio:auto;object-fit:contain;
-  border-radius:14px;border:1px solid rgba(63,208,255,.18);background:#06121f}
-.gallery-track .detail-img.fish-sprite{width:100%;max-width:420px;height:auto;max-height:420px;object-fit:contain;background:rgba(3,13,22,.6)}
+.detail{display:grid;grid-template-columns:minmax(300px,520px) 1fr;gap:36px;align-items:start;
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:32px;box-shadow:var(--shadow);backdrop-filter:blur(8px)}
+.detail-media{display:grid;gap:14px}
+.detail-img{width:100%;border-radius:14px;border:1px solid var(--border);display:block}
+.detail-img.fish-sprite{width:70%;margin:10px auto;
+  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
 .detail-price{font-size:1.5rem;font-weight:800;color:var(--accent-2);margin-bottom:16px}
 .detail-price .price-note{font-size:.85rem;font-weight:400;color:var(--muted)}
 .detail-desc{color:var(--ink);margin-bottom:22px;max-width:640px}
