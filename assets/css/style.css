@@ -214,14 +214,16 @@ section.block{padding:48px 0}
 .detail-media{display:grid;gap:14px}
 .detail-img{width:100%;border-radius:14px;border:1px solid var(--border);display:block}
 .detail-img.fish-sprite{width:70%;margin:10px auto;
-  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+  filter:drop-shadow(0 10px 16px rgba(0,0,0,.45));
+  animation:cardswim 4.8s ease-in-out infinite}
+.detail-en{color:var(--muted);font-style:italic;margin-bottom:10px}
 .detail-price{font-size:1.5rem;font-weight:800;color:var(--accent-2);margin-bottom:16px}
 .detail-price .price-note{font-size:.85rem;font-weight:400;color:var(--muted)}
 .detail-desc{color:var(--ink);margin-bottom:22px;max-width:640px}
-.specs{border-top:1px solid var(--border);margin:8px 0 26px}
-.spec-row{display:flex;align-items:baseline;gap:18px;padding:18px 0;border-bottom:1px solid var(--border)}
-.spec-label{color:var(--cyan);font-weight:700;font-size:18px;letter-spacing:1px;flex:none}
-.spec-val{color:var(--ink);font-size:36px;font-weight:800;letter-spacing:-0.5px;margin-left:auto}
+.specs{border-top:1px solid var(--border);margin-bottom:26px}
+.spec-row{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--border)}
+.spec-label{color:var(--cyan);font-weight:700;min-width:110px;flex:none}
+.spec-val{color:var(--ink)}
 .fish-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .nav-btn{display:inline-block;padding:6px 14px;border-radius:999px;
   background:var(--surface-2);border:1px solid var(--border);color:var(--muted);
