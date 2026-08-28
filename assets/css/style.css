@@ -223,9 +223,11 @@ section.block{padding:48px 0}
 .price-row{display:flex;align-items:baseline;justify-content:space-between;gap:18px;width:100%}
 .price-row .pl{color:var(--cyan);font-weight:700;font-size:18px;letter-spacing:1px}
 .price-row .pv{color:var(--ink);font-size:36px;font-weight:800;letter-spacing:-0.5px}
-.gallery-track{flex:1;display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;
-  scrollbar-width:none;-ms-overflow-style:none;padding:8px 4px;cursor:grab}
-.gallery-track:active{cursor:grabbing}
+.gallery-track{flex:1;display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:14px;
+  padding:8px 4px}
+.gallery-track .detail-img{width:auto;max-width:100%;height:240px;aspect-ratio:auto;object-fit:contain;
+  border-radius:10px;border:1px solid rgba(63,208,255,.18);background:#06121f;flex:0 0 auto}
+.gallery-track .detail-img.fish-sprite{height:240px;object-fit:contain;background:rgba(3,13,22,.6)}
 .detail-price{font-size:1.5rem;font-weight:800;color:var(--accent-2);margin-bottom:16px}
 .detail-price .price-note{font-size:.85rem;font-weight:400;color:var(--muted)}
 .detail-desc{color:var(--ink);margin-bottom:22px;max-width:640px}
