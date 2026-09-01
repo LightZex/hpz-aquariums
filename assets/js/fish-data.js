@@ -67,5 +67,23 @@ const FISH = [
     he: "Hệ Suối", tank: "Thủy Sinh, Suối, Biotop", status: "stock", eventPrice: "149.000₫",
     desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Đặc điểm sinh học và hình thái: tên khoa học Opsariichthys evolans; kích thước tối đa 10–15 cm; là loài cá bơi tầng mặt, ưa sống theo các đàn nhỏ tại khu vực suối, sông; phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
     origin: "Đông Nam Trung Quốc, Đài Loan và Đông Bắc Á", size: "10–15 cm", promo:"Event 30 days", combo:{3:186000,5:176000,10:167000}, gallery: ["assets/img/muonghoa_1.jpg", "assets/img/muonghoa_2.jpg"]
-  },
-].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
+      },
+      {
+        vn: "Cá Kim Thơm Hoàng Đế", en: "Emperor Severum", img: "severum_1.jpg", photo: true, price: 414000,
+        he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Nhiệt Đới", status: "stock", eventPrice: "Không hỗ trợ",
+        desc: "Cá Kim Thơm Hoàng Đế / Emperor Severum (Heros severus / Cichlasoma severum) là dòng cá cảnh Nam Mỹ nổi bật với thân hình trứng dẹt, form đô và màu sắc rất rực rỡ. Cá có nền đỏ cam kết hợp các sọc đen đậm chạy dọc thân, điểm thêm ánh xanh lam ở mặt và vây, tạo vẻ đẹp mạnh mẽ, sang và rất nổi bật trong bể. Đặc điểm sinh học và hình thái: tên khoa học Heros severus / Cichlasoma severum; kích thước trưởng thành khoảng 20–25 cm, size phổ biến 10–15 cm; cá bơi tầng giữa, ăn tạp (cám, sâu mồi, giun, thức ăn tươi sạch); khi nhỏ đi theo đàn, khi trưởng thành bắt cặp và có thể hơi lãnh thổ vào mùa sinh sản. Phù hợp bể rộng, nước sạch, nước mềm, pH ổn định.",
+        origin: "Nam Mỹ (Amazon)", size: "20–25 cm", promo: "Không có", contactText: "", combo:{3:379500,5:368000,10:345000}, gallery: ["assets/img/severum_1.jpg"]
+      },
+      {
+        vn: "Cá Flame Tetra", en: "Flame Tetra", img: "flame_1.jpg", photo: true, price: 24000,
+        he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
+        desc: "Cá Flame Tetra (Hyphessobrycon flammeus) là dòng tetra nhỏ hiền lành có nguồn gốc từ vùng nước tĩnh ven sông ở Rio de Janeiro, Brazil. Cá nổi bật với thân đỏ cam rực như ngọn lửa, ánh bạc ở thân và các vây đỏ đậm viền đen — đặc biệt con đực trưởng thành lên màu rất đẹp. Nuôi đàn từ 6–10 con trở lên giúp cá dạn, lên màu đẹp và bơi theo nhóm rất bắt mắt. Cá hiền, phù hợp bể cộng đồng có cây thủy sinh, nước mềm hơi acid, ăn tạp (cám nhỏ, trùn chỉ, artemia).",
+        origin: "Rio de Janeiro, Brazil", size: "3–4 cm", promo: "Không có", contactText: "", combo:{3:21600,5:20400,10:19200}, gallery: ["assets/img/flame_1.jpg", "assets/img/flame_2.jpg", "assets/img/flame_3.jpg"]
+      },
+      {
+        vn: "Cá Thạch Mỹ Nhân", en: "Rainbowfish Boeseman's", img: "thachmynhan_1.jpg", photo: true, price: 130240,
+        he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
+        desc: "Cá Thạch Mỹ Nhân (Melanotaenia boesemani, thường gọi Boeseman's Rainbowfish) là dòng cá cầu vồng nổi bật với thân hình thon dài chia hai mảng màu rõ rệt — nửa đầu ánh xanh lam ánh kim, nửa thân sau và đuôi chuyển sang cam đỏ rực. Cá hiền lành, bơi đàn rất đẹp, ăn tạp và khỏe mạnh, phù hợp bể thủy sinh cộng đồng rộng có nhiều không gian bơi. Nên nuôi nhóm từ 6 con trở lên để cá phát huy màu sắc đẹp nhất.",
+        origin: "Hồ Ayamaru, Tây Papua, Indonesia", size: "10–15 cm", promo: "Không có", contactText: "", combo:{3:123728,5:113960,10:104192}, gallery: ["assets/img/thachmynhan_1.jpg"]
+      },
+    ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
