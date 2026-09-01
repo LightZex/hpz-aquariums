@@ -19,7 +19,7 @@ HTML + CSS + JavaScript thuần (không framework), canvas 2D cho hiệu ứng b
 ## Liên hệ
 
 - Facebook: [facebook.com/hpzaquaroom](https://www.facebook.com/hpzaquaroom)
-- Địa chỉ: Cầu Giấy, Hà Nội, Việt Nam
+- Địa chỉ: Nguyễn Khang, Cầu Giấy, Hà Nội, Việt Nam
 
 ---
 
