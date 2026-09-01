@@ -87,61 +87,61 @@ const FISH = [
             origin: "Hồ Ayamaru, Tây Papua, Indonesia", size: "10–15 cm", promo: "Không có", contactText: "", combo:{3:124000,5:114000,10:104000}, gallery: ["assets/img/thachmynhan_1.jpg"]
                   },
               {
-                vn: "Cá Chuột Cafe AB", en: "Corydoras duplicareus", img: "cory_cafe.jpg", photo: true, price: 44000,
+                vn: "Cá Chuột Cafe AB", en: "Corydoras duplicareus", img: "unified_1.jpg?v=2", photo: true, price: 44000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Chuột Cafe AB (Corydoras duplicareus) là dòng cá chuột cảnh nổi bật với thân ánh nâu cafe, dải sọc đậm chạy ngang mắt và một vệt sáng vàng cam ở gáy. Là loài ăn tạp đáy, hiền lành, hoạt động tích cực theo đàn — nên nuôi nhóm từ 6 con trở lên. Phù hợp bể thủy sinh có nền mềm, nhiều cây và lũa để trú ẩn, nước hơi acid đến trung tính, nhiệt 22–26°C.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Chuột Vene", en: "Corydoras venezuelanus", img: "cory_vene.jpg", photo: true, price: 24000,
+                vn: "Cá Chuột Vene", en: "Corydoras venezuelanus", img: "unified_1.jpg?v=2", photo: true, price: 24000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Chuột Vene / Orange Venezuelan Corydoras (Corydoras venezuelanus) là dòng cá chuột nổi bật với đốm đen lớn hình oval ở vai và sắc cam rực dọc lưng khi trưởng thành. Cá hiền, sống theo đàn, ăn tạp đáy — nên nuôi nhóm từ 6 con trở lên để cá dạn và lên màu đẹp. Phù hợp bể thủy sinh cộng đồng, nước mềm hơi acid, 22–26°C.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Chuột Adolfoi", en: "Corydoras adolfoi", img: "cory_adolfoi.jpg", photo: true, price: 120000,
+                vn: "Cá Chuột Adolfoi", en: "Corydoras adolfoi", img: "unified_1.jpg?v=2", photo: true, price: 120000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Chuột Adolfoi (Corydoras adolfoi) là dòng cá chuột quý hiếm với vệt cam sáng nổi bật trên đỉnh đầu, dải đen chạy dọc lưng và thân ánh bạc. Cá hiền, bơi theo đàn, hoạt động tầng đáy. Phù hợp bể thủy sinh có nền cát mịn, nhiều cây và hang trú ẩn, nước mềm hơi acid 24–28°C. Nuôi nhóm từ 6 con trở lên.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Chuột Panda", en: "Corydoras panda", img: "cory_panda.jpg", photo: true, price: 24000,
+                vn: "Cá Chuột Panda", en: "Corydoras panda", img: "unified_1.jpg?v=2", photo: true, price: 24000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Chuột Panda (Corydoras panda) nổi tiếng với các vệt đen ở mắt, vây lưng và gốc đuôi trên nền thân trắng ngà — tạo hình như gấu trúc. Cá hiền, bơi đàn, ăn tạp đáy. Phù hợp bể thủy sinh cộng đồng, nước mềm hơi acid, 22–26°C. Nuôi nhóm 6 con trở lên để cá dạn và lên màu đẹp.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Chuột Muối Tiêu AB Kì Cao", en: "Corydoras habrosus", img: "cory_habrosus.jpg", photo: true, price: 26000,
+                vn: "Cá Chuột Muối Tiêu AB Kì Cao", en: "Corydoras habrosus", img: "unified_1.jpg?v=2", photo: true, price: 26000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn, Nhỏ", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Chuột Muối Tiêu AB Kì Cao / Salt and Pepper Cory (Corydoras habrosus) là một trong những dòng cá chuột nhỏ nhất, thân phủ các đốm đen nhỏ li ti trên nền cát sáng trông như hạt muối tiêu. Cá hiền, bơi đàn rất đẹp, phù hợp bể thủy sinh nano hoặc bể cộng đồng nhỏ. Nuôi nhóm 8–10 con trở lên, nước mềm 22–26°C.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Checked Bard", en: "Dicrossus filamentosus", img: "syspilus.jpg", photo: true, price: 48000,
+                vn: "Cá Checked Bard", en: "Dicrossus filamentosus", img: "unified_1.jpg?v=2", photo: true, price: 48000,
                 he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Nhỏ", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Checked Bard / Lyretail Checkerboard Cichlid (Dicrossus filamentosus) là cá cichlid lùn đẹp với hoa văn bàn cờ đen trắng đặc trưng trên thân và vây đuôi hình cánh cung dài ở con đực. Cá hiền, thích hợp bể thủy sinh có nhiều cây và lũa, nước mềm hơi acid ấm 25–29°C. Là dòng cichlid nhỏ rất được ưa chuộng.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Thè Be Viền Vàng", en: "Bujurquina syspilus", img: "syspilus.jpg", photo: true, price: 122000,
+                vn: "Cá Thè Be Viền Vàng", en: "Bujurquina syspilus", img: "unified_1.jpg?v=2", photo: true, price: 122000,
                 he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Cộng Đồng", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Thè Be Viền Vàng (Bujurquina syspilus) là dòng cichlid Nam Mỹ hiền lành, nổi bật với thân ánh xanh lục, dải sọc đen dọc thân và viền vàng cam rực rỡ ở vây lưng và vây đuôi. Cá thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C. Đẻ trứng trên lá cây — đặc trưng sinh sản khác biệt của giống Bujurquina.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Thè Be Lava", en: "Andinoacara rivulatus 'Gold Saum'", img: "rivulatus.jpg", photo: true, price: 147000,
+                vn: "Cá Thè Be Lava", en: "Andinoacara rivulatus 'Gold Saum'", img: "unified_1.jpg?v=2", photo: true, price: 147000,
                 he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Cộng Đồng", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Thè Be Lava / Gold Saum (Andinoacara rivulatus) là dòng cichlid Nam M�y ấn tượng với thân ánh xanh lục đậm, các vảy lấp lánh ánh cam-vàng và viền vây lưng, vây đuôi màu vàng cam rực như dung nham. Cá có tính lãnh thổ vừa, cần bể rộng, nước sạch ổn định 22–28°C. Trưởng thành đẹp nổi bật trong bể cộng đồng lớn.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Thần Tiên Paraiba", en: "Paracheirodon innesi 'Paraiba'", img: "paraiiba.jpg", photo: true, price: 25000,
+                vn: "Cá Thần Tiên Paraiba", en: "Paracheirodon innesi 'Paraiba'", img: "unified_1.jpg?v=2", photo: true, price: 25000,
                 he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Thần Tiên Paraiba (Paracheirodon innesi, dòng phối màu xanh sáng rực) là biến thể lai tạo chọn lọc của Neon Tetra với sắc xanh lam sáng phủ toàn thân, nổi bật trong bể thủy sinh ánh sáng dịu. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng. Nuôi nhóm 8–10 con trở lên, nước mềm hơi acid 22–26°C.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
               },
               {
-                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "manacapuru.jpg", photo: true, price: 65000,
+                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "unified_1.jpg?v=2", photo: true, price: 65000,
                 he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Cộng Đồng", status: "stock", eventPrice: "Không hỗ trợ",
                 desc: "Cá Thần Tiên Mana Red Black / Manacapuru Redback Angelfish (Pterophyllum scalare, locality Manacapuru) là dòng thần tiên hoang dại nổi bật với viền lưng đỏ cam đậm chạy từ vây lưng xuống cuống đuôi trên nền thân bạc ánh kim. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
                 gallery: ["assets/img/unified_1.jpg?v=2"]
