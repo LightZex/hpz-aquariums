@@ -4,7 +4,7 @@
   const search = document.getElementById('fish-search');
   const pager = document.getElementById('pager');
   if(!grid) return;
-  const PER = 30;
+  const PER = 50;
   let filtered = FISH.slice();
   let page = 1;
 
