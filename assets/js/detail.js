@@ -41,8 +41,15 @@
     <div class="detail-media">${imgs}</div>
     <div class="detail-info">
       <h2 class="section-title" style="margin-bottom:4px">${f.vn}</h2>
-      <p class="detail-en">${f.en}</p>
-      <p class="detail-desc">${f.desc}</p>
+            <p class="detail-en">${f.en}</p>
+                  ${f.video ? `<div class="detail-video" style="margin:18px 0;border-radius:14px;overflow:hidden;border:1px solid var(--border)">
+                    <div class="fb-video" data-href="${f.video}" data-allowfullscreen="true" data-width="560">
+                      <blockquote cite="${f.video}" class="fb-xfbml-parse-ignore">
+                        <a href="${f.video}">Xem video trên Facebook</a>
+                      </blockquote>
+                    </div>
+                  </div>` : ''}
+                  <p class="detail-desc">${f.desc}</p>
       <div class="specs">
         ${row('Giá Niêm Yết', vnd(f.price || 0))}
       </div>
