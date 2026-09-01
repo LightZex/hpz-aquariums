@@ -81,9 +81,9 @@ const FISH = [
         origin: "Rio de Janeiro, Brazil", size: "3–4 cm", promo: "Không có", contactText: "", combo:{3:21600,5:20400,10:19200}, gallery: ["assets/img/flame_1.jpg", "assets/img/flame_2.jpg", "assets/img/flame_3.jpg"]
       },
       {
-        vn: "Cá Thạch Mỹ Nhân", en: "Rainbowfish Boeseman's", img: "thachmynhan_1.jpg", photo: true, price: 130240,
-        he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
-        desc: "Cá Thạch Mỹ Nhân (Melanotaenia boesemani, thường gọi Boeseman's Rainbowfish) là dòng cá cầu vồng nổi bật với thân hình thon dài chia hai mảng màu rõ rệt — nửa đầu ánh xanh lam ánh kim, nửa thân sau và đuôi chuyển sang cam đỏ rực. Cá hiền lành, bơi đàn rất đẹp, ăn tạp và khỏe mạnh, phù hợp bể thủy sinh cộng đồng rộng có nhiều không gian bơi. Nên nuôi nhóm từ 6 con trở lên để cá phát huy màu sắc đẹp nhất.",
-        origin: "Hồ Ayamaru, Tây Papua, Indonesia", size: "10–15 cm", promo: "Không có", contactText: "", combo:{3:123728,5:113960,10:104192}, gallery: ["assets/img/thachmynhan_1.jpg"]
+        vn: "Cá Thạch Mỹ Nhân", en: "Rainbowfish Boeseman's", img: "thachmynhan_1.jpg", photo: true, price: 130000,
+            he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Đàn", status: "stock", eventPrice: "Không hỗ trợ",
+            desc: "Cá Thạch Mỹ Nhân (Melanotaenia boesemani, thường gọi Boeseman's Rainbowfish) là dòng cá cầu vồng nổi bật với thân hình thon dài chia hai mảng màu rõ rệt — nửa đầu ánh xanh lam ánh kim, nửa thân sau và đuôi chuyển sang cam đỏ rực. Cá hiền lành, bơi đàn rất đẹp, ăn tạp và khỏe mạnh, phù hợp bể thủy sinh cộng đồng rộng có nhiều không gian bơi. Nên nuôi nhóm từ 6 con trở lên để cá phát huy màu sắc đẹp nhất.",
+            origin: "Hồ Ayamaru, Tây Papua, Indonesia", size: "10–15 cm", promo: "Không có", contactText: "", combo:{3:123000,5:113000,10:104000}, gallery: ["assets/img/thachmynhan_1.jpg"]
       },
     ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
