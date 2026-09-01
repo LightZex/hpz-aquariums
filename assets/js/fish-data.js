@@ -10,8 +10,9 @@ const FISH = [
     vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "beo_1.jpg", photo: true, price: 595000,
     he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Nhiệt Đới", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Đĩa Beo Tuyết (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ từ dòng Leopard kết hợp với các dòng Albino, nổi bật với nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá có dáng đĩa tròn dẹp đặc trưng, bơi chậm rãi uyển chuyển, tính cách hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-    origin: "Lai tạo chọn lọc (Malaysia, Thái Lan) từ cá đĩa Amazon", size: "15–20 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/beo_1.jpg", "assets/img/beo_2.jpg"]
-  },
+    origin: "Lai tạo chọn lọc (Malaysia, Thái Lan) từ cá đĩa Amazon", size: "15–20 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/beo_1.jpg", "assets/img/beo_2.jpg"],
+        video: "https://www.facebook.com/reel/2310621016011230/"
+      },
   {
     vn: "Cá Pleco L155", en: "Snowball Pleco L155", img: "pleco_1.jpg", photo: true, price: 450000,
     he: "Hệ Nhiệt Đới", tank: "Thủy Sinh, Tảo", status: "stock", eventPrice: "Không hỗ trợ",
