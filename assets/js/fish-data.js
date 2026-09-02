@@ -76,6 +76,7 @@ const FISH = [
               {
                 vn: "Cá Chuột Cafe AB", en: "Corydoras duplicareus", img: "chuot_cafe_ab.jpg", photo: true, price: 44000,
                 desc: "Cá Chuột Cafe AB (Corydoras duplicareus) là dòng cá chuột cảnh nổi bật với thân ánh nâu cafe, dải sọc đậm chạy ngang mắt và một vệt sáng vàng cam ở gáy. Là loài ăn tạp đáy, hiền lành, hoạt động tích cực theo đàn — nên nuôi nhóm từ 6 con trở lên. Phù hợp bể thủy sinh có nền mềm, nhiều cây và lũa để trú ẩn, nước hơi acid đến trung tính, nhiệt 22–26°C.",
+                combo: {3:38000,5:35000,10:32000},
                 gallery: ["assets/img/chuot_cafe_ab.jpg", "assets/img/chuot_cafe_ab.jpg"]
               },
               {
