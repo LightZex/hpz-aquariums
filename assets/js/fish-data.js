@@ -109,80 +109,80 @@ const FISH = [
                 gallery: ["assets/img/the_be_vien_vang.jpg", "assets/img/the_be_vien_vang.jpg"]
               },
               {
-                vn: "Cá Thè Be Lava", en: "Andinoacara rivulatus 'Gold Saum'", img: "cá_thè_be_lava.jpg", photo: true, price:147000,
+                vn: "Cá Thè Be Lava", en: "Andinoacara rivulatus 'Gold Saum'", img: "cá_thè_be_lava.jpg""", photo: true, price: 147000,
                 desc: "Cá Thè Be Lava / Gold Saum (Andinoacara rivulatus) là dòng cichlid Nam M�y ấn tượng với thân ánh xanh lục đậm, các vảy lấp lánh ánh cam-vàng và viền vây lưng, vây đuôi màu vàng cam rực như dung nham. Cá có tính lãnh thổ vừa, cần bể rộng, nước sạch ổn định 22–28°C. Trưởng thành đẹp nổi bật trong bể cộng đồng lớn.",
-    gallery: ["assets/img/cá_thè_be_lava.jpg"]
+    gallery: ["assets/img/cá_thè_be_lava.jpg", "assets/img/cá_thè_be_lava.jpg"]
               },
               {
-                vn: "Cá Thần Tiên Paraiba", en: "Paracheirodon innesi 'Paraiba'", img: "cá_thần_tiên_paraiba.jpg", photo: true, price:25000,
+                vn: "Cá Thần Tiên Paraiba", en: "Paracheirodon innesi 'Paraiba'", img: "cá_thần_tiên_paraiba.jpg""", photo: true, price: 25000,
                 desc: "Cá Thần Tiên Paraiba (Paracheirodon innesi, dòng phối màu xanh sáng rực) là biến thể lai tạo chọn lọc của Neon Tetra với sắc xanh lam sáng phủ toàn thân, nổi bật trong bể thủy sinh ánh sáng dịu. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng. Nuôi nhóm 8–10 con trở lên, nước mềm hơi acid 22–26°C.",
-    gallery: ["assets/img/cá_thần_tiên_paraiba.jpg"]
+    gallery: ["assets/img/cá_thần_tiên_paraiba.jpg", "assets/img/cá_thần_tiên_paraiba.jpg"]
               },
               {
-                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "cá_thần_tiên_mana_red_back.jpg", photo: true, price:65000,
+                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "cá_thần_tiên_mana_red_back.jpg""", photo: true, price: 65000,
                 desc: "Cá Thần Tiên Mana Red Black / Manacapuru Redback Angelfish (Pterophyllum scalare, locality Manacapuru) là dòng thần tiên hoang dại nổi bật với viền lưng đỏ cam đậm chạy từ vây lưng xuống cuống đuôi trên nền thân bạc ánh kim. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-    gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg"]
+    gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg", "assets/img/cá_thần_tiên_mana_red_back.jpg"]
               },
                 
       {
-        vn: "Cá Đĩa Tiger HB", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:450000,
+        vn: "Cá Đĩa Tiger HB", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg""", photo: true, price: 450000,
         desc: "Cá Đĩa Tiger HB (Symphysodon aequifasciatus, dòng Tiger HB / Heckel cross) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền thân ánh kim, phối màu xanh lục, đỏ và nâu đặc trưng. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-    gallery: ["assets/img/cá_đĩa_tiger_hb.jpg"]
+    gallery: ["assets/img/cá_đĩa_tiger_hb.jpg", "assets/img/cá_đĩa_tiger_hb.jpg"]
       },
       {
-        vn: "Cá Đĩa Hoa Hồng", en: "Symphysodon aequifasciatus 'Rose'", img: "cá_đĩa_hoa_hồng.jpg", photo: true, price:260000,
+        vn: "Cá Đĩa Hoa Hồng", en: "Symphysodon aequifasciatus 'Rose'", img: "cá_đĩa_hoa_hồng.jpg""", photo: true, price: 260000,
         desc: "Cá Đĩa Hoa Hồng / Rose Discus là dòng cá đĩa cảnh lai tạo nổi bật với sắc hồng cam phủ đều khắp thân và vây, hoa văn sọc nhạt dần khi trưởng thành. Cá hiền, dáng đĩa tròn dẹp đặc trưng, thích hợp bể thủy sinh nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C.",
-    gallery: ["assets/img/cá_đĩa_hoa_hồng.jpg"]
+    gallery: ["assets/img/cá_đĩa_hoa_hồng.jpg", "assets/img/cá_đĩa_hoa_hồng.jpg"]
       },
       {
-        vn: "Cá Đĩa Beo Body", en: "Symphysodon aequifasciatus 'Leopard Body'", img: "cá_đĩa_beo_body.jpg", photo: true, price:450000,
+        vn: "Cá Đĩa Beo Body", en: "Symphysodon aequifasciatus 'Leopard Body'", img: "cá_đĩa_beo_body.jpg""", photo: true, price: 450000,
         desc: "Cá Đĩa Beo Body (Symphysodon, dòng Leopard Body) là cá đĩa lai tạo với hoa văn đốm tròn rải đều khắp thân giống da báo trên nền sáng ánh kim. Cá có dáng đĩa tròn dẹp, bơi uyển chuyển, hiền lành. Phù hợp bể thủy sinh cộng đồng rộng, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-    gallery: ["assets/img/cá_đĩa_beo_body.jpg"]
+    gallery: ["assets/img/cá_đĩa_beo_body.jpg", "assets/img/cá_đĩa_beo_body.jpg"]
       },
       {
-        vn: "Cá Đĩa Bông Nâu", en: "Symphysodon aequifasciatus 'Brown Spotted'", img: "cá_đĩa_bông_nâu.jpg", photo: true, price:190000,
+        vn: "Cá Đĩa Bông Nâu", en: "Symphysodon aequifasciatus 'Brown Spotted'", img: "cá_đĩa_bông_nâu.jpg""", photo: true, price: 190000,
         desc: "Cá Đĩa Bông Nâu (Symphysodon, dòng Brown Spotted) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ, sọc dọc nhạt dần khi trưởng thành. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-    gallery: ["assets/img/cá_đĩa_bông_nâu.jpg"]
+    gallery: ["assets/img/cá_đĩa_bông_nâu.jpg", "assets/img/cá_đĩa_bông_nâu.jpg"]
       },
       {
-        vn: "Cá Đĩa Bạch Ngọc", en: "Symphysodon aequifasciatus 'White Pearl'", img: "cá_đĩa_bạch_ngọc.jpg", photo: true, price:190000,
+        vn: "Cá Đĩa Bạch Ngọc", en: "Symphysodon aequifasciatus 'White Pearl'", img: "cá_đĩa_bạch_ngọc.jpg""", photo: true, price: 190000,
         desc: "Cá Đĩa Bạch Ngọc / White Pearl Discus là dòng cá đĩa lai tạo có nền thân trắng ngà ánh kim, vây trong suốt, hoa văn nhạt. Cá hiền, thích hợp bể nhiều cây và lũa, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-    gallery: ["assets/img/cá_đĩa_bạch_ngọc.jpg"]
+    gallery: ["assets/img/cá_đĩa_bạch_ngọc.jpg", "assets/img/cá_đĩa_bạch_ngọc.jpg"]
       },
       {
-        vn: "Cá Đĩa Ngũ Sắc Mix", en: "Symphysodon aequifasciatus 'Mixed Colors'", img: "cá_đĩa_ngũ_sắc_mix.jpg", photo: true, price:190000,
+        vn: "Cá Đĩa Ngũ Sắc Mix", en: "Symphysodon aequifasciatus 'Mixed Colors'", img: "cá_đĩa_ngũ_sắc_mix.jpg""", photo: true, price: 190000,
         desc: "Cá Đĩa Ngũ Sắc Mix là dòng cá đĩa phối màu lai tạo nhiều kiểu hoa văn (xanh, đỏ, vàng, xanh dương, bạch ngọc) trong cùng đàn. Mỗi con một màu sắc riêng, tạo bể đĩa sinh động. Cá hiền, nước mềm ấm 28–31°C, thích hợp bể rộng nhiều cây.",
-    gallery: ["assets/img/cá_đĩa_ngũ_sắc_mix.jpg"]
+    gallery: ["assets/img/cá_đĩa_ngũ_sắc_mix.jpg", "assets/img/cá_đĩa_ngũ_sắc_mix.jpg"]
       },
       {
-        vn: "Cá Thần Tiên Koi AB", en: "Pterophyllum scalare 'Koi AB'", img: "cá_thần_tiên_koi_ab.jpg", photo: true, price:81000,
+        vn: "Cá Thần Tiên Koi AB", en: "Pterophyllum scalare 'Koi AB'", img: "cá_thần_tiên_koi_ab.jpg""", photo: true, price: 81000,
         desc: "Cá Thần Tiên Koi AB (Pterophyllum scalare 'Koi AB') là dòng thần tiên lai tạo nổi bật với phối màu trắng-cam-đen giống cá Koi Nhật, dáng đĩa dẹp và vây dài. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-    gallery: ["assets/img/cá_thần_tiên_koi_ab.jpg"]
+    gallery: ["assets/img/cá_thần_tiên_koi_ab.jpg", "assets/img/cá_thần_tiên_koi_ab.jpg"]
       },
       {
-        vn: "Cá Hồng Nhung Vây Dài", en: "Symphysodon 'Red Velvet Longfin'", img: "cá_hồng_nhung_vây_dài.jpg", photo: true, price:45000,
+        vn: "Cá Hồng Nhung Vây Dài", en: "Symphysodon 'Red Velvet Longfin'", img: "cá_hồng_nhung_vây_dài.jpg""", photo: true, price: 45000,
         desc: "Cá Hồng Nhung Vây Dài (Symphysodon, dòng Red Velvet Longfin) là cá đĩa lai tạo với thân đỏ nhung đậm phủ đều, vây bơi dài uyển chuyển, hoa văn sọc dọc nhạt dần. Cá hiền, phù hợp bể nhiều cây, lũa, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-    gallery: ["assets/img/cá_hồng_nhung_vây_dài.jpg"]
+    gallery: ["assets/img/cá_hồng_nhung_vây_dài.jpg", "assets/img/cá_hồng_nhung_vây_dài.jpg"]
       },
       {
-        vn: "Cá Congo Albino", en: "Phenacogrammus interruptus 'Albino'", img: "cá_congo_albino.jpg", photo: true, price:165000,
+        vn: "Cá Congo Albino", en: "Phenacogrammus interruptus 'Albino'", img: "cá_congo_albino.jpg""", photo: true, price: 165000,
         desc: "Cá Congo Albino (Phenacogrammus interruptus, dòng Albino) là biến thể bạch tạng của cá tetra Congo với thân ánh bạc-nâu nhạt và vây dài lượn sóng đặc trưng. Cá hiền, bơi đàn rất đẹp, nên nuôi nhóm 6+ con, nước mềm hơi acid 24–28°C, bể thủy sinh cộng đồng nhiều cây.",
-    gallery: ["assets/img/cá_congo_albino.jpg"]
+    gallery: ["assets/img/cá_congo_albino.jpg", "assets/img/cá_congo_albino.jpg"]
       },
       {
-        vn: "Cá Chuột Botia", en: "Botia striata", img: "cá_chuột_botia.jpg", photo: true, price:20000,
+        vn: "Cá Chuột Botia", en: "Botia striata", img: "cá_chuột_botia.jpg""", photo: true, price: 20000,
         desc: "Cá Chuột Botia / Zebra Loach (Botia striata) là dòng cá tầng đáy nổi bật với sọc vàng-đen chạy dọc thân như ngựa vằn, kích thước nhỏ hiền lành, hoạt động theo đàn. Cá thích hợp bể thủy sinh có nhiều hang trú ẩn, nền cát mịn, nước mềm 23–27°C. Nuôi nhóm 5+ con.",
-    gallery: ["assets/img/cá_chuột_botia.jpg"]
+    gallery: ["assets/img/cá_chuột_botia.jpg", "assets/img/cá_chuột_botia.jpg"]
       },
       {
-        vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:108000,
+        vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg""", photo: true, price: 108000,
         desc: "Cá Thần Tiên Piony (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-    gallery: ["assets/img/cá_thần_tiên_piony.jpg"]
+    gallery: ["assets/img/cá_thần_tiên_piony.jpg", "assets/img/cá_thần_tiên_piony.jpg"]
       },
       {
-        vn: "Cá Chuột Mỹ", en: "Corydoras sp. 'United States'", img: "cá_chuột_mỹ.jpg", photo: true, price:157000,
+        vn: "Cá Chuột Mỹ", en: "Corydoras sp. 'United States'", img: "cá_chuột_mỹ.jpg""", photo: true, price: 157000,
         desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-    gallery: ["assets/img/cá_chuột_mỹ.jpg"]
+    gallery: ["assets/img/cá_chuột_mỹ.jpg", "assets/img/cá_chuột_mỹ.jpg"]
       },
 
     ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
