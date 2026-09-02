@@ -23,11 +23,7 @@ const FISH = [
         origin: "Hạ lưu sông Chindwin, Myanmar", size: "4–5 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/odiec_1.jpg", "assets/img/odiec_2.jpg"],
         video: "https://www.facebook.com/reel/4592676834339117/"
   },
-  {
-    vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 366000,
-    desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Đây là dòng cá suối được ưa chuộng nhờ màu sắc nổi bật, dáng bơi linh hoạt và rất hợp với các bể biotope suối đá. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
-    origin: "Lục An, An Huy, Trung Quốc", size: "20 cm", promo: "Cá mới về", contactText: "", combo: {3:348000,5:312000,10:294000}, gallery: ["assets/img/luclan_1.jpg", "assets/img/luclan_2.jpg"]
-  },
+  
   {
     vn: "Cá Cầu Vồng Bleheri", en: "Bleheri Rainbowfish", img: "bleheri_1.jpg", photo: true, price: 150000,
     desc: "Cá Cầu Vồng Bleheri (Melanotaenia bleheri) là dòng cá cảnh nước ngọt nổi bật với thân hình thon dài, vảy ánh kim và màu sắc rực rỡ pha giữa cam, đỏ, vàng, xanh lam hoặc xanh lá. Cá có dáng bơi linh hoạt, tính cách hiền lành, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có nhiều không gian bơi và ánh sáng nhẹ để lên màu đẹp. Ăn tạp (cám hạt, thức ăn đông lạnh), khỏe mạnh và dễ chăm sóc.",
@@ -53,16 +49,7 @@ const FISH = [
     desc: "Cá Cầu Vồng Kurumoi (Melanotaenia sp.) là dòng cá cầu vồng nổi bật với thân hình thon dài, dáng bơi linh hoạt và màu sắc rực rỡ pha giữa xanh lam, vàng, đỏ và đen. Cá có tính cách hiền lành, thân thiện, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có nhiều không gian bơi. Bơi ở tầng giữa, ăn tạp (cám hạt, thức ăn khô hoặc thức ăn sống nhỏ), khỏe mạnh và dễ chăm sóc.",
     origin: "Papua New Guinea", size: "6–10 cm", promo:"Không có", combo:{3:145000,5:136000,10:128000}, gallery: ["assets/img/kurumoi_1.jpg", "assets/img/kurumoi_2.jpg"]
   },
-  {
-    vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "muonghoa_1.jpg", photo: true, price: 186000,
-    desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Đặc điểm sinh học và hình thái: tên khoa học Opsariichthys evolans; kích thước tối đa 10–15 cm; là loài cá bơi tầng mặt, ưa sống theo các đàn nhỏ tại khu vực suối, sông; phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
-    origin: "Đông Nam Trung Quốc, Đài Loan và Đông Bắc Á", size: "10–15 cm", promo:"Không có", combo:{3:170000,5:162000,10:145000}, gallery: ["assets/img/muonghoa_1.jpg", "assets/img/muonghoa_2.jpg"]
-      },
-      {
-        vn: "Cá Kim Thơm Hoàng Đế", en: "Emperor Severum", img: "severum_1.jpg", photo: true, price: 414000,
-        desc: "Cá Kim Thơm Hoàng Đế / Emperor Severum (Heros severus / Cichlasoma severum) là dòng cá cảnh Nam Mỹ nổi bật với thân hình trứng dẹt, form đô và màu sắc rất rực rỡ. Cá có nền đỏ cam kết hợp các sọc đen đậm chạy dọc thân, điểm thêm ánh xanh lam ở mặt và vây, tạo vẻ đẹp mạnh mẽ, sang và rất nổi bật trong bể. Đặc điểm sinh học và hình thái: tên khoa học Heros severus / Cichlasoma severum; kích thước trưởng thành khoảng 20–25 cm, size phổ biến 10–15 cm; cá bơi tầng giữa, ăn tạp (cám, sâu mồi, giun, thức ăn tươi sạch); khi nhỏ đi theo đàn, khi trưởng thành bắt cặp và có thể hơi lãnh thổ vào mùa sinh sản. Phù hợp bể rộng, nước sạch, nước mềm, pH ổn định.",
-        origin: "Nam Mỹ (Amazon)", size: "20–25 cm", promo: "Không có", contactText: "", combo:{3:379500,5:368000,10:345000}, gallery: ["assets/img/severum_1.jpg"]
-      },
+  
       {
         vn: "Cá Flame Tetra", en: "Flame Tetra", img: "flame_1.jpg", photo: true, price: 24000,
         desc: "Cá Flame Tetra (Hyphessobrycon flammeus) là dòng tetra nhỏ hiền lành có nguồn gốc từ vùng nước tĩnh ven sông ở Rio de Janeiro, Brazil. Cá nổi bật với thân đỏ cam rực như ngọn lửa, ánh bạc ở thân và các vây đỏ đậm viền đen — đặc biệt con đực trưởng thành lên màu rất đẹp. Nuôi đàn từ 6–10 con trở lên giúp cá dạn, lên màu đẹp và bơi theo nhóm rất bắt mắt. Cá hiền, phù hợp bể cộng đồng có cây thủy sinh, nước mềm hơi acid, ăn tạp (cám nhỏ, trùn chỉ, artemia).",
@@ -180,11 +167,7 @@ const FISH = [
         desc: "Cá Thần Tiên Piony (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
     gallery: ["assets/img/cá_thần_tiên_piony.jpg"]
       },
-      {
-        vn: "Cá Chuột Mỹ", en: "Corydoras sp. 'United States'", img: "cá_chuột_mỹ.jpg", photo: true, price:157000,
-        desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-    gallery: ["assets/img/cá_chuột_mỹ.jpg"]
-      },
+      
 
     {
       vn: "Cá Ryukin", en: "Ryukin Goldfish", img: "unified_1.jpg", photo: true, price: 198000,
@@ -194,18 +177,9 @@ const FISH = [
     {
       vn: "Cá Thần Tiên Altum Peru", en: "Altum Angelfish Peru", img: "unified_1.jpg", photo: true, price: 176000,
       desc: "Cá Thần Tiên Altum Peru (Pterophyllum altum) là dòng thần tiên hoang dã quý hiếm có nguồn gốc từ lưu vực sông Amazon Peru và Colombia, nổi bật với dáng cao, vây dài uyển chuyển và sọc dọc đậm nét. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Sông Amazon, Peru", size: "3–3+ cm", promo: "Không có", contactText: "", combo: {3:160000,5:152000,10:148000}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Sông Amazon, Peru", size: "3–3+ cm", promo: "Không có", contactText: "", combo: {3:360000,5:350000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
     },
-    {
-      vn: "Cá Thần Tiên Dantum", en: "Dantum Angelfish", img: "unified_1.jpg", photo: true, price: 380000,
-      desc: "Cá Thần Tiên Dantum là dòng thần tiên lai tạo nổi bật với dáng đĩa dẹt và hoa văn độc đáo trên thân. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Lai tạo chọn lọc", size: "2–3 cm", promo: "Không có", contactText: "", combo: {3:360000,5:350000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-    {
-      vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: 108000,
-      desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
-      origin: "Ấn Độ, Bangladesh", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:96000,5:84000,10:80000}, gallery: ["assets/img/unified_1.jpg"]
-    },
+    
     {
       vn: "Cá Black Ruby", en: "Black Ruby Barb", img: "unified_1.jpg", photo: true, price: 80000,
       desc: "Cá Black Ruby (Pethia nigrofasciata) là dòng cá cảnh bơi đàn nổi bật với con đực trưởng thành có thân đỏ sậm ánh ruby tương phản với sọc đen dọc thân. Cá hiền, khỏe, phù hợp bể cộng đồng, nên nuôi nhóm 6+ con, nước 22–26°C.",
@@ -222,17 +196,7 @@ const FISH = [
       origin: "Đông Nam Á", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:18000,5:17000,10:16000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Whitefin Tetra", en: "Whitefin Tetra", img: "unified_1.jpg", photo: true, price: 25000,
-      desc: "Cá Whitefin Tetra là dòng tetra nhỏ hiền lành nổi bật với vây trắng đặc trưng và thân ánh bạc. Cá bơi đàn, phù hợp bể thủy sinh cộng đồng, nên nuôi nhóm 6–10 con, nước mềm hơi acid 22–26°C.",
-      origin: "Nam Mỹ", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:23000,5:22000,10:19000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-    {
-      vn: "Cá Cánh Cụt Đuôi Đỏ", en: "Red Tail Penguin Tetra", img: "unified_1.jpg", photo: true, price: 45000,
-      desc: "Cá Cánh Cụt Đuôi Đỏ / Red Tail Penguin Tetra (Thayeria boehlkei) là dòng tetra bơi nghiêng nổi bật với thân bạc ánh kim và vây đuôi đỏ cam đặc trưng. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 8+ con, nước mềm 22–26°C.",
-      origin: "Amazon, Peru", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:40000,5:36000,10:34000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-    {
-          vn: "Cá Bảo Liên Đăng", en: "Bao Lien Dang", img: "unified_1.jpg", photo: true, price: 92000,
+      vn: "Cá Bảo Liên Đăng", en: "Bao Lien Dang", img: "unified_1.jpg", photo: true, price: 92000,
           desc: "Cá Bảo Liên Đăng là dòng cá cảnh nước ngọt nổi bật với sắc cam đỏ ánh kim và vây dài uyển chuyển. Cá hiền, khỏe, bơi đàn, phù hợp bể thủy sinh cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước 22–26°C.",
           origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:80000,5:74000,10:67000}, gallery: ["assets/img/unified_1.jpg"]
         },
@@ -246,26 +210,13 @@ const FISH = [
           desc: "Cá Thè Be Bướm TQ Viền Trắng là dòng cichlid Trung Quốc nổi bật với viền trắng đặc trưng ở vây lưng và vây đuôi. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
           origin: "Trung Quốc", size: "5–7 cm", promo: "Không có", contactText: "", combo: {3:78000,5:72000,10:68000}, gallery: ["assets/img/unified_1.jpg"]
         },
-        {
-          vn: "Cá Thè Be Bướm TQ Viền Đỏ", en: "Chinese Butterfly Cichlid Red Edge", img: "unified_1.jpg", photo: true, price: 198000,
-          desc: "Cá Thè Be Bướm TQ Viền Đỏ là dòng cichlid Trung Quốc nổi bật với viền đỏ rực ở vây lưng và vây đuôi. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
-          origin: "Trung Quốc", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:187000,5:177000,10:166000}, gallery: ["assets/img/unified_1.jpg"]
-        },
-        {
-          vn: "Cá Chuột Optimus Prime", en: "Optimus Prime Cory", img: "unified_1.jpg", photo: true, price: 88000,
-          desc: "Cá Chuột Optimus Prime là dòng cá chuột cảnh nổi bật với hoa văn màu sắc độc đáo trên thân. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh có nhiều cây và lũa, nước mềm 22–26°C. Nuôi nhóm 6+ con.",
-          origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:83000,5:78000,10:74000}, gallery: ["assets/img/unified_1.jpg"]
-        },
+        
         {
           vn: "Cá Rohani", en: "Rohani Barb", img: "unified_1.jpg", photo: true, price: 114000,
           desc: "Cá Rohani (Puntius rohani) là dòng cá cảnh bơi đàn nổi bật với thân ánh kim và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng, nên nuôi nhóm 6+ con, nước 22–26°C.",
           origin: "Đông Nam Á", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:104000,5:96000,10:88000}, gallery: ["assets/img/unified_1.jpg"]
         },
-        {
-          vn: "Cá Hồng My Bóng Đêm Tambra", en: "Tambra Shark Minnow", img: "unified_1.jpg", photo: true, price: 70000,
-          desc: "Cá Hồng My Bóng Đêm Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và màu ánh kim đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-          origin: "Đông Nam Á", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:64000,5:60000,10:56000}, gallery: ["assets/img/unified_1.jpg"]
-        },
+        
         {
           vn: "Cá Longfin 24k", en: "24k Longfin Goldfish", img: "unified_1.jpg", photo: true, price: 86000,
           desc: "Cá Longfin 24k là dòng cá vàng vây dài nổi bật với sắc vàng ánh kim óng ánh và bộ vây dài uyển chuyển. Cá hiền, bơi chậm, phù hợp bể rộng nước sạch 18–24°C.",
@@ -277,12 +228,7 @@ const FISH = [
           origin: "Lai tạo chọn lọc", size: "3–3+ cm", promo: "Không có", contactText: "", combo: {3:15000,5:14000,10:13000}, gallery: ["assets/img/unified_1.jpg"]
         },
         {
-          vn: "Cá Hải Hồ AB", en: "Seahorse AB", img: "unified_1.jpg", photo: true, price: 342000,
-          desc: "Cá Hải Hồ AB là dòng cá cảnh nước ngọt nổi bật với dáng đứng đặc trưng và mõm dài. Cá hiền, hoạt động chậm, thích hợp bể riêng yên tĩnh có nhiều cây và hang trú ẩn, nước ổn định 24–28°C.",
-          origin: "Lai tạo chọn lọc", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:314000,5:304000,10:285000}, gallery: ["assets/img/unified_1.jpg"]
-        },
-        {
-          vn: "Cá Hải Hồ Short", en: "Short Seahorse", img: "unified_1.jpg", photo: true, price: 473000,
+          vn: "Cá Hải Hồ AB", en: "Short Seahorse", img: "unified_1.jpg", photo: true, price: 473000,
           desc: "Cá Hải Hồ Short là dòng cá cảnh nước ngọt nổi bật với dáng đứng đặc trưng và kích tháng nhỏ gọn. Cá hiền, hoạt động chậm, thích hợp bể riêng yên tĩnh có nhiều cây và hang trú ẩn, nước ổn định 24–28°C.",
           origin: "Lai tạo chọn lọc", size: "6–8 cm", promo: "Không có", contactText: "", combo: {3:455000,5:438000,10:420000}, gallery: ["assets/img/unified_1.jpg"]
         },
@@ -298,12 +244,7 @@ const FISH = [
         },
         {
           vn: "Cá Kim Thơm", en: "Severum Gold", img: "unified_1.jpg", photo: true, price: 270000,
-          desc: "Cá Kim Thơm (Heros severus) là dòng cá cảnh Nam Mỹ nổi bật với thân hình trứng dẹt và sắc vàng ánh kim đặc trưng. Cá có tính lãnh thổ nhẹ, phù hợp bể rộng nhiều cây, nước mềm 24–28°C.",
-          origin: "Nam Mỹ (Amazon)", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:248000,5:240000,10:225000}, gallery: ["assets/img/unified_1.jpg"]
-        },
-        {
-          vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "unified_1.jpg", photo: true, price: 265000,
-          desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
+          dedesc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
           origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:250000,5:235000,10:221000}, gallery: ["assets/img/unified_1.jpg"]
         },
         {
@@ -331,4 +272,225 @@ const FISH = [
           desc: "Cá Đĩa Panda Đỏ (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ đậm trên nền trắng tựa hình gấu trúc đỏ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
           origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
         },
-        ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
+        {
+      vn: "Cá Pleco L190", en: "Royal Pleco L190", img: "unified_1.jpg", photo: true, price: 1429000,
+      desc: "Cá Pleco L190 (Panaque sp.) là dòng cá lau kiếng quý hiếm có nguồn gốc từ lưu vực sông Amazon, nổi bật với thân lớn và vảy ánh kim đặc trưng. Cá hiền, ăn tạp, hoạt động về đêm, thích hợp bể rộng có nhiều lũa đá trú ẩn, nước mềm ấm 26–30°C.",
+      origin: "Sông Amazon, Nam Mỹ", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:1509000,5:1429000,10:1350000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Pleco L191", en: "Dull Eyed Royal Pleco L191", img: "unified_1.jpg", photo: true, price: 1191000,
+      desc: "Cá Pleco L191 (Panaque sp.) là dòng cá lau kiếng quý hiếm có nguồn gốc từ lưu vực sông Amazon, nổi bật với thân lớn và vảy ánh kim đặc trưng. Cá hiền, ăn tạp, hoạt động về đêm, thích hợp bể rộng có nhiều lũa đá trú ẩn, nước mềm ấm 26–30°C.",
+      origin: "Sông Amazon, Nam Mỹ", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:1131000,5:1042000,10:953000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thè Be Trung Quốc", en: "Chinese Severum", img: "unified_1.jpg", photo: true, price: 57000,
+      desc: "Cá Thè Be Trung Quốc là dòng cichlid Trung Quốc nổi bật với sắc cam ánh kim và vây dài đặc trưng. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
+      origin: "Trung Quốc", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:51000,5:48000,10:46000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Mương Hoa TQ", en: "Chinese Zacco", img: "unified_1.jpg", photo: true, price: 161000,
+      desc: "Cá Mương Hoa TQ là dòng cá mương nước ngọt có nguồn gốc từ Trung Quốc, nổi bật với sắc ánh kim và vây dài đặc trưng. Cá hiền, bơi khỏe, ưa sống theo đàn — phù hợp bể biotope suối đá có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
+      origin: "Trung Quốc", size: "10–13 cm", promo: "Không có", contactText: "", combo: {3:132000,5:125000,10:117000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Trâm Galaxy", en: "Galaxy Rasbora", img: "unified_1.jpg", photo: true, price: 45000,
+      desc: "Cá Trâm Galaxy (Danio margaritatus) là dòng cá cảnh nhỏ nổi bật với thân phủ đốm ánh kim lấp lánh như dải ngân hà. Cá hiền, bơi đàn, phù hợp bể thủy sinh nano nhiều cây, nên nuôi nhóm 8–10 con, nước mềm hơi acid 22–26°C.",
+      origin: "Myanmar", size: "2–2+ cm", promo: "Không có", contactText: "", combo: {3:40000,5:38000,10:36000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Cánh Cụt Đuôi Đỏ", en: "Red Tail Penguin Tetra", img: "unified_1.jpg", photo: true, price: 45000,
+      desc: "Cá Cánh Cụt Đuôi Đỏ / Red Tail Penguin Tetra (Thayeria boehlkei) là dòng tetra bơi nghiêng nổi bật với thân bạc ánh kim và vây đuôi đỏ cam đặc trưng. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 8+ con, nước mềm 22–26°C.",
+      origin: "Amazon, Peru", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:40000,5:36000,10:34000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Congo", en: "Congo Tetra", img: "unified_1.jpg", photo: true, price: 80000,
+      desc: "Cá Congo Tetra (Phenacogrammus interruptus) là dòng tetra lớn nổi bật với vây dài lượn sóng và sắc ánh kim rực rỡ. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước mềm hơi acid 24–28°C.",
+      origin: "Lưu vực sông Congo, châu Phi", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:76000,5:72000,10:68000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thè Be Bướm TQ Viền Đỏ", en: "Chinese Butterfly Cichlid Red Edge", img: "unified_1.jpg", photo: true, price: 198000,
+      desc: "Cá Thè Be Bướm TQ Viền Đỏ là dòng cichlid Trung Quốc nổi bật với viền đỏ rực ở vây lưng và vây đuôi. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
+      origin: "Trung Quốc", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:187000,5:177000,10:166000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thè Be Ngũ Sắc", en: "Multicolor Severum", img: "unified_1.jpg", photo: true, price: 27000,
+      desc: "Cá Thè Be Ngũ Sắc là dòng cichlid Nam Mỹ nổi bật với hoa văn nhiều màu sắc rực rỡ trên thân. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
+      origin: "Nam Mỹ", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:24000,5:23000,10:18000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bạch Ngọc 10-11", en: "White Pearl Discus 10-11", img: "unified_1.jpg", photo: true, price: 450000,
+      desc: "Cá Đĩa Bạch Ngọc (Symphysodon aequifasciatus, dòng White Pearl size 10-11) là dòng cá đĩa lai tạo có nền thân trắng ngà ánh kim, vây trong suốt. Cá hiền, thích hợp bể nhiều cây và lũa, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+      origin: "Lai tạo chọn lọc", size: "10–11 cm", promo: "Không có", contactText: "", combo: {3:425000,5:400000,10:375000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Tiger High Body", en: "Tiger High Body Discus", img: "unified_1.jpg", photo: true, price: 534000,
+      desc: "Cá Đĩa Tiger High Body (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp với thân hình dày và hoa văn sọc dọc đậm nét đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:507000,5:454000,10:427000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bông Nâu 7-8", en: "Brown Spotted Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted size 7-8) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ, sọc dọc nhạt dần khi trưởng thành. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Hoa Hồng 7-8", en: "Rose Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Hoa Hồng (Symphysodon aequifasciatus, dòng Rose size 7-8) là dòng cá đĩa cảnh lai tạo nổi bật với sắc hồng cam phủ đều khắp thân và vây. Cá hiền, dáng đĩa tròn dẹp đặc trưng, thích hợp bể thủy sinh nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Đỏ 7-8", en: "Red Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Đỏ (Symphysodon aequifasciatus, dòng Red size 7-8) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Red Devil AB 8-9", en: "Red Devil Discus 8-9", img: "unified_1.jpg", photo: true, price: 655000,
+      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB size 8-9) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Tiger HB HR 7-8", en: "Tiger HB HR Discus 7-8", img: "unified_1.jpg", photo: true, price: 440000,
+      desc: "Cá Đĩa Tiger HB HR (Symphysodon aequifasciatus, dòng Tiger HB HR size 7-8) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền ánh kim. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:380000,5:360000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bồ Câu Đỏ HR 8-9", en: "Red Pigeon HR Discus 8-9", img: "unified_1.jpg", photo: true, price: 352000,
+      desc: "Cá Đĩa Bồ Câu Đỏ HR (Symphysodon aequifasciatus, dòng Red Pigeon HR size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:320000,5:304000,10:272000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bông Xanh 6-7 LN", en: "Blue Diamond Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bông Xanh 8-9 LN", en: "Blue Diamond Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 74000,
+      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:68000,5:65000,10:61000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bông Nâu 6-7 LN", en: "Brown Spotted Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 273000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN size 6-7) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bông Nâu 8-9 LN", en: "Brown Spotted Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 449000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN size 8-9) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:390000,5:370000,10:350000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Chỉ Đỏ 6-7 LN", en: "Red Streak Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Chỉ Đỏ (Symphysodon aequifasciatus, dòng Red Streak LN size 6-7) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ chạy dọc thân. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Valentine Đỏ 6-7 LN", en: "Valentine Red Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 273000,
+      desc: "Cá Đĩa Valentine Đỏ (Symphysodon aequifasciatus, dòng Valentine Red LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc đỏ valentine đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Xanh Cobalt 6-7 LN", en: "Cobalt Blue Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Xanh Cobalt (Symphysodon aequifasciatus, dòng Cobalt Blue LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc xanh cobalt rực rỡ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng 8-9 LN", en: "Red Yellow Pigeon Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 369000,
+      desc: "Cá Đĩa Bồ Câu Đỏ/Vàng (Symphysodon aequifasciatus, dòng Red Yellow Pigeon LN size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc đỏ vàng phối hợp. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:351000,5:333000,10:315000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Beo Bi EL", en: "Leopard Discus EL", img: "unified_1.jpg", photo: true, price: 396000,
+      desc: "Cá Đĩa Beo Bi (Symphysodon aequifasciatus, dòng Leopard EL) là dòng cá đĩa lai tạo nổi bật với hoa văn đốm beo trên nền ánh kim. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Red AB Devil 5-6", en: "Red Devil Discus 5-6", img: "unified_1.jpg", photo: true, price: 169000,
+      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB size 5-6) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:152000,5:144000,10:140000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thần Tiên Altum Atabapo F1", en: "Altum Atabapo F1 Angelfish", img: "unified_1.jpg", photo: true, price: 592000,
+      desc: "Cá Thần Tiên Altum Atabapo F1 (Pterophyllum altum) là dòng thần tiên hoang dã F1 quý hiếm có nguồn gốc từ lưu vực sông Atabapo, Nam Mỹ. Cá nổi bật với dáng cao, vây dài uyển chuyển và sọc dọc đậm nét. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+      origin: "Sông Atabapo, Nam Mỹ", size: "3–3+ cm", promo: "Không có", contactText: "", combo: {3:544000,5:512000,10:480000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Hồng My Bóng Đêm Fila", en: "Fila Shark Minnow", img: "unified_1.jpg", photo: true, price: 111000,
+      desc: "Cá Hồng My Bóng Đêm Fila là dòng cá cảnh bơi đàn nổi bật với thân ánh kim và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "7–10 cm", promo: "Không có", contactText: "", combo: {3:100000,5:94000,10:83000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Hồng My Bóng Đêm Tambra", en: "Tambra Shark Minnow", img: "unified_1.jpg", photo: true, price: 70000,
+      desc: "Cá Hồng My Bóng Đêm Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và màu ánh kim đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:64000,5:60000,10:56000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "unified_1.jpg", photo: true, price: 362000,
+      desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
+      origin: "Lục An, An Huy, Trung Quốc", size: "12–15 cm", promo: "Cá mới về", contactText: "", combo: {3:326000,5:308000,10:271000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: 46000,
+      desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
+      origin: "Ấn Độ, Bangladesh", size: "4–10 cm", promo: "Không có", contactText: "", combo: {3:44000,5:38000,10:35000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Chuột Cafe", en: "Corydoras Cafe", img: "unified_1.jpg", photo: true, price: 15000,
+      desc: "Cá Chuột Cafe (Corydoras sp.) là dòng cá chuột cảnh nhỏ nổi bật với thân ánh nâu cafe và các vệt sáng đặc trưng. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây và lũa, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
+      origin: "Nam Mỹ", size: "3–7 cm", promo: "Không có", contactText: "", combo: {3:14000,5:13000,10:12000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Mị Nương Ngọc Lam", en: "Blue Crystal Parrotfish", img: "unified_1.jpg", photo: true, price: 200000,
+      desc: "Cá Mị Nương Ngọc Lam là dòng cá cảnh Trung Quốc nổi bật với sắc xanh ngọc lam ánh kim và dáng thuôn dài đặc trưng. Cá hiền, thích hợp bể cộng đồng rộng, nước mềm 22–26°C.",
+      origin: "Trung Quốc", size: "10–18 cm", promo: "Không có", contactText: "", combo: {3:184000,5:168000,10:152000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thần Tiên Pinoy Phẩm Cao", en: "Pinoy Premium Angelfish", img: "unified_1.jpg", photo: true, price: 108000,
+      desc: "Cá Thần Tiên Pinoy Phẩm Cao (Pterophyllum scalare, dòng Pinoy phẩm cao size 5-6) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển — dòng phẩm cao chọn lọc. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+      origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:102000,5:96000,10:90000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thần Tiên Mana Red Black Phẩm Cao", en: "Mana Red Black Premium Angelfish", img: "unified_1.jpg", photo: true, price: 100000,
+      desc: "Cá Thần Tiên Mana Red Black Phẩm Cao (Pterophyllum scalare, dòng Manacapuru Red Back phẩm cao size 3-4) là thần tiên hoang dã nổi bật với viền lưng đỏ cam đậm — dòng phẩm cao chọn lọc. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+      origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Đĩa Beo Tuyết 9-10", en: "Snow Leopard Discus 9-10", img: "unified_1.jpg", photo: true, price: 630000,
+      desc: "Cá Đĩa Beo Tuyết 9-10 (Symphysodon aequifasciatus, dòng Snow Leopard size 9-10 hiền ruby) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ. Cá có nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      origin: "Lai tạo chọn lọc", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:595000,5:560000,10:525000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Chuột Black Vene", en: "Black Vene Cory", img: "unified_1.jpg", photo: true, price: 116000,
+      desc: "Cá Chuột Black Vene là dòng cá chuột cảnh nổi bật với thân đen ánh kim và hoa văn đặc trưng. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây và lũa, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
+      origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:107000,5:99000,10:96000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá HMBD Tambra", en: "HMBD Tambra Shark", img: "unified_1.jpg", photo: true, price: 368000,
+      desc: "Cá HMBD Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:345000,5:334000,10:322000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Tambra 10 Kì Dài", en: "Tambra Long Fin 10cm", img: "unified_1.jpg", photo: true, price: 414000,
+      desc: "Cá Tambra 10 Kì Dài là dòng cá cảnh bơi đàn nổi bật với vây kì dài uyển chuyển và màu ánh kim. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "10 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá HMBD Rohani", en: "HMBD Rohani Shark", img: "unified_1.jpg", photo: true, price: 117000,
+      desc: "Cá HMBD Rohani là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:111000,5:104000,10:98000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Hồng My Gold 6-7", en: "Gold Rosy Barb 6-7", img: "unified_1.jpg", photo: true, price: 449000,
+      desc: "Cá Hồng My Gold 6-7 là dòng cá cảnh bơi đàn nổi bật với sắc vàng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên, nước 22–26°C.",
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "unified_1.jpg", photo: true, price: 186000,
+      desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
+      origin: "Đông Nam Trung Quốc, Đài Loan", size: "7–14 cm", promo: "Không có", contactText: "", combo: {3:170000,5:162000,10:145000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "unified_1.jpg", photo: true, price: 60000,
+      desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
+      origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:54000,5:50000,10:46000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+
+    ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
