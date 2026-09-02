@@ -46,13 +46,13 @@ const FISH = [
   },
   {
     vn: "Cá Goyder", en: "Goyder River Rainbowfish", img: "goyder_1.jpg", photo: true, price: 112000,
-    he: "Hệ Thủy Sinh", tank: "Thủy Sinh", status: "stock", eventPrice: "Liên hệ để biết thêm thông tin",
+    he: "Hệ Thủy Sinh", tank: "Thủy Sinh", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Goyder (Goyder River Rainbowfish) là loài cá bảy màu Úc nổi tiếng với dải ánh kim lam – tím chạy dọc lưng và thân sau đỏ rực tương phản cực mạnh. Con trưởng thành càng lớn càng đậm màu, đặc biệt con đực trong đàn có màu sắc rực rỡ nhất. Cá khỏe mạnh, hiền lành, bơi nhanh ở tầng giữa, sống chung tốt với mọi loài vừa và nhỏ — lựa chọn tuyệt vời cho bể thủy sinh muốn có điểm nhấn màu đỏ.",
     origin: "Úc (sông Goyder, Bắc Úc)", temp: "22–28°C", size: "6–9 cm", food: "Cám viên mịn, bobo, artemia", promo:"Liên hệ để biết thêm thông tin", contactText:"Liên hệ để biết thêm thông tin", combo:{}, gallery: ["assets/img/goyder_1.jpg", "assets/img/goyder_2.jpg"]
   },
   {
     vn: "Cá Cầu Vồng Xanh Indo", en: "Blue Rainbowfish", img: "bluerainbow_1.jpg", photo: true, price: 314000,
-    he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Cầu Vồng", status: "stock", eventPrice: "150.000₫",
+    he: "Hệ Thủy Sinh", tank: "Thủy Sinh, Cầu Vồng", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Cầu Vồng Xanh Indo (Melanotaenia lacustris) là dòng cá cảnh nước ngọt nổi bật với thân hình dẹp, dáng bơi nhanh nhẹn và màu xanh lam sáng rực rất bắt mắt. Cá có tính cách hiền lành, dễ thích nghi, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có không gian bơi thoáng. Bơi ở tầng giữa, ăn tạp (cám hạt, thức ăn đông lạnh hoặc trùn chỉ), khỏe mạnh và dễ chăm sóc.",
     origin: "Hồ Kutubu, Papua New Guinea", size: "6–9 cm", promo:"Mua 4 tặng 1", combo:{3:251000,5:236000,10:204000}, gallery: ["assets/img/bluerainbow_1.jpg", "assets/img/bluerainbow_2.jpg"]
   },
@@ -64,7 +64,7 @@ const FISH = [
   },
   {
     vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "muonghoa_1.jpg", photo: true, price: 206000,
-    he: "Hệ Suối", tank: "Thủy Sinh, Suối, Biotop", status: "stock", eventPrice: "149.000₫",
+    he: "Hệ Suối", tank: "Thủy Sinh, Suối, Biotop", status: "stock", eventPrice: "Không hỗ trợ",
     desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Đặc điểm sinh học và hình thái: tên khoa học Opsariichthys evolans; kích thước tối đa 10–15 cm; là loài cá bơi tầng mặt, ưa sống theo các đàn nhỏ tại khu vực suối, sông; phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
     origin: "Đông Nam Trung Quốc, Đài Loan và Đông Bắc Á", size: "10–15 cm", promo:"Event 30 days", combo:{3:186000,5:176000,10:167000}, gallery: ["assets/img/muonghoa_1.jpg", "assets/img/muonghoa_2.jpg"]
       },
