@@ -185,4 +185,54 @@ const FISH = [
     gallery: ["assets/img/cá_chuột_mỹ.jpg"]
       },
 
+    {
+      vn: "Cá Ryukin", en: "Ryukin Goldfish", img: "unified_1.jpg", photo: true, price: 198000,
+      desc: "Cá Ryukin là dòng cá vàng đuôi dài nổi bật với phần lưng gù cao đặc trưng và vây đuôi xòe rộng ba chia. Cá hiền lành, bơi chậm rãi, phù hợp bể ngoại cảnh hoặc bể trong nhà rộng, nước sạch 18–24°C.",
+      origin: "Lai tạo chọn lọc từ cá vàng Nhật Bản", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:178000,5:168000,10:158000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thần Tiên Altum Peru", en: "Altum Angelfish Peru", img: "unified_1.jpg", photo: true, price: 176000,
+      desc: "Cá Thần Tiên Altum Peru (Pterophyllum altum) là dòng thần tiên hoang dã quý hiếm có nguồn gốc từ lưu vực sông Amazon Peru và Colombia, nổi bật với dáng cao, vây dài uyển chuyển và sọc dọc đậm nét. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+      origin: "Sông Amazon, Peru", size: "3–3+ cm", promo: "Không có", contactText: "", combo: {3:160000,5:152000,10:148000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Thần Tiên Dantum", en: "Dantum Angelfish", img: "unified_1.jpg", photo: true, price: 380000,
+      desc: "Cá Thần Tiên Dantum là dòng thần tiên lai tạo nổi bật với dáng đĩa dẹt và hoa văn độc đáo trên thân. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+      origin: "Lai tạo chọn lọc", size: "2–3 cm", promo: "Không có", contactText: "", combo: {3:360000,5:350000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: 108000,
+      desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
+      origin: "Ấn Độ, Bangladesh", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:96000,5:84000,10:80000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Black Ruby", en: "Black Ruby Barb", img: "unified_1.jpg", photo: true, price: 80000,
+      desc: "Cá Black Ruby (Pethia nigrofasciata) là dòng cá cảnh bơi đàn nổi bật với con đực trưởng thành có thân đỏ sậm ánh ruby tương phản với sọc đen dọc thân. Cá hiền, khỏe, phù hợp bể cộng đồng, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Sri Lanka", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:72000,5:68000,10:64000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Tỳ Bà Bướm Muối Tiêu", en: "Salt and Pepper Pleco", img: "unified_1.jpg", photo: true, price: 18000,
+      desc: "Cá Tỳ Bà Bướm Muối Tiêu là dòng cá lau kiếng nhỏ nổi bật với thân điểm đốm đen nhỏ li ti trên nền sáng giống hạt muối tiêu. Cá hiền, ăn tảo và thức ăn đáy, phù hợp bể thủy sinh có nhiều lũa đá, nước 22–26°C.",
+      origin: "Nam Mỹ", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:13000,5:12000,10:11000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Bống Tê Giác", en: "Rhino Goby", img: "unified_1.jpg", photo: true, price: 20000,
+      desc: "Cá Bống Tê Giác là dòng cá tầng đáy nổi bật với phần đầu có sừng nhỏ đặc trưng và thân phủ đốm. Cá hiền, ăn tạp đáy, phù hợp bể có nền cát mịn và nhiều hang trú ẩn, nước 22–26°C.",
+      origin: "Đông Nam Á", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:18000,5:17000,10:16000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Whitefin Tetra", en: "Whitefin Tetra", img: "unified_1.jpg", photo: true, price: 25000,
+      desc: "Cá Whitefin Tetra là dòng tetra nhỏ hiền lành nổi bật với vây trắng đặc trưng và thân ánh bạc. Cá bơi đàn, phù hợp bể thủy sinh cộng đồng, nên nuôi nhóm 6–10 con, nước mềm hơi acid 22–26°C.",
+      origin: "Nam Mỹ", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:23000,5:22000,10:19000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Cánh Cụt Đuôi Đỏ", en: "Red Tail Penguin Tetra", img: "unified_1.jpg", photo: true, price: 45000,
+      desc: "Cá Cánh Cụt Đuôi Đỏ / Red Tail Penguin Tetra (Thayeria boehlkei) là dòng tetra bơi nghiêng nổi bật với thân bạc ánh kim và vây đuôi đỏ cam đặc trưng. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 8+ con, nước mềm 22–26°C.",
+      origin: "Amazon, Peru", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:40000,5:36000,10:34000}, gallery: ["assets/img/unified_1.jpg"]
+    },
+    {
+      vn: "Cá Bảo Liên Đăng", en: "Bao Lien Dang", img: "unified_1.jpg", photo: true, price: 92000,
+      desc: "Cá Bảo Liên Đăng là dòng cá cảnh nước ngọt nổi bật với sắc cam đỏ ánh kim và vây dài uyển chuyển. Cá hiền, khỏe, bơi đàn, phù hợp bể thủy sinh cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước 22–26°C.",
+      origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:80000,5:74000,10:67000}, gallery: ["assets/img/unified_1.jpg"]
+    },
     ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
