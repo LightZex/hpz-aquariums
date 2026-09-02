@@ -423,7 +423,7 @@ const FISH = [
       origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:64000,5:60000,10:56000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "unified_1.jpg", photo: true, price: 362000,
+      vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 362000,
       desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
       origin: "Lục An, An Huy, Trung Quốc", size: "12–15 cm", promo: "Cá mới về", contactText: "", combo: {3:326000,5:308000,10:271000}, gallery: ["assets/img/unified_1.jpg"]
     },
@@ -483,12 +483,12 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "unified_1.jpg", photo: true, price: 186000,
+      vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "muonghoa_1.jpg", photo: true, price: 186000,
       desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
       origin: "Đông Nam Trung Quốc, Đài Loan", size: "7–14 cm", promo: "Không có", contactText: "", combo: {3:170000,5:162000,10:145000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "unified_1.jpg", photo: true, price: 60000,
+      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "cá_chuột_mỹ.jpg", photo: true, price: 60000,
       desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
       origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:54000,5:50000,10:46000}, gallery: ["assets/img/unified_1.jpg"]
     },
