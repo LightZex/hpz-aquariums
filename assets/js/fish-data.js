@@ -7,9 +7,9 @@
 const SPR = 'assets/img/scene/';
 const FISH = [
   {
-    vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "beo_1.jpg", photo: true, price: 595000,
+    vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "beo_1.jpg", photo: true, price: "595.000đ - 630.000đ",
     desc: "Cá Đĩa Beo Tuyết (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ từ dòng Leopard kết hợp với các dòng Albino, nổi bật với nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá có dáng đĩa tròn dẹp đặc trưng, bơi chậm rãi uyển chuyển, tính cách hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-    origin: "Lai tạo chọn lọc (Malaysia, Thái Lan) từ cá đĩa Amazon", size: "15–20 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/beo_1.jpg", "assets/img/beo_2.jpg"],
+    origin: "Lai tạo chọn lọc (Malaysia, Thái Lan) từ cá đĩa Amazon", size: "9–20 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/beo_1.jpg", "assets/img/beo_2.jpg"],
         video: "https://www.facebook.com/reel/2310621016011230/"
       },
 {
@@ -120,7 +120,7 @@ const FISH = [
     gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg"]
               },
 {
-        vn: "Cá Đĩa Tiger HB", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"450.000đ",
+        vn: "Cá Đĩa Tiger HB", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"440.000đ - 450.000đ",
         desc: "Cá Đĩa Tiger HB (Symphysodon aequifasciatus, dòng Tiger HB / Heckel cross) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền thân ánh kim, phối màu xanh lục, đỏ và nâu đặc trưng. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
     gallery: ["assets/img/cá_đĩa_tiger_hb.jpg"]
       },
@@ -135,12 +135,12 @@ const FISH = [
     gallery: ["assets/img/cá_đĩa_beo_body.jpg"]
       },
 {
-        vn: "Cá Đĩa Bông Nâu", en: "Symphysodon aequifasciatus 'Brown Spotted'", img: "cá_đĩa_bông_nâu.jpg", photo: true, price:"190.000đ - 208.000đ",
+        vn: "Cá Đĩa Bông Nâu", en: "Symphysodon aequifasciatus 'Brown Spotted'", img: "cá_đĩa_bông_nâu.jpg", photo: true, price:"190.000đ - 420.000đ",
         desc: "Cá Đĩa Bông Nâu (Symphysodon, dòng Brown Spotted) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ, sọc dọc nhạt dần khi trưởng thành. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
     gallery: ["assets/img/cá_đĩa_bông_nâu.jpg"]
       },
 {
-        vn: "Cá Đĩa Bạch Ngọc", en: "Symphysodon aequifasciatus 'White Pearl'", img: "cá_đĩa_bạch_ngọc.jpg", photo: true, price:"190.000đ",
+        vn: "Cá Đĩa Bạch Ngọc", en: "Symphysodon aequifasciatus 'White Pearl'", img: "cá_đĩa_bạch_ngọc.jpg", photo: true, price:"190.000đ - 450.000đ",
         desc: "Cá Đĩa Bạch Ngọc / White Pearl Discus là dòng cá đĩa lai tạo có nền thân trắng ngà ánh kim, vây trong suốt, hoa văn nhạt. Cá hiền, thích hợp bể nhiều cây và lũa, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
     gallery: ["assets/img/cá_đĩa_bạch_ngọc.jpg"]
       },
@@ -170,12 +170,12 @@ const FISH = [
     gallery: ["assets/img/cá_chuột_botia.jpg"]
       },
 {
-      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "cá_chuột_mỹ.jpg", photo: true, price: "157.000đ",
+      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "cá_chuột_mỹ.jpg", photo: true, price: "60.000đ - 157.000đ",
       desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-      origin: "Hoa Kỳ", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"147.000đ",5:"143.000đ",10:"137.000đ"}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:"54.000đ - 147.000đ",5:"50.000đ - 143.000đ",10:"46.000đ - 137.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-        vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:108000,
+        vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:"40.000đ - 108.000đ",
         desc: "Cá Thần Tiên Piony (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
     gallery: ["assets/img/cá_thần_tiên_piony.jpg"]
       },
@@ -225,9 +225,9 @@ const FISH = [
           origin: "Đông Nam Á", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"104.000đ",5:"96.000đ",10:"88.000đ"}, gallery: ["assets/img/unified_1.jpg"]
         },
 {
-          vn: "Cá Longfin 24k", en: "24k Longfin Goldfish", img: "unified_1.jpg", photo: true, price: 86000,
+          vn: "Cá Longfin 24k", en: "24k Longfin Goldfish", img: "unified_1.jpg", photo: true, price: "81.000đ - 86.000đ",
           desc: "Cá Longfin 24k là dòng cá vàng vây dài nổi bật với sắc vàng ánh kim óng ánh và bộ vây dài uyển chuyển. Cá hiền, bơi chậm, phù hợp bể rộng nước sạch 18–24°C.",
-          origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:74000,5:72000,10:65000}, gallery: ["assets/img/unified_1.jpg"]
+          origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"74.000đ",5:"72.000đ",10:"65.000đ - 70.000đ"}, gallery: ["assets/img/unified_1.jpg"]
         },
 {
           vn: "Cá Thần Tiên Blue Ghost", en: "Blue Ghost Angelfish", img: "unified_1.jpg", photo: true, price: "21.000đ",
@@ -270,9 +270,9 @@ const FISH = [
           origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"373.000đ",5:"352.000đ",10:"311.000đ"}, gallery: ["assets/img/unified_1.jpg"]
         },
 {
-          vn: "Cá Đĩa Bồ Câu Đỏ", en: "Red Pigeon Discus", img: "unified_1.jpg", photo: true, price: "208.000đ",
+          vn: "Cá Đĩa Bồ Câu Đỏ", en: "Red Pigeon Discus", img: "unified_1.jpg", photo: true, price: "208.000đ - 352.000đ",
           desc: "Cá Đĩa Bồ Câu Đỏ (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân tựa màu lông bồ câu đỏ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ",5:"182.000đ",10:"169.000đ"}, gallery: ["assets/img/unified_1.jpg"]
+          origin: "Lai tạo chọn lọc", size: "7–9 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ - 320.000đ",5:"182.000đ - 304.000đ",10:"169.000đ - 272.000đ"}, gallery: ["assets/img/unified_1.jpg"]
         },
 {
           vn: "Cá Đĩa Panda Đỏ", en: "Red Panda Discus", img: "unified_1.jpg", photo: true, price: "208.000đ",
@@ -335,14 +335,14 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá Đĩa Red Devil AB", en: "Red Devil Discus", img: "unified_1.jpg", photo: true, price: 655000,
+      vn: "Cá Đĩa Red Devil AB", en: "Red Devil Discus", img: "unified_1.jpg", photo: true, price: "169.000đ - 655.000đ",
       desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "unified_1.jpg", photo: true, price: "265.000đ",
+      vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "unified_1.jpg", photo: true, price: "74.000đ - 265.000đ",
       desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"250.000đ",5:"235.000đ",10:"221.000đ"}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Lai tạo chọn lọc", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:"68.000đ - 250.000đ",5:"65.000đ - 235.000đ",10:"61.000đ - 221.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
       vn: "Cá Đĩa Chỉ Đỏ", en: "Red Streak Discus", img: "unified_1.jpg", photo: true, price: 210000,
@@ -385,14 +385,14 @@ const FISH = [
       origin: "Đông Nam Á", size: "7–10 cm", promo: "Không có", contactText: "", combo: {3:"100.000đ - 104.000đ",5:"94.000đ - 96.000đ",10:"83.000đ - 88.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá Hồng My Bóng Đêm Tambra", en: "Tambra Shark Minnow", img: "unified_1.jpg", photo: true, price: 70000,
+      vn: "Cá Hồng My Bóng Đêm Tambra", en: "Tambra Shark Minnow", img: "unified_1.jpg", photo: true, price: "70.000đ - 278.000đ",
       desc: "Cá Hồng My Bóng Đêm Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và màu ánh kim đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:64000,5:60000,10:56000}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:"64.000đ - 250.000đ",5:"60.000đ - 236.000đ",10:"56.000đ - 208.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: "46.000đ - 108.000đ",
+      vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: "16.000đ - 108.000đ",
       desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
-      origin: "Ấn Độ, Bangladesh", size: "4–10 cm", promo: "Không có", contactText: "", combo: {3:"44.000đ - 96.000đ",5:"38.000đ - 84.000đ",10:"35.000đ - 80.000đ"}, gallery: ["assets/img/unified_1.jpg"]
+      origin: "Ấn Độ, Bangladesh", size: "2–10 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ - 96.000đ",5:"44.000đ - 84.000đ",10:"35.000đ - 80.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
       vn: "Cá Chuột Cafe", en: "Corydoras Cafe", img: "unified_1.jpg", photo: true, price: "15.000đ - 35.000đ",
@@ -405,19 +405,9 @@ const FISH = [
       origin: "Trung Quốc", size: "10–18 cm", promo: "Không có", contactText: "", combo: {3:"184.000đ - 600.000đ",5:"168.000đ - 570.000đ",10:"152.000đ - 540.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá Thần Tiên Pinoy Phẩm Cao", en: "Pinoy Premium Angelfish", img: "unified_1.jpg", photo: true, price: 108000,
-      desc: "Cá Thần Tiên Pinoy Phẩm Cao (Pterophyllum scalare, dòng Pinoy phẩm cao size 5-6) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển — dòng phẩm cao chọn lọc. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:102000,5:96000,10:90000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-{
       vn: "Cá Thần Tiên Mana Red Black Phẩm Cao", en: "Mana Red Black Premium Angelfish", img: "unified_1.jpg", photo: true, price: 100000,
       desc: "Cá Thần Tiên Mana Red Black Phẩm Cao (Pterophyllum scalare, dòng Manacapuru Red Back phẩm cao size 3-4) là thần tiên hoang dã nổi bật với viền lưng đỏ cam đậm — dòng phẩm cao chọn lọc. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
       origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-{
-      vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "unified_1.jpg", photo: true, price: 630000,
-      desc: "Cá Đĩa Beo Tuyết (Symphysodon aequifasciatus, dòng Snow Leopard hiền ruby) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ. Cá có nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:595000,5:560000,10:525000}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
       vn: "Cá Chuột Black Vene", en: "Black Vene Cory", img: "unified_1.jpg", photo: true, price: "116.000đ",
@@ -435,7 +425,7 @@ const FISH = [
       origin: "Đông Nam Á", size: "10 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-      vn: "Cá HMBD Rohani", en: "HMBD Rohani Shark", img: "unified_1.jpg", photo: true, price: "117.000đ",
+      vn: "Cá HMBD Rohani", en: "HMBD Rohani Shark", img: "unified_1.jpg", photo: true, price: "117.000đ - 124.000đ",
       desc: "Cá HMBD Rohani là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
       origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"111.000đ",5:"104.000đ",10:"98.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
@@ -445,243 +435,45 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-    vn: "checked bard", en: "checked bard", img: "unified_1.jpg", photo: true, price: "48.000đ",
-    desc: "Cá checked bard là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "3 cm", promo: "Không có", contactText: "", combo: {3:"42.000đ",5:"39.000đ",10:"35.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "thần tiên Pinoy", en: "thần tiên Pinoy", img: "unified_1.jpg", photo: true, price: "40.000đ - 60.000đ",
-    desc: "Cá thần tiên Pinoy là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "3–6 cm", promo: "Không có", contactText: "", combo: {3:"38.000đ - 56.000đ",5:"36.000đ - 52.000đ",10:"34.000đ - 48.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Mị nương ngọc lam TQ", en: "Mị nương ngọc lam TQ", img: "unified_1.jpg", photo: true, price: "1.547.000đ",
+    vn: "Cá Mị Nương Ngọc Lam TQ", en: "Cá Mị Nương Ngọc Lam TQ", img: "unified_1.jpg", photo: true, price: "1.547.000đ",
     desc: "Cá Mị nương ngọc lam TQ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "16–18 cm", promo: "Không có", contactText: "", combo: {3:"1.392.000đ",5:"1.315.000đ",10:"1.237.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Thần tiên Dantum", en: "Thần tiên Dantum", img: "unified_1.jpg", photo: true, price: "380.000đ",
+    vn: "Cá Thần Tiên Dantum", en: "Cá Thần Tiên Dantum", img: "unified_1.jpg", photo: true, price: "380.000đ",
     desc: "Cá Thần tiên Dantum là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "2–3 cm", promo: "Không có", contactText: "", combo: {3:"360.000đ",5:"350.000đ",10:"320.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Thè be Lava size", en: "Thè be Lava size", img: "unified_1.jpg", photo: true, price: "147.000đ",
-    desc: "Cá Thè be Lava size là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:"132.000đ",5:"125.000đ",10:"117.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Whitefin tetra", en: "Whitefin tetra", img: "unified_1.jpg", photo: true, price: "25.000đ",
+    vn: "Cá Whitefin Tetra", en: "Cá Whitefin Tetra", img: "unified_1.jpg", photo: true, price: "25.000đ",
     desc: "Cá Whitefin tetra là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"23.000đ",5:"22.000đ",10:"19.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Longfin 24k", en: "Longfin 24k", img: "unified_1.jpg", photo: true, price: "81.000đ - 86.000đ",
-    desc: "Cá Longfin 24k là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "2–24 cm", promo: "Không có", contactText: "", combo: {3:"74.000đ",5:"72.000đ",10:"65.000đ - 70.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Congo abino", en: "Congo abino", img: "unified_1.jpg", photo: true, price: "165.000đ",
-    desc: "Cá Congo abino là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5.5–6 cm", promo: "Không có", contactText: "", combo: {3:"150.000đ",5:"135.000đ",10:"131.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Hồng mi bóng đêm tambra", en: "Hồng mi bóng đêm tambra", img: "unified_1.jpg", photo: true, price: "70.000đ - 278.000đ",
-    desc: "Cá Hồng mi bóng đêm tambra là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:"64.000đ - 250.000đ",5:"60.000đ - 236.000đ",10:"56.000đ - 208.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Chuột optimus prime", en: "Chuột optimus prime", img: "unified_1.jpg", photo: true, price: "88.000đ",
+    vn: "Cá Chuột Optimus Prime", en: "Cá Chuột Optimus Prime", img: "unified_1.jpg", photo: true, price: "88.000đ",
     desc: "Cá Chuột optimus prime là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"83.000đ",5:"78.000đ",10:"74.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Mương lục an phẩm cao", en: "Mương lục an phẩm cao", img: "unified_1.jpg", photo: true, price: "362.000đ",
+    vn: "Cá Mương Lục An Phẩm Cao", en: "Cá Mương Lục An Phẩm Cao", img: "unified_1.jpg", photo: true, price: "362.000đ",
     desc: "Cá Mương lục an phẩm cao là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "12–14 cm", promo: "Không có", contactText: "", combo: {3:"326.000đ",5:"308.000đ",10:"271.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Thần tiên pinoy", en: "Thần tiên pinoy", img: "unified_1.jpg", photo: true, price: "108.000đ",
-    desc: "Cá Thần tiên pinoy là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:"102.000đ",5:"96.000đ",10:"90.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Thần tiên mana red black", en: "Thần tiên mana red black", img: "unified_1.jpg", photo: true, price: "100.000đ",
-    desc: "Cá Thần tiên mana red black là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:"93.000đ",5:"85.000đ",10:"80.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa tiger", en: "Đĩa tiger", img: "unified_1.jpg", photo: true, price: "534.000đ",
-    desc: "Cá Đĩa tiger là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"507.000đ",5:"454.000đ",10:"427.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Bạch ngọc", en: "Bạch ngọc", img: "unified_1.jpg", photo: true, price: "450.000đ",
-    desc: "Cá Bạch ngọc là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "10–11 cm", promo: "Không có", contactText: "", combo: {3:"425.000đ",5:"400.000đ",10:"375.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa tiger", en: "Đĩa tiger", img: "unified_1.jpg", photo: true, price: "440.000đ",
-    desc: "Cá Đĩa tiger là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"380.000đ",5:"360.000đ",10:"320.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa bồ câu đỏ", en: "Đĩa bồ câu đỏ", img: "unified_1.jpg", photo: true, price: "352.000đ",
-    desc: "Cá Đĩa bồ câu đỏ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"320.000đ",5:"304.000đ",10:"272.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Red AB", en: "Red AB", img: "unified_1.jpg", photo: true, price: "169.000đ",
-    desc: "Cá Red AB là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:"152.000đ",5:"144.000đ",10:"140.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Kurumoi", en: "Kurumoi", img: "unified_1.jpg", photo: true, price: "150.000đ",
-    desc: "Cá Kurumoi là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:"145.000đ",5:"136.000đ",10:"128.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa ngũ sắc mix", en: "Đĩa ngũ sắc mix", img: "unified_1.jpg", photo: true, price: "190.000đ",
-    desc: "Cá Đĩa ngũ sắc mix là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"180.000đ",5:"170.000đ",10:"140.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Bông Xanh", en: "Đĩa Bông Xanh", img: "unified_1.jpg", photo: true, price: "210.000đ",
-    desc: "Cá Đĩa Bông Xanh là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"190.000đ",5:"185.000đ",10:"165.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Bông Nâu", en: "Đĩa Bông Nâu", img: "unified_1.jpg", photo: true, price: "273.000đ",
-    desc: "Cá Đĩa Bông Nâu là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"247.000đ",5:"241.000đ",10:"215.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Chỉ Đỏ", en: "Đĩa Chỉ Đỏ", img: "unified_1.jpg", photo: true, price: "210.000đ",
-    desc: "Cá Đĩa Chỉ Đỏ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"190.000đ",5:"185.000đ",10:"165.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Valentine đỏ", en: "Đĩa Valentine đỏ", img: "unified_1.jpg", photo: true, price: "273.000đ",
-    desc: "Cá Đĩa Valentine đỏ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"247.000đ",5:"241.000đ",10:"215.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Xanh Cobalt", en: "Đĩa Xanh Cobalt", img: "unified_1.jpg", photo: true, price: "210.000đ",
-    desc: "Cá Đĩa Xanh Cobalt là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"190.000đ",5:"185.000đ",10:"165.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Kim thơm", en: "Kim thơm", img: "unified_1.jpg", photo: true, price: "270.000đ",
+    vn: "Cá Kim Thơm", en: "Cá Kim Thơm", img: "unified_1.jpg", photo: true, price: "270.000đ",
     desc: "Cá Kim thơm là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"248.000đ",5:"240.000đ",10:"225.000đ"},
     gallery: ["assets/img/unified_1.jpg"]
   },
 {
-    vn: "Hải hồ short", en: "Hải hồ short", img: "unified_1.jpg", photo: true, price: "473.000đ",
+    vn: "Cá Hải Hồ Short", en: "Cá Hải Hồ Short", img: "unified_1.jpg", photo: true, price: "473.000đ",
     desc: "Cá Hải hồ short là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"455.000đ",5:"438.000đ",10:"420.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Shortfin 24k", en: "Shortfin 24k", img: "unified_1.jpg", photo: true, price: "45.000đ",
-    desc: "Cá Shortfin 24k là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "3–24 cm", promo: "Không có", contactText: "", combo: {3:"41.000đ",5:"40.000đ",10:"39.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Hồng mi ấn độ", en: "Hồng mi ấn độ", img: "unified_1.jpg", photo: true, price: "16.000đ",
-    desc: "Cá Hồng mi ấn độ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "2–3 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ",5:"None",10:"None"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Chuột mỹ 3-3+ EL", en: "Chuột mỹ 3-3+ EL", img: "unified_1.jpg", photo: true, price: "60.000đ",
-    desc: "Cá Chuột mỹ 3-3+ EL là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "3 cm", promo: "Không có", contactText: "", combo: {3:"54.000đ",5:"50.000đ",10:"46.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa Bông Xanh 8 9 LN", en: "Đĩa Bông Xanh 8 9 LN", img: "unified_1.jpg", photo: true, price: "74.000đ",
-    desc: "Cá Đĩa Bông Xanh 8 9 LN là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"68.000đ",5:"65.000đ",10:"61.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Chuột mỹ 7-9 EL", en: "Chuột mỹ 7-9 EL", img: "unified_1.jpg", photo: true, price: "152.000đ",
-    desc: "Cá Chuột mỹ 7-9 EL là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "7–9 cm", promo: "Không có", contactText: "", combo: {3:"144.000đ",5:"136.000đ",10:"128.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa beo bi", en: "Đĩa beo bi", img: "unified_1.jpg", photo: true, price: "396.000đ",
-    desc: "Cá Đĩa beo bi là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"369.000đ",5:"351.000đ",10:"324.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa bồ câu đỏ/vàng 8 9 LN", en: "Đĩa bồ câu đỏ/vàng 8 9 LN", img: "unified_1.jpg", photo: true, price: "369.000đ",
-    desc: "Cá Đĩa bồ câu đỏ/vàng 8 9 LN là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"351.000đ",5:"333.000đ",10:"315.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Hồng mi ấn độ", en: "Hồng mi ấn độ", img: "unified_1.jpg", photo: true, price: "53.000đ",
-    desc: "Cá Hồng mi ấn độ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "5–7 cm", promo: "Không có", contactText: "", combo: {3:"48.000đ",5:"44.000đ",10:"41.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Hồng mi gold", en: "Hồng mi gold", img: "unified_1.jpg", photo: true, price: "449.000đ",
-    desc: "Cá Hồng mi gold là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"None",5:"None",10:"None"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa bông nâu", en: "Đĩa bông nâu", img: "unified_1.jpg", photo: true, price: "420.000đ",
-    desc: "Cá Đĩa bông nâu là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"390.000đ",5:"370.000đ",10:"350.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Beo Tuyết", en: "Beo Tuyết", img: "unified_1.jpg", photo: true, price: "630.000đ",
-    desc: "Cá Beo Tuyết là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:"595.000đ",5:"560.000đ",10:"525.000đ"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "Đĩa red ab", en: "Đĩa red ab", img: "unified_1.jpg", photo: true, price: "655.000đ",
-    desc: "Cá Đĩa red ab là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"None",5:"None",10:"None"},
-    gallery: ["assets/img/unified_1.jpg"]
-  },
-{
-    vn: "HMBD Rohani ra kì", en: "HMBD Rohani ra kì", img: "unified_1.jpg", photo: true, price: "124.000đ",
-    desc: "Cá HMBD Rohani ra kì là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
-    origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"None",5:"None",10:"None"},
     gallery: ["assets/img/unified_1.jpg"]
   },
   ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
