@@ -257,7 +257,7 @@ const FISH = [
 {
           vn: "Cá Đĩa Xanh Lam", en: "Blue Discus", img: "c_a_xanh_lam_1.jpg", photo: true, price: "247.000đ - 319.000đ",
           desc: "Cá Đĩa Xanh Lam (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc xanh lam ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "6–8 cm", promo: "Không có", contactText: "", combo: {3:"233.000đ - 301.000đ",5:"219.000đ - 283.000đ",10:"206.000đ - 248.000đ"}, gallery: ["assets/img/c_a_xanh_lam_1.jpg", "assets/img/c_a_xanh_lam_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "6–8 cm", promo: "Không có", contactText: "", combo: {3:"233.000đ - 301.000đ",5:"219.000đ - 283.000đ",10:"206.000đ - 248.000đ"}, gallery: ["assets/img/c_a_xanh_lam_1.jpg"]
         },
 {
           vn: "Cá Đĩa Chỉ Nâu", en: "Brown Streak Discus", img: "c_a_ch_n_u_1.jpg", photo: true, price: "265.000đ",
@@ -282,7 +282,7 @@ const FISH = [
 {
       vn: "Cá Pleco L190", en: "Royal Pleco L190", img: "c_pleco_l190_1.jpg", photo: true, price: "1.429.000đ",
       desc: "Cá Pleco L190 (Panaque sp.) là dòng cá lau kiếng quý hiếm có nguồn gốc từ lưu vực sông Amazon, nổi bật với thân lớn và vảy ánh kim đặc trưng. Cá hiền, ăn tạp, hoạt động về đêm, thích hợp bể rộng có nhiều lũa đá trú ẩn, nước mềm ấm 26–30°C.",
-      origin: "Sông Amazon, Nam Mỹ", size: "8–190 cm", promo: "Không có", contactText: "", combo: {3:"1.509.000đ",5:"1.429.000đ",10:"1.350.000đ"}, gallery: ["assets/img/c_pleco_l190_1.jpg"]
+      origin: "Sông Amazon, Nam Mỹ", size: "8–190 cm", promo: "Không có", contactText: "", combo: {3:"1.509.000đ",5:"1.429.000đ",10:"1.350.000đ"}, gallery: ["assets/img/c_pleco_l190_1.jpg", "assets/img/c_pleco_l190_2.jpg"]
     },
 {
       vn: "Cá Pleco L191", en: "Dull Eyed Royal Pleco L191", img: "c_pleco_l191_1.jpg", photo: true, price: "1.191.000đ",
@@ -358,11 +358,6 @@ const FISH = [
       vn: "Cá Đĩa Xanh Cobalt", en: "Cobalt Blue Discus", img: "c_a_xanh_cobalt_1.jpg", photo: true, price: 210000,
       desc: "Cá Đĩa Xanh Cobalt (Symphysodon aequifasciatus, dòng Cobalt Blue LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh cobalt rực rỡ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/c_a_xanh_cobalt_1.jpg", "assets/img/c_a_xanh_cobalt_2.jpg"]
-    },
-{
-      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng", en: "Red Yellow Pigeon Discus", img: "c_a_b_c_u_v_ng_1.jpg", photo: true, price: 369000,
-      desc: "Cá Đĩa Bồ Câu Đỏ/Vàng (Symphysodon aequifasciatus, dòng Red Yellow Pigeon LN) là dòng cá đĩa lai tạo nổi bật với sắc đỏ vàng phối hợp. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:351000,5:333000,10:315000}, gallery: ["assets/img/c_a_b_c_u_v_ng_1.jpg", "assets/img/c_a_b_c_u_v_ng_2.jpg"]
     },
 {
       vn: "Cá Đĩa Beo Bi EL", en: "Leopard Discus EL", img: "c_a_beo_bi_el_1.jpg", photo: true, price: 396000,
@@ -468,7 +463,7 @@ const FISH = [
     vn: "Cá Kim Thơm", en: "Cá Kim Thơm", img: "c_kim_th_m_1.jpg", photo: true, price: "270.000đ",
     desc: "Cá Kim thơm là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"248.000đ",5:"240.000đ",10:"225.000đ"},
-    gallery: ["assets/img/c_kim_th_m_1.jpg"]
+    gallery: ["assets/img/c_kim_th_m_1.jpg", "assets/img/c_kim_th_m_2.jpg"]
   },
 {
     vn: "Cá Hải Hồ Short", en: "Cá Hải Hồ Short", img: "c_h_i_h_short_1.jpg", photo: true, price: "473.000đ",
@@ -476,4 +471,5 @@ const FISH = [
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"455.000đ",5:"438.000đ",10:"420.000đ"},
     gallery: ["assets/img/c_h_i_h_short_1.jpg", "assets/img/c_h_i_h_short_2.jpg"]
   },
+{ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' },
   ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
