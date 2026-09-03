@@ -23,6 +23,11 @@ const FISH = [
         origin: "Hạ lưu sông Chindwin, Myanmar", size: "4–5 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/odiec_1.jpg", "assets/img/odiec_2.jpg"],
         video: "https://www.facebook.com/reel/4592676834339117/"
   },
+{
+      vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 362000,
+      desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
+      origin: "Lục An, An Huy, Trung Quốc", size: "12–15 cm", promo: "Cá mới về", contactText: "", combo: {3:326000,5:308000,10:271000}, gallery: ["assets/img/unified_1.jpg"]
+    },
   
   {
     vn: "Cá Cầu Vồng Bleheri", en: "Bleheri Rainbowfish", img: "bleheri_1.jpg", photo: true, price: 150000,
@@ -49,6 +54,11 @@ const FISH = [
     desc: "Cá Cầu Vồng Kurumoi (Melanotaenia sp.) là dòng cá cầu vồng nổi bật với thân hình thon dài, dáng bơi linh hoạt và màu sắc rực rỡ pha giữa xanh lam, vàng, đỏ và đen. Cá có tính cách hiền lành, thân thiện, sống hòa đồng theo đàn — rất phù hợp nuôi trong các bể thủy sinh rộng có nhiều không gian bơi. Bơi ở tầng giữa, ăn tạp (cám hạt, thức ăn khô hoặc thức ăn sống nhỏ), khỏe mạnh và dễ chăm sóc.",
     origin: "Papua New Guinea", size: "6–10 cm", promo:"Không có", combo:{3:145000,5:136000,10:128000}, gallery: ["assets/img/kurumoi_1.jpg", "assets/img/kurumoi_2.jpg"]
   },
+{
+      vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "muonghoa_1.jpg", photo: true, price: 186000,
+      desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
+      origin: "Đông Nam Trung Quốc, Đài Loan", size: "7–14 cm", promo: "Không có", contactText: "", combo: {3:170000,5:162000,10:145000}, gallery: ["assets/img/unified_1.jpg"]
+    },
   
       {
         vn: "Cá Flame Tetra", en: "Flame Tetra", img: "flame_1.jpg", photo: true, price: 24000,
@@ -162,6 +172,11 @@ const FISH = [
         desc: "Cá Chuột Botia / Zebra Loach (Botia striata) là dòng cá tầng đáy nổi bật với sọc vàng-đen chạy dọc thân như ngựa vằn, kích thước nhỏ hiền lành, hoạt động theo đàn. Cá thích hợp bể thủy sinh có nhiều hang trú ẩn, nền cát mịn, nước mềm 23–27°C. Nuôi nhóm 5+ con.",
     gallery: ["assets/img/cá_chuột_botia.jpg"]
       },
+{
+      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "cá_chuột_mỹ.jpg", photo: true, price: 60000,
+      desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
+      origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:54000,5:50000,10:46000}, gallery: ["assets/img/unified_1.jpg"]
+    },
       {
         vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:108000,
         desc: "Cá Thần Tiên Piony (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
@@ -318,8 +333,8 @@ const FISH = [
       origin: "Nam Mỹ", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:24000,5:23000,10:18000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bạch Ngọc 10-11", en: "White Pearl Discus 10-11", img: "unified_1.jpg", photo: true, price: 450000,
-      desc: "Cá Đĩa Bạch Ngọc (Symphysodon aequifasciatus, dòng White Pearl size 10-11) là dòng cá đĩa lai tạo có nền thân trắng ngà ánh kim, vây trong suốt. Cá hiền, thích hợp bể nhiều cây và lũa, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+      vn: "Cá Đĩa Bạch Ngọc", en: "White Pearl Discus", img: "unified_1.jpg", photo: true, price: 450000,
+      desc: "Cá Đĩa Bạch Ngọc (Symphysodon aequifasciatus, dòng White Pearl) là dòng cá đĩa lai tạo có nền thân trắng ngà ánh kim, vây trong suốt. Cá hiền, thích hợp bể nhiều cây và lũa, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
       origin: "Lai tạo chọn lọc", size: "10–11 cm", promo: "Không có", contactText: "", combo: {3:425000,5:400000,10:375000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
@@ -328,73 +343,73 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:507000,5:454000,10:427000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Nâu 7-8", en: "Brown Spotted Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
-      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted size 7-8) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ, sọc dọc nhạt dần khi trưởng thành. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Bông Nâu", en: "Brown Spotted Discus", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ, sọc dọc nhạt dần khi trưởng thành. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Hoa Hồng 7-8", en: "Rose Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
-      desc: "Cá Đĩa Hoa Hồng (Symphysodon aequifasciatus, dòng Rose size 7-8) là dòng cá đĩa cảnh lai tạo nổi bật với sắc hồng cam phủ đều khắp thân và vây. Cá hiền, dáng đĩa tròn dẹp đặc trưng, thích hợp bể thủy sinh nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C.",
+      vn: "Cá Đĩa Hoa Hồng", en: "Rose Discus", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Hoa Hồng (Symphysodon aequifasciatus, dòng Rose) là dòng cá đĩa cảnh lai tạo nổi bật với sắc hồng cam phủ đều khắp thân và vây. Cá hiền, dáng đĩa tròn dẹp đặc trưng, thích hợp bể thủy sinh nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Đỏ 7-8", en: "Red Discus 7-8", img: "unified_1.jpg", photo: true, price: 208000,
-      desc: "Cá Đĩa Đỏ (Symphysodon aequifasciatus, dòng Red size 7-8) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Đỏ", en: "Red Discus", img: "unified_1.jpg", photo: true, price: 208000,
+      desc: "Cá Đĩa Đỏ (Symphysodon aequifasciatus, dòng Red) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Red Devil AB 8-9", en: "Red Devil Discus 8-9", img: "unified_1.jpg", photo: true, price: 655000,
-      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB size 8-9) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Red Devil AB", en: "Red Devil Discus", img: "unified_1.jpg", photo: true, price: 655000,
+      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Tiger HB HR 7-8", en: "Tiger HB HR Discus 7-8", img: "unified_1.jpg", photo: true, price: 440000,
-      desc: "Cá Đĩa Tiger HB HR (Symphysodon aequifasciatus, dòng Tiger HB HR size 7-8) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền ánh kim. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Tiger HB HR", en: "Tiger HB HR Discus", img: "unified_1.jpg", photo: true, price: 440000,
+      desc: "Cá Đĩa Tiger HB HR (Symphysodon aequifasciatus, dòng Tiger HB HR) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền ánh kim. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:380000,5:360000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bồ Câu Đỏ HR 8-9", en: "Red Pigeon HR Discus 8-9", img: "unified_1.jpg", photo: true, price: 352000,
-      desc: "Cá Đĩa Bồ Câu Đỏ HR (Symphysodon aequifasciatus, dòng Red Pigeon HR size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Bồ Câu Đỏ HR", en: "Red Pigeon HR Discus", img: "unified_1.jpg", photo: true, price: 352000,
+      desc: "Cá Đĩa Bồ Câu Đỏ HR (Symphysodon aequifasciatus, dòng Red Pigeon HR) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:320000,5:304000,10:272000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Xanh 6-7 LN", en: "Blue Diamond Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
-      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
+      vn: "Cá Đĩa Bông Xanh LN", en: "Blue Diamond Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Xanh 8-9 LN", en: "Blue Diamond Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 74000,
-      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
+      vn: "Cá Đĩa Bông Xanh LN", en: "Blue Diamond Discus LN", img: "unified_1.jpg", photo: true, price: 74000,
+      desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:68000,5:65000,10:61000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Nâu 6-7 LN", en: "Brown Spotted Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 273000,
-      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN size 6-7) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Bông Nâu LN", en: "Brown Spotted Discus LN", img: "unified_1.jpg", photo: true, price: 273000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Nâu 8-9 LN", en: "Brown Spotted Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 449000,
-      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN size 8-9) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Bông Nâu LN", en: "Brown Spotted Discus LN", img: "unified_1.jpg", photo: true, price: 449000,
+      desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:390000,5:370000,10:350000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Chỉ Đỏ 6-7 LN", en: "Red Streak Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
-      desc: "Cá Đĩa Chỉ Đỏ (Symphysodon aequifasciatus, dòng Red Streak LN size 6-7) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ chạy dọc thân. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Chỉ Đỏ LN", en: "Red Streak Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Chỉ Đỏ (Symphysodon aequifasciatus, dòng Red Streak LN) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ chạy dọc thân. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Valentine Đỏ 6-7 LN", en: "Valentine Red Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 273000,
-      desc: "Cá Đĩa Valentine Đỏ (Symphysodon aequifasciatus, dòng Valentine Red LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc đỏ valentine đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Valentine Đỏ LN", en: "Valentine Red Discus LN", img: "unified_1.jpg", photo: true, price: 273000,
+      desc: "Cá Đĩa Valentine Đỏ (Symphysodon aequifasciatus, dòng Valentine Red LN) là dòng cá đĩa lai tạo nổi bật với sắc đỏ valentine đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Xanh Cobalt 6-7 LN", en: "Cobalt Blue Discus 6-7 LN", img: "unified_1.jpg", photo: true, price: 210000,
-      desc: "Cá Đĩa Xanh Cobalt (Symphysodon aequifasciatus, dòng Cobalt Blue LN size 6-7) là dòng cá đĩa lai tạo nổi bật với sắc xanh cobalt rực rỡ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Xanh Cobalt LN", en: "Cobalt Blue Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      desc: "Cá Đĩa Xanh Cobalt (Symphysodon aequifasciatus, dòng Cobalt Blue LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh cobalt rực rỡ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng 8-9 LN", en: "Red Yellow Pigeon Discus 8-9 LN", img: "unified_1.jpg", photo: true, price: 369000,
-      desc: "Cá Đĩa Bồ Câu Đỏ/Vàng (Symphysodon aequifasciatus, dòng Red Yellow Pigeon LN size 8-9) là dòng cá đĩa lai tạo nổi bật với sắc đỏ vàng phối hợp. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng LN", en: "Red Yellow Pigeon Discus LN", img: "unified_1.jpg", photo: true, price: 369000,
+      desc: "Cá Đĩa Bồ Câu Đỏ/Vàng (Symphysodon aequifasciatus, dòng Red Yellow Pigeon LN) là dòng cá đĩa lai tạo nổi bật với sắc đỏ vàng phối hợp. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:351000,5:333000,10:315000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
@@ -403,8 +418,8 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Red AB Devil 5-6", en: "Red Devil Discus 5-6", img: "unified_1.jpg", photo: true, price: 169000,
-      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB size 5-6) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Red AB Devil", en: "Red Devil Discus", img: "unified_1.jpg", photo: true, price: 169000,
+      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:152000,5:144000,10:140000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
@@ -422,11 +437,7 @@ const FISH = [
       desc: "Cá Hồng My Bóng Đêm Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và màu ánh kim đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
       origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:64000,5:60000,10:56000}, gallery: ["assets/img/unified_1.jpg"]
     },
-    {
-      vn: "Cá Mương Hoa Lục An", en: "Lục An Zacco", img: "luclan_1.jpg", photo: true, price: 362000,
-      desc: "Cá Mương Hoa Lục An (Zacco platypus) là dòng cá mương nước ngọt có nguồn gốc từ khu vực Lục An, An Huy, Trung Quốc. Cá hiền, bơi khỏe, ưa sống theo đàn và hoạt động liên tục — phù hợp bể suối có dòng chảy, nước sạch, nhiều oxy, nền sỏi đá.",
-      origin: "Lục An, An Huy, Trung Quốc", size: "12–15 cm", promo: "Cá mới về", contactText: "", combo: {3:326000,5:308000,10:271000}, gallery: ["assets/img/unified_1.jpg"]
-    },
+    
     {
       vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "unified_1.jpg", photo: true, price: 46000,
       desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
@@ -453,8 +464,8 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Beo Tuyết 9-10", en: "Snow Leopard Discus 9-10", img: "unified_1.jpg", photo: true, price: 630000,
-      desc: "Cá Đĩa Beo Tuyết 9-10 (Symphysodon aequifasciatus, dòng Snow Leopard size 9-10 hiền ruby) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ. Cá có nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Beo Tuyết", en: "Snow Leopard Discus", img: "unified_1.jpg", photo: true, price: 630000,
+      desc: "Cá Đĩa Beo Tuyết (Symphysodon aequifasciatus, dòng Snow Leopard hiền ruby) là dòng cá đĩa cao cấp được lai tạo chọn lọc qua nhiều thế hệ. Cá có nền thân trắng ngà điểm những đốm đỏ cam rải khắp mình tựa hoa văn beo tuyết. Cá hiền lành nhưng hơi nhút nhát — thích bể nhiều cây, lũa, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "9–10 cm", promo: "Không có", contactText: "", combo: {3:595000,5:560000,10:525000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
@@ -478,19 +489,11 @@ const FISH = [
       origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:111000,5:104000,10:98000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Hồng My Gold 6-7", en: "Gold Rosy Barb 6-7", img: "unified_1.jpg", photo: true, price: 449000,
-      desc: "Cá Hồng My Gold 6-7 là dòng cá cảnh bơi đàn nổi bật với sắc vàng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên, nước 22–26°C.",
+      vn: "Cá Hồng My Gold", en: "Gold Rosy Barb", img: "unified_1.jpg", photo: true, price: 449000,
+      desc: "Cá Hồng My Gold là dòng cá cảnh bơi đàn nổi bật với sắc vàng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên, nước 22–26°C.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
-    {
-      vn: "Cá Mương Hoa Chiết Giang", en: "Opsariichthys evolans", img: "muonghoa_1.jpg", photo: true, price: 186000,
-      desc: "Cá Mương Hoa (Opsariichthys evolans) là một loài cá suối bản địa nổi bật với thân hình thuôn dài, vây dài và những đường vân hoa đẹp mắt. Đây là dòng cá nước ngọt có tính cách thân thiện, ưa hoạt động và rất thích bơi lội. Phân bố chủ yếu ở Đông Nam Trung Quốc, Đài Loan và các vùng Đông Bắc Á.",
-      origin: "Đông Nam Trung Quốc, Đài Loan", size: "7–14 cm", promo: "Không có", contactText: "", combo: {3:170000,5:162000,10:145000}, gallery: ["assets/img/unified_1.jpg"]
-    },
-    {
-      vn: "Cá Chuột Mỹ", en: "United States Cory", img: "cá_chuột_mỹ.jpg", photo: true, price: 60000,
-      desc: "Cá Chuột Mỹ (Corydoras sp. dòng Mỹ) là dòng cá chuột cảnh lớn nổi bật với thân ánh bạc có đốm đen lớn ở vây lưng và đuôi, kích thước lớn hơn các dòng Corydoras thông thường. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-      origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:54000,5:50000,10:46000}, gallery: ["assets/img/unified_1.jpg"]
-    },
+    
+    
 
     ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
