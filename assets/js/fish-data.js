@@ -470,6 +470,5 @@ const FISH = [
     desc: "Cá Hải hồ short là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"455.000đ",5:"438.000đ",10:"420.000đ"},
     gallery: ["assets/img/c_h_i_h_short_1.jpg", "assets/img/c_h_i_h_short_2.jpg"]
-  },
-{ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' },
-  ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
+  }
+].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
