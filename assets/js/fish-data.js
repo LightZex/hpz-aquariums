@@ -258,9 +258,9 @@ const FISH = [
           origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:41000,5:40000,10:39000}, gallery: ["assets/img/unified_1.jpg"]
         },
         {
-          vn: "Cá Kim Thơm", en: "Severum Gold", img: "unified_1.jpg", photo: true, price: 270000,
-          dedesc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:250000,5:235000,10:221000}, gallery: ["assets/img/unified_1.jpg"]
+          vn: "Cá Kim Thơm Hoàng Đế", en: "Emperor Severum", img: "severum_1.jpg", photo: true, price: 414000,
+          desc: "Cá Kim Thơm Hoàng Đế (Heros efasciatus, dòng Emperor Severum) là dòng cá cảnh lớn nổi bật với thân dẹp hình đĩa, vảy ánh kim vàng óng phủ đều khắp thân và vây. Cá hiền, khỏe, phù hợp bể rộng có nhiều cây và lũa, nước mềm ấm 24–28°C. Nên nuôi nhóm từ 3–4 con trở lên.",
+          origin: "Lai tạo chọn lọc", size: "12–15 cm", promo: "Không có", contactText: "", combo: {3:400000,5:388000,10:370000}, gallery: ["assets/img/severum_1.jpg"]
         },
         {
           vn: "Cá Đĩa Xanh Lam", en: "Blue Discus", img: "unified_1.jpg", photo: true, price: 319000,
