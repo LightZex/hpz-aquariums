@@ -8,7 +8,7 @@
   let filtered = FISH.slice();
   let page = 1;
 
-  const vnd = n => n.toLocaleString('vi-VN') + '₫';
+  const vnd = n => (typeof n === 'string' ? n : n.toLocaleString('vi-VN') + '₫');
 
   function cardHTML(f){
     const style = f.filter ? ` style="filter:${f.filter}"` : '';

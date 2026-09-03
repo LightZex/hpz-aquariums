@@ -8,7 +8,7 @@
         || FISH.find(x => x.en.toLowerCase().includes(ql))
         || FISH.find(x => x.vn.toLowerCase().includes(ql))
         || FISH[0];
-  const vnd = n => n.toLocaleString('vi-VN') + '₫';
+  const vnd = n => (typeof n === 'string' ? n : n.toLocaleString('vi-VN') + '₫');
 
   if(!f){
     root.innerHTML = `<p style="color:var(--muted)">Không tìm thấy thông tin cá. <a href="beca.html">Xem toàn bộ bể cá →</a></p>`;
