@@ -363,52 +363,52 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Tiger HB HR", en: "Tiger HB HR Discus", img: "unified_1.jpg", photo: true, price: 440000,
+      vn: "Cá Đĩa Tiger HB", en: "Tiger HB Discus", img: "unified_1.jpg", photo: true, price: 440000,
       desc: "Cá Đĩa Tiger HB HR (Symphysodon aequifasciatus, dòng Tiger HB HR) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền ánh kim. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:380000,5:360000,10:320000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bồ Câu Đỏ HR", en: "Red Pigeon HR Discus", img: "unified_1.jpg", photo: true, price: 352000,
+      vn: "Cá Đĩa Bồ Câu Đỏ", en: "Red Pigeon Discus", img: "unified_1.jpg", photo: true, price: 352000,
       desc: "Cá Đĩa Bồ Câu Đỏ HR (Symphysodon aequifasciatus, dòng Red Pigeon HR) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:320000,5:304000,10:272000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Xanh LN", en: "Blue Diamond Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "unified_1.jpg", photo: true, price: 210000,
       desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Xanh LN", en: "Blue Diamond Discus LN", img: "unified_1.jpg", photo: true, price: 74000,
+      vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "unified_1.jpg", photo: true, price: 74000,
       desc: "Cá Đĩa Bông Xanh (Symphysodon aequifasciatus, dòng Blue Diamond LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh ánh kim phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:68000,5:65000,10:61000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Nâu LN", en: "Brown Spotted Discus LN", img: "unified_1.jpg", photo: true, price: 273000,
+      vn: "Cá Đĩa Bông Nâu", en: "Brown Spotted Discus", img: "unified_1.jpg", photo: true, price: 273000,
       desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bông Nâu LN", en: "Brown Spotted Discus LN", img: "unified_1.jpg", photo: true, price: 449000,
+      vn: "Cá Đĩa Bông Nâu", en: "Brown Spotted Discus", img: "unified_1.jpg", photo: true, price: 449000,
       desc: "Cá Đĩa Bông Nâu (Symphysodon aequifasciatus, dòng Brown Spotted LN) là dòng cá đĩa hoang dã lai tạo với nền thân nâu ấm điểm các đốm sáng nhỏ. Cá hiền, phù hợp bể nhiều cây, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:390000,5:370000,10:350000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Chỉ Đỏ LN", en: "Red Streak Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      vn: "Cá Đĩa Chỉ Đỏ", en: "Red Streak Discus", img: "unified_1.jpg", photo: true, price: 210000,
       desc: "Cá Đĩa Chỉ Đỏ (Symphysodon aequifasciatus, dòng Red Streak LN) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ chạy dọc thân. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Valentine Đỏ LN", en: "Valentine Red Discus LN", img: "unified_1.jpg", photo: true, price: 273000,
+      vn: "Cá Đĩa Valentine Đỏ", en: "Valentine Red Discus", img: "unified_1.jpg", photo: true, price: 273000,
       desc: "Cá Đĩa Valentine Đỏ (Symphysodon aequifasciatus, dòng Valentine Red LN) là dòng cá đĩa lai tạo nổi bật với sắc đỏ valentine đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:247000,5:241000,10:215000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Xanh Cobalt LN", en: "Cobalt Blue Discus LN", img: "unified_1.jpg", photo: true, price: 210000,
+      vn: "Cá Đĩa Xanh Cobalt", en: "Cobalt Blue Discus", img: "unified_1.jpg", photo: true, price: 210000,
       desc: "Cá Đĩa Xanh Cobalt (Symphysodon aequifasciatus, dòng Cobalt Blue LN) là dòng cá đĩa lai tạo nổi bật với sắc xanh cobalt rực rỡ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/unified_1.jpg"]
     },
     {
-      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng LN", en: "Red Yellow Pigeon Discus LN", img: "unified_1.jpg", photo: true, price: 369000,
+      vn: "Cá Đĩa Bồ Câu Đỏ/Vàng", en: "Red Yellow Pigeon Discus", img: "unified_1.jpg", photo: true, price: 369000,
       desc: "Cá Đĩa Bồ Câu Đỏ/Vàng (Symphysodon aequifasciatus, dòng Red Yellow Pigeon LN) là dòng cá đĩa lai tạo nổi bật với sắc đỏ vàng phối hợp. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:351000,5:333000,10:315000}, gallery: ["assets/img/unified_1.jpg"]
     },
