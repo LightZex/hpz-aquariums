@@ -182,12 +182,12 @@ const FISH = [
 {
       vn: "Cá Ryukin", en: "Ryukin Goldfish", img: "c_ryukin_1.jpg", photo: true, price: "198.000đ",
       desc: "Cá Ryukin là dòng cá vàng đuôi dài nổi bật với phần lưng gù cao đặc trưng và vây đuôi xòe rộng ba chia. Cá hiền lành, bơi chậm rãi, phù hợp bể ngoại cảnh hoặc bể trong nhà rộng, nước sạch 18–24°C.",
-      origin: "Lai tạo chọn lọc từ cá vàng Nhật Bản", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"178.000đ",5:"168.000đ",10:"158.000đ"}, gallery: ["assets/img/c_ryukin_1.jpg", "assets/img/c_ryukin_2.jpg"]
+      origin: "Lai tạo chọn lọc từ cá vàng Nhật Bản", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"178.000đ",5:"168.000đ",10:"158.000đ"}, gallery: ["assets/img/c_ryukin_1.jpg"]
     },
 {
       vn: "Cá Thần Tiên Altum Peru", en: "Altum Angelfish Peru", img: "c_th_n_ti_n_altum_peru_1.jpg", photo: true, price: "176.000đ - 270.000đ",
       desc: "Cá Thần Tiên Altum Peru (Pterophyllum altum) là dòng thần tiên hoang dã quý hiếm có nguồn gốc từ lưu vực sông Amazon Peru và Colombia, nổi bật với dáng cao, vây dài uyển chuyển và sọc dọc đậm nét. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Sông Amazon, Peru", size: "3–6 cm", promo: "Không có", contactText: "", combo: {3:"160.000đ - 255.000đ",5:"152.000đ - 240.000đ",10:"148.000đ - 218.000đ"}, gallery: ["assets/img/c_th_n_ti_n_altum_peru_1.jpg", "assets/img/c_th_n_ti_n_altum_peru_2.jpg"]
+      origin: "Sông Amazon, Peru", size: "3–6 cm", promo: "Không có", contactText: "", combo: {3:"160.000đ - 255.000đ",5:"152.000đ - 240.000đ",10:"148.000đ - 218.000đ"}, gallery: ["assets/img/c_th_n_ti_n_altum_peru_1.jpg"]
     },
 {
       vn: "Cá Black Ruby", en: "Black Ruby Barb", img: "c_black_ruby_1.jpg", photo: true, price: "80.000đ",
@@ -197,22 +197,22 @@ const FISH = [
 {
       vn: "Cá Tỳ Bà Bướm Muối Tiêu", en: "Salt and Pepper Pleco", img: "c_t_b_b_m_mu_i_ti_u_1.jpg", photo: true, price: "18.000đ",
       desc: "Cá Tỳ Bà Bướm Muối Tiêu là dòng cá lau kiếng nhỏ nổi bật với thân điểm đốm đen nhỏ li ti trên nền sáng giống hạt muối tiêu. Cá hiền, ăn tảo và thức ăn đáy, phù hợp bể thủy sinh có nhiều lũa đá, nước 22–26°C.",
-      origin: "Nam Mỹ", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:"13.000đ",5:"12.000đ",10:"11.000đ"}, gallery: ["assets/img/c_t_b_b_m_mu_i_ti_u_1.jpg", "assets/img/c_t_b_b_m_mu_i_ti_u_2.jpg"]
+      origin: "Nam Mỹ", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:"13.000đ",5:"12.000đ",10:"11.000đ"}, gallery: ["assets/img/c_t_b_b_m_mu_i_ti_u_1.jpg"]
     },
 {
       vn: "Cá Bống Tê Giác", en: "Rhino Goby", img: "c_b_ng_t_gi_c_1.jpg", photo: true, price: "20.000đ",
       desc: "Cá Bống Tê Giác là dòng cá tầng đáy nổi bật với phần đầu có sừng nhỏ đặc trưng và thân phủ đốm. Cá hiền, ăn tạp đáy, phù hợp bể có nền cát mịn và nhiều hang trú ẩn, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:"18.000đ",5:"17.000đ",10:"16.000đ"}, gallery: ["assets/img/c_b_ng_t_gi_c_1.jpg", "assets/img/c_b_ng_t_gi_c_2.jpg"]
+      origin: "Đông Nam Á", size: "Cối (nhỏ)", promo: "Không có", contactText: "", combo: {3:"18.000đ",5:"17.000đ",10:"16.000đ"}, gallery: ["assets/img/c_b_ng_t_gi_c_1.jpg"]
     },
 {
       vn: "Cá Bảo Liên Đăng", en: "Bao Lien Dang", img: "c_b_o_li_n_ng_1.jpg", photo: true, price: "92.000đ",
           desc: "Cá Bảo Liên Đăng là dòng cá cảnh nước ngọt nổi bật với sắc cam đỏ ánh kim và vây dài uyển chuyển. Cá hiền, khỏe, bơi đàn, phù hợp bể thủy sinh cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước 22–26°C.",
-          origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:"80.000đ",5:"74.000đ",10:"67.000đ"}, gallery: ["assets/img/c_b_o_li_n_ng_1.jpg", "assets/img/c_b_o_li_n_ng_2.jpg"]
+          origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:"80.000đ",5:"74.000đ",10:"67.000đ"}, gallery: ["assets/img/c_b_o_li_n_ng_1.jpg"]
         },
 {
           vn: "Cá Hỏa Liên Đăng", en: "Hoa Lien Dang", img: "c_h_a_li_n_ng_1.jpg", photo: true, price: "79.000đ",
           desc: "Cá Hỏa Liên Đăng là dòng cá cảnh nước ngọt nổi bật với sắc đỏ ánh lửa và vây dài uyển chuyển. Cá hiền, khỏe, bơi đàn, phù hợp bể thủy sinh cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước 22–26°C.",
-          origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:"48.000đ",5:"45.000đ",10:"42.000đ"}, gallery: ["assets/img/c_h_a_li_n_ng_1.jpg", "assets/img/c_h_a_li_n_ng_2.jpg"]
+          origin: "Châu Á", size: "4–6 cm", promo: "Không có", contactText: "", combo: {3:"48.000đ",5:"45.000đ",10:"42.000đ"}, gallery: ["assets/img/c_h_a_li_n_ng_1.jpg"]
         },
 {
           vn: "Cá Thè Be Bướm TQ Viền Trắng", en: "Chinese Butterfly Cichlid White Edge", img: "c_th_be_b_m_tq_vi_n_tr_ng_2.jpg", photo: true, price: "84.000đ",
@@ -227,27 +227,27 @@ const FISH = [
 {
           vn: "Cá Longfin 24k", en: "24k Longfin Goldfish", img: "c_longfin_24k_1.jpg", photo: true, price: "81.000đ - 86.000đ",
           desc: "Cá Longfin 24k là dòng cá vàng vây dài nổi bật với sắc vàng ánh kim óng ánh và bộ vây dài uyển chuyển. Cá hiền, bơi chậm, phù hợp bể rộng nước sạch 18–24°C.",
-          origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"74.000đ",5:"72.000đ",10:"65.000đ - 70.000đ"}, gallery: ["assets/img/c_longfin_24k_1.jpg", "assets/img/c_longfin_24k_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"74.000đ",5:"72.000đ",10:"65.000đ - 70.000đ"}, gallery: ["assets/img/c_longfin_24k_1.jpg"]
         },
 {
           vn: "Cá Thần Tiên Blue Ghost", en: "Blue Ghost Angelfish", img: "c_th_n_ti_n_blue_ghost_1.jpg", photo: true, price: "21.000đ",
           desc: "Cá Thần Tiên Blue Ghost là dòng thần tiên lai tạo nổi bật với sắc xanh lam nhạt ánh bạc đặc trưng. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-          origin: "Lai tạo chọn lọc", size: "3 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ",5:"14.000đ",10:"13.000đ"}, gallery: ["assets/img/c_th_n_ti_n_blue_ghost_1.jpg", "assets/img/c_th_n_ti_n_blue_ghost_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "3 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ",5:"14.000đ",10:"13.000đ"}, gallery: ["assets/img/c_th_n_ti_n_blue_ghost_1.jpg"]
         },
 {
           vn: "Cá Hải Hồ AB", en: "Short Seahorse", img: "c_h_i_h_ab_1.jpg", photo: true, price: "342.000đ",
           desc: "Cá Hải Hồ Short là dòng cá cảnh nước ngọt nổi bật với dáng đứng đặc trưng và kích tháng nhỏ gọn. Cá hiền, hoạt động chậm, thích hợp bể riêng yên tĩnh có nhiều cây và hang trú ẩn, nước ổn định 24–28°C.",
-          origin: "Lai tạo chọn lọc", size: "6–8 cm", promo: "Không có", contactText: "", combo: {3:"314.000đ",5:"304.000đ",10:"285.000đ"}, gallery: ["assets/img/c_h_i_h_ab_1.jpg", "assets/img/c_h_i_h_ab_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "6–8 cm", promo: "Không có", contactText: "", combo: {3:"314.000đ",5:"304.000đ",10:"285.000đ"}, gallery: ["assets/img/c_h_i_h_ab_1.jpg"]
         },
 {
           vn: "Cá Thần Tiên Isabel", en: "Isabel Angelfish", img: "c_th_n_ti_n_isabel_1.jpg", photo: true, price: "378.000đ",
           desc: "Cá Thần Tiên Isabel là dòng thần tiên lai tạo nổi bật với sắc vàng ánh kim và hoa văn độc đáo trên thân. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-          origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_th_n_ti_n_isabel_1.jpg", "assets/img/c_th_n_ti_n_isabel_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_th_n_ti_n_isabel_1.jpg"]
         },
 {
           vn: "Cá Shortfin 24k", en: "24k Shortfin Goldfish", img: "c_shortfin_24k_1.jpg", photo: true, price: 45000,
           desc: "Cá Shortfin 24k là dòng cá vàng vây ngắn nổi bật với sắc vàng ánh kim óng ánh đặc trưng. Cá hiền, bơi chậm, phù hợp bể rộng nước sạch 18–24°C.",
-          origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:41000,5:40000,10:39000}, gallery: ["assets/img/c_shortfin_24k_1.jpg", "assets/img/c_shortfin_24k_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:41000,5:40000,10:39000}, gallery: ["assets/img/c_shortfin_24k_1.jpg"]
         },
 {
           vn: "Cá Kim Thơm Hoàng Đế", en: "Emperor Severum", img: "severum_1.jpg", photo: true, price: "414.000đ",
