@@ -120,7 +120,7 @@ const FISH = [
     gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg"]
               },
 {
-        vn: "Cá Đĩa Tiger High Body", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"440.000đ - 450.000đ",
+        vn: "Cá Đĩa Tiger High Body", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"440.000đ - 534.000đ",
         desc: "Cá Đĩa Tiger HB (Symphysodon aequifasciatus, dòng Tiger HB / Heckel cross) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền thân ánh kim, phối màu xanh lục, đỏ và nâu đặc trưng. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
     gallery: ["assets/img/cá_đĩa_tiger_hb.jpg"]
       },
@@ -323,11 +323,6 @@ const FISH = [
       vn: "Cá Thè Be Ngũ Sắc", en: "Multicolor Severum", img: "c_th_be_ng_s_c_1.jpg", photo: true, price: "27.000đ - 39.000đ",
       desc: "Cá Thè Be Ngũ Sắc là dòng cichlid Nam Mỹ nổi bật với hoa văn nhiều màu sắc rực rỡ trên thân. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
       origin: "Nam Mỹ", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:"24.000đ - 35.000đ",5:"23.000đ - 33.000đ",10:"18.000đ - 26.000đ"}, gallery: ["assets/img/c_th_be_ng_s_c_1.jpg"]
-    },
-{
-      vn: "Cá Đĩa Tiger High Body", en: "Tiger High Body Discus", img: "c_a_tiger_high_body_1.jpg", photo: true, price: 534000,
-      desc: "Cá Đĩa Tiger High Body (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp với thân hình dày và hoa văn sọc dọc đậm nét đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:507000,5:454000,10:427000}, gallery: ["assets/img/c_a_tiger_high_body_1.jpg"]
     },
 {
       vn: "Cá Đĩa Đỏ", en: "Red Discus", img: "c_a_1.jpg", photo: true, price: 208000,
