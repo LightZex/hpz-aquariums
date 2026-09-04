@@ -330,8 +330,8 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/c_a_1.jpg"]
     },
 {
-      vn: "Cá Đĩa Red Devil AB", en: "Red Devil Discus", img: "c_a_red_devil_ab_1.jpg", photo: true, price: "169.000đ - 655.000đ",
-      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
+      vn: "Cá Đĩa Red AB", en: "Red AB Discus", img: "c_a_red_devil_ab_1.jpg", photo: true, price: "655.000đ",
+      desc: "Cá Đĩa Red AB (Symphysodon aequifasciatus, dòng Red AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_a_red_devil_ab_1.jpg"]
     },
 {
