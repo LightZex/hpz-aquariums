@@ -332,7 +332,7 @@ const FISH = [
 {
       vn: "Cá Đĩa Red AB", en: "Red AB Discus", img: "c_a_red_devil_ab_1.jpg", photo: true, price: "655.000đ",
       desc: "Cá Đĩa Red AB (Symphysodon aequifasciatus, dòng Red AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_a_red_devil_ab_1.jpg"]
+      origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_a_red_devil_ab_1.jpg"]
     },
 {
       vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "c_a_b_ng_xanh_1.jpg", photo: true, price: "74.000đ - 265.000đ",
@@ -458,9 +458,15 @@ const FISH = [
     gallery: ["assets/img/c_h_i_h_short_1.jpg"]
   },
 {
-    vn: "Cá Đĩa Red Devil AB", en: "Red Devil AB Discus", img: "c_a_red_devil_ab_moi_1.jpg", photo: true, price: "169.000đ - 655.000đ",
+    vn: "Cá Đĩa Red Devil AB", en: "Red Devil AB Discus", img: "c_a_red_devil_ab_moi_1.jpg", photo: true, price: "169.000đ",
     desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là cá đĩa cao cấp nổi bật với thân tròn dẹt, màu đỏ cam rực rỡ kết hợp vân loang bất đối xứng rất cá tính. Cá hiền, thích bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
     origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {},
     gallery: ["assets/img/c_a_red_devil_ab_moi_1.jpg"]
+  },
+{
+    vn: "Cá Đĩa Bồ Câu Vàng", en: "Pigeon Blood Yellow Discus", img: "c_a_b_c_u_v_ng_1.jpg", photo: true, price: "369.000đ",
+    desc: "Cá Đĩa Bồ Câu Vàng (Symphysodon aequifasciatus, dòng Pigeon Blood Yellow) là cá đĩa cao cấp với nền thân vàng tươi đặc trưng, điểm xuyết vân đen mảnh rải rác kiểu bồ câu và mắt đỏ sáng. Cá hiền, thích bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+    origin: "Lai tạo chọn lọc", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:351000,5:333000,10:315000},
+    gallery: ["assets/img/c_a_b_c_u_v_ng_1.jpg"]
   }
 ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
