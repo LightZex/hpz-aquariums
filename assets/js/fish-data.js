@@ -175,8 +175,8 @@ const FISH = [
       origin: "Hoa Kỳ", size: "3–9 cm", promo: "Không có", contactText: "", combo: {3:"54.000đ - 147.000đ",5:"50.000đ - 143.000đ",10:"46.000đ - 137.000đ"}, gallery: ["assets/img/unified_1.jpg"]
     },
 {
-        vn: "Cá Thần Tiên Piony", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:"40.000đ - 108.000đ",
-        desc: "Cá Thần Tiên Piony (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+        vn: "Cá Thần Tiên Pinoy", en: "Pterophyllum scalare 'Pinoy'", img: "cá_thần_tiên_piony.jpg", photo: true, price:"40.000đ - 108.000đ",
+        desc: "Cá Thần Tiên Pinoy (Pterophyllum scalare, dòng Pinoy / Philippines Blue) là thần tiên lai tạo nổi bật với thân ánh xanh lam, vảy bạc và vây dài uyển chuyển. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
     gallery: ["assets/img/cá_thần_tiên_piony.jpg"]
       },
 {
