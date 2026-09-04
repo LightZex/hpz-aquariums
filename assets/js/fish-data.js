@@ -456,5 +456,11 @@ const FISH = [
     desc: "Cá Hải hồ short là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"455.000đ",5:"438.000đ",10:"420.000đ"},
     gallery: ["assets/img/c_h_i_h_short_1.jpg"]
+  },
+{
+    vn: "Cá Đĩa Red Devil AB", en: "Red Devil AB Discus", img: "c_a_red_devil_ab_moi_1.jpg", photo: true, price: "169.000đ - 655.000đ",
+    desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là cá đĩa cao cấp nổi bật với thân tròn dẹt, màu đỏ cam rực rỡ kết hợp vân loang bất đối xứng rất cá tính. Cá hiền, thích bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
+    origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {},
+    gallery: ["assets/img/c_a_red_devil_ab_moi_1.jpg"]
   }
 ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
