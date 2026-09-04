@@ -1,4 +1,4 @@
-/* HPZ Aquariums - LiquidEther fluid background (vanilla port of React Bits LiquidEther)
+/* HPZ Aquaroom - LiquidEther fluid background (vanilla port of React Bits LiquidEther)
    Deps: three (global THREE from assets/js/three.min.js)
    Palette: xanh biển HPZ (tím gốc -> xanh) */
 (function () {

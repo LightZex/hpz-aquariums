@@ -1,4 +1,4 @@
-/* HPZ Aquariums - undersea background v2
+/* HPZ Aquaroom - undersea background v2
    Cá vẽ path cong bơi thật + hiệu ứng nước (caustics, tia sáng trôi, plankton, vignette). */
 (function(){
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

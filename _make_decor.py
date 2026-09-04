@@ -1,4 +1,4 @@
-# HPZ Aquariums - sinh sprite trang trí đáy biển (tự vẽ, không cần tải)
+# HPZ Aquaroom - sinh sprite trang trí đáy biển (tự vẽ, không cần tải)
 # Output: assets/img/scene/{starfish,starfish_small,coral_pink,coral_orange,pearl_shell}.png
 from PIL import Image, ImageDraw, ImageFilter
 import math, os

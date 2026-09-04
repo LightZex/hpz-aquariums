@@ -1,4 +1,4 @@
-# HPZ Aquariums
+# HPZ Aquaroom
 
 Showroom cá cảnh trực thuộc hệ thống **HPzoo Ecosystem** — Cầu Giấy, Hà Nội.
 
@@ -23,4 +23,4 @@ HTML + CSS + JavaScript thuần (không framework), canvas 2D cho hiệu ứng b
 
 ---
 
-© 2026 HPZ Aquariums — HPzoo Ecosystem
+© 2026 HPZ Aquaroom — HPzoo Ecosystem

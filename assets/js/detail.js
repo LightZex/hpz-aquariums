@@ -1,4 +1,4 @@
-/* HPZ Aquariums - fish detail page (fish.html?fish=<en>) */
+/* HPZ Aquaroom - fish detail page (fish.html?fish=<en>) */
 (function(){
   const root = document.getElementById('detail-root');
   if(!root) return;
@@ -12,10 +12,10 @@
 
   if(!f){
     root.innerHTML = `<p style="color:var(--muted)">Không tìm thấy thông tin cá. <a href="beca.html">Xem toàn bộ bể cá →</a></p>`;
-    document.title = 'Không tìm thấy — HPZ Aquariums';
+    document.title = 'Không tìm thấy — HPZ Aquaroom';
     return;
   }
-  document.title = f.vn + ' — HPZ Aquariums';
+  document.title = f.vn + ' — HPZ Aquaroom';
 
   const idx = FISH.findIndex(x => x.en.toLowerCase() === (f.en||'').toLowerCase());
   const prevF = FISH[(idx - 1 + FISH.length) % FISH.length];

@@ -1,4 +1,4 @@
-/* HPZ Aquariums - Underwater fish background (three.js)
+/* HPZ Aquaroom - Underwater fish background (three.js)
    Góc nhìn dưới biển: cá bơi, tia sáng mặt trời từ trên, bong bóng, caustics.
    Màu xanh HPZ. Nhẹ, không cần GPU mạnh. */
 (function () {

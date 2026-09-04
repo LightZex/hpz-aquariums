@@ -1,4 +1,4 @@
-/* HPZ Aquariums - reviews carousel: chạy marquee LIÊN TỤC, chậm + mượt (không nhảy slide) */
+/* HPZ Aquaroom - reviews carousel: chạy marquee LIÊN TỤC, chậm + mượt (không nhảy slide) */
 (function(){
   const track = document.getElementById('review-track');
   if(!track || typeof REVIEWS==='undefined' || !REVIEWS.length) return;

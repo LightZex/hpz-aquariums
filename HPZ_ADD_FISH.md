@@ -1,4 +1,4 @@
-# HPZ Aquariums — Workflow thêm cá (script/tham khảo)
+# HPZ Aquaroom — Workflow thêm cá (script/tham khảo)
 
 Repo: C:\Users/daodu\.hermes\hpz-aquariums
 Live: https://lightzex.github.io/hpz-aquariums/

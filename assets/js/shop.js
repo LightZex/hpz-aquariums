@@ -1,4 +1,4 @@
-/* HPZ Aquariums - catalogue: search + pagination 12/page + click -> detail */
+/* HPZ Aquaroom - catalogue: search + pagination 12/page + click -> detail */
 (function(){
   const grid = document.getElementById('fish-grid');
   const search = document.getElementById('fish-search');

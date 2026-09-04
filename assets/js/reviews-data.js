@@ -1,4 +1,4 @@
-// HPZ Aquariums - reviews data
+// HPZ Aquaroom - reviews data
 // M có thể copy review thật từ FB (facebook.com/hpzaquaroom/reviews) paste vào đây.
 // Format: { stars: 5, quote: "...", who: "Tên khách" }
 // Hiện tại là placeholder — thay text thật trước khi up.

@@ -1,4 +1,4 @@
-/* HPZ Aquariums - Underwater 2D scene (sprite-based, Kenney CC0 assets)
+/* HPZ Aquaroom - Underwater 2D scene (sprite-based, Kenney CC0 assets)
    Nền biển + god rays + cá bơi nhiều lớp + rong 2 bên + đá/cát + bong bóng. */
 (function () {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
