@@ -115,8 +115,8 @@ const FISH = [
     gallery: ["assets/img/cá_thần_tiên_paraiba.jpg"]
               },
 {
-                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "cá_thần_tiên_mana_red_back.jpg", photo: true, price:"65.000đ",
-                desc: "Cá Thần Tiên Mana Red Black / Manacapuru Redback Angelfish (Pterophyllum scalare, locality Manacapuru) là dòng thần tiên hoang dại nổi bật với viền lưng đỏ cam đậm chạy từ vây lưng xuống cuống đuôi trên nền thân bạc ánh kim. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
+                vn: "Cá Thần Tiên Mana Red Black", en: "Pterophyllum scalare 'Manacapuru Red Back'", img: "cá_thần_tiên_mana_red_back.jpg", photo: true, price:"65.000đ - 100.000đ",
+                desc: "Cá Thần Tiên Mana Red Black / Manacapuru Redback Angelfish (Pterophyllum scalare, locality Manacapuru) là dòng thần tiên hoang dại nổi bật với viền lưng đỏ cam đậm chạy từ vây lưng xuống cuống đuôi trên nền thân bạc ánh kim — có bản thường và bản phẩm cao chọn lọc. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
     gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg"]
               },
 {
@@ -394,11 +394,7 @@ const FISH = [
       desc: "Cá Mị Nương Ngọc Lam là dòng cá cảnh Trung Quốc nổi bật với sắc xanh ngọc lam ánh kim và dáng thuôn dài đặc trưng. Cá hiền, thích hợp bể cộng đồng rộng, nước mềm 22–26°C.",
       origin: "Trung Quốc", size: "10–18 cm", promo: "Không có", contactText: "", combo: {3:"184.000đ - 600.000đ",5:"168.000đ - 570.000đ",10:"152.000đ - 540.000đ"}, gallery: ["assets/img/c_m_n_ng_ng_c_lam_1.jpg"]
     },
-{
-      vn: "Cá Thần Tiên Mana Red Black Phẩm Cao", en: "Mana Red Black Premium Angelfish", img: "c_th_n_ti_n_mana_red_black_ph_m_cao_1.jpg", photo: true, price: 100000,
-      desc: "Cá Thần Tiên Mana Red Black Phẩm Cao (Pterophyllum scalare, dòng Manacapuru Red Back phẩm cao size 3-4) là thần tiên hoang dã nổi bật với viền lưng đỏ cam đậm — dòng phẩm cao chọn lọc. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/c_th_n_ti_n_mana_red_black_ph_m_cao_1.jpg"]
-    },
+
 {
       vn: "Cá Chuột Black Vene", en: "Black Vene Cory", img: "c_chu_t_black_vene_1.jpg", photo: true, price: "116.000đ",
       desc: "Cá Chuột Black Vene là dòng cá chuột cảnh nổi bật với thân đen ánh kim và hoa văn đặc trưng. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây và lũa, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
