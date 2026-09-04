@@ -267,17 +267,17 @@ const FISH = [
 {
           vn: "Cá Đĩa Da Beo", en: "Leopard Discus", img: "c_a_da_beo_1.jpg", photo: true, price: "393.000đ",
           desc: "Cá Đĩa Da Beo (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với hoa văn đốm tròn rải đều khắp thân giống da báo. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"373.000đ",5:"352.000đ",10:"311.000đ"}, gallery: ["assets/img/c_a_da_beo_1.jpg", "assets/img/c_a_da_beo_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"373.000đ",5:"352.000đ",10:"311.000đ"}, gallery: ["assets/img/c_a_da_beo_1.jpg"]
         },
 {
           vn: "Cá Đĩa Bồ Câu Đỏ", en: "Red Pigeon Discus", img: "c_a_b_c_u_1.jpg", photo: true, price: "208.000đ - 352.000đ",
           desc: "Cá Đĩa Bồ Câu Đỏ (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với sắc đỏ cam phủ đều khắp thân tựa màu lông bồ câu đỏ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "7–9 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ - 320.000đ",5:"182.000đ - 304.000đ",10:"169.000đ - 272.000đ"}, gallery: ["assets/img/c_a_b_c_u_1.jpg", "assets/img/c_a_b_c_u_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "7–9 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ - 320.000đ",5:"182.000đ - 304.000đ",10:"169.000đ - 272.000đ"}, gallery: ["assets/img/c_a_b_c_u_1.jpg"]
         },
 {
           vn: "Cá Đĩa Panda Đỏ", en: "Red Panda Discus", img: "c_a_panda_1.jpg", photo: true, price: "208.000đ",
           desc: "Cá Đĩa Panda Đỏ (Symphysodon aequifasciatus) là dòng cá đĩa lai tạo nổi bật với các vệt đỏ đậm trên nền trắng tựa hình gấu trúc đỏ. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nuôi nhóm 5+ con.",
-          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ",5:"182.000đ",10:"169.000đ"}, gallery: ["assets/img/c_a_panda_1.jpg", "assets/img/c_a_panda_2.jpg"]
+          origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:"195.000đ",5:"182.000đ",10:"169.000đ"}, gallery: ["assets/img/c_a_panda_1.jpg"]
         },
 {
       vn: "Cá Pleco L190", en: "Royal Pleco L190", img: "c_pleco_l190_1.jpg", photo: true, price: "1.429.000đ",
@@ -292,7 +292,7 @@ const FISH = [
 {
       vn: "Cá Thè Be Trung Quốc", en: "Chinese Severum", img: "c_th_be_trung_qu_c_1.jpg", photo: true, price: "57.000đ",
       desc: "Cá Thè Be Trung Quốc là dòng cichlid Trung Quốc nổi bật với sắc cam ánh kim và vây dài đặc trưng. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
-      origin: "Trung Quốc", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"51.000đ",5:"48.000đ",10:"46.000đ"}, gallery: ["assets/img/c_th_be_trung_qu_c_1.jpg", "assets/img/c_th_be_trung_qu_c_2.jpg"]
+      origin: "Trung Quốc", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"51.000đ",5:"48.000đ",10:"46.000đ"}, gallery: ["assets/img/c_th_be_trung_qu_c_1.jpg"]
     },
 {
       vn: "Cá Mương Hoa TQ", en: "Chinese Zacco", img: "c_m_ng_hoa_tq_1.jpg", photo: true, price: "161.000đ",
@@ -307,12 +307,12 @@ const FISH = [
 {
       vn: "Cá Cánh Cụt Đuôi Đỏ", en: "Red Tail Penguin Tetra", img: "c_c_nh_c_t_u_i_1.jpg", photo: true, price: "45.000đ",
       desc: "Cá Cánh Cụt Đuôi Đỏ / Red Tail Penguin Tetra (Thayeria boehlkei) là dòng tetra bơi nghiêng nổi bật với thân bạc ánh kim và vây đuôi đỏ cam đặc trưng. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 8+ con, nước mềm 22–26°C.",
-      origin: "Amazon, Peru", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:"40.000đ",5:"36.000đ",10:"34.000đ"}, gallery: ["assets/img/c_c_nh_c_t_u_i_1.jpg", "assets/img/c_c_nh_c_t_u_i_2.jpg"]
+      origin: "Amazon, Peru", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:"40.000đ",5:"36.000đ",10:"34.000đ"}, gallery: ["assets/img/c_c_nh_c_t_u_i_1.jpg"]
     },
 {
       vn: "Cá Congo", en: "Congo Tetra", img: "c_congo_1.jpg", photo: true, price: "80.000đ",
       desc: "Cá Congo Tetra (Phenacogrammus interruptus) là dòng tetra lớn nổi bật với vây dài lượn sóng và sắc ánh kim rực rỡ. Cá hiền, bơi đàn rất đẹp, phù hợp bể cộng đồng nhiều cây, nên nuôi nhóm 6+ con, nước mềm hơi acid 24–28°C.",
-      origin: "Lưu vực sông Congo, châu Phi", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"76.000đ",5:"72.000đ",10:"68.000đ"}, gallery: ["assets/img/c_congo_1.jpg", "assets/img/c_congo_2.jpg"]
+      origin: "Lưu vực sông Congo, châu Phi", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"76.000đ",5:"72.000đ",10:"68.000đ"}, gallery: ["assets/img/c_congo_1.jpg"]
     },
 {
       vn: "Cá Thè Be Bướm TQ Viền Đỏ", en: "Chinese Butterfly Cichlid Red Edge", img: "c_th_be_b_m_tq_vi_n_2.jpg", photo: true, price: "198.000đ",
@@ -322,22 +322,22 @@ const FISH = [
 {
       vn: "Cá Thè Be Ngũ Sắc", en: "Multicolor Severum", img: "c_th_be_ng_s_c_1.jpg", photo: true, price: "27.000đ - 39.000đ",
       desc: "Cá Thè Be Ngũ Sắc là dòng cichlid Nam Mỹ nổi bật với hoa văn nhiều màu sắc rực rỡ trên thân. Cá hiền, thích hợp bể thủy sinh cộng đồng có nhiều cây, nước mềm hơi acid 24–28°C.",
-      origin: "Nam Mỹ", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:"24.000đ - 35.000đ",5:"23.000đ - 33.000đ",10:"18.000đ - 26.000đ"}, gallery: ["assets/img/c_th_be_ng_s_c_1.jpg", "assets/img/c_th_be_ng_s_c_2.jpg"]
+      origin: "Nam Mỹ", size: "6–9 cm", promo: "Không có", contactText: "", combo: {3:"24.000đ - 35.000đ",5:"23.000đ - 33.000đ",10:"18.000đ - 26.000đ"}, gallery: ["assets/img/c_th_be_ng_s_c_1.jpg"]
     },
 {
       vn: "Cá Đĩa Tiger High Body", en: "Tiger High Body Discus", img: "c_a_tiger_high_body_1.jpg", photo: true, price: 534000,
       desc: "Cá Đĩa Tiger High Body (Symphysodon aequifasciatus) là dòng cá đĩa cao cấp với thân hình dày và hoa văn sọc dọc đậm nét đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
-      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:507000,5:454000,10:427000}, gallery: ["assets/img/c_a_tiger_high_body_1.jpg", "assets/img/c_a_tiger_high_body_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:507000,5:454000,10:427000}, gallery: ["assets/img/c_a_tiger_high_body_1.jpg"]
     },
 {
       vn: "Cá Đĩa Đỏ", en: "Red Discus", img: "c_a_1.jpg", photo: true, price: 208000,
       desc: "Cá Đĩa Đỏ (Symphysodon aequifasciatus, dòng Red) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực phủ đều khắp thân và vây. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/c_a_1.jpg", "assets/img/c_a_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:195000,5:182000,10:169000}, gallery: ["assets/img/c_a_1.jpg"]
     },
 {
       vn: "Cá Đĩa Red Devil AB", en: "Red Devil Discus", img: "c_a_red_devil_ab_1.jpg", photo: true, price: "169.000đ - 655.000đ",
       desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa cao cấp nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_a_red_devil_ab_1.jpg", "assets/img/c_a_red_devil_ab_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "5–9 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_a_red_devil_ab_1.jpg"]
     },
 {
       vn: "Cá Đĩa Bông Xanh", en: "Blue Diamond Discus", img: "c_a_b_ng_xanh_1.jpg", photo: true, price: "74.000đ - 265.000đ",
@@ -363,11 +363,6 @@ const FISH = [
       vn: "Cá Đĩa Beo Bi EL", en: "Leopard Discus EL", img: "c_a_beo_bi_el_1.jpg", photo: true, price: 396000,
       desc: "Cá Đĩa Beo Bi (Symphysodon aequifasciatus, dòng Leopard EL) là dòng cá đĩa lai tạo nổi bật với hoa văn đốm beo trên nền ánh kim. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/c_a_beo_bi_el_1.jpg", "assets/img/c_a_beo_bi_el_2.jpg"]
-    },
-{
-      vn: "Cá Red AB Devil", en: "Red Devil Discus", img: "c_red_ab_devil_1.jpg", photo: true, price: 169000,
-      desc: "Cá Đĩa Red Devil AB (Symphysodon aequifasciatus, dòng Red Devil AB) là dòng cá đĩa lai tạo nổi bật với sắc đỏ rực và hoa văn đặc trưng. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "5–6 cm", promo: "Không có", contactText: "", combo: {3:152000,5:144000,10:140000}, gallery: ["assets/img/c_red_ab_devil_1.jpg", "assets/img/c_red_ab_devil_2.jpg"]
     },
 {
       vn: "Cá Thần Tiên Altum Atabapo F1", en: "Altum Atabapo F1 Angelfish", img: "c_th_n_ti_n_altum_atabapo_f1_1.jpg", photo: true, price: "592.000đ",
