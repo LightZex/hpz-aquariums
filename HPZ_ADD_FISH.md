@@ -1,7 +1,7 @@
 # HPZ Aquaroom — Workflow thêm cá (script/tham khảo)
 
-Repo: C:\Users/daodu\.hermes\hpz-aquariums
-Live: https://lightzex.github.io/hpz-aquariums/
+Repo: C:\Users/daodu\.hermes\hpz-aquaroom
+Live: https://lightzex.github.io/hpz-aquaroom/
 
 ## Template detail chuẩn (chỉ 7 trường)
 Hệ / Phù Hợp Bể / Size / Tình Trạng / Giá Niêm Yết / Giá Event / Tính Cách
