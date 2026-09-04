@@ -120,7 +120,7 @@ const FISH = [
     gallery: ["assets/img/cá_thần_tiên_mana_red_back.jpg"]
               },
 {
-        vn: "Cá Đĩa Tiger HB", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"440.000đ - 450.000đ",
+        vn: "Cá Đĩa Tiger High Body", en: "Symphysodon aequifasciatus 'Tiger HB'", img: "cá_đĩa_tiger_hb.jpg", photo: true, price:"440.000đ - 450.000đ",
         desc: "Cá Đĩa Tiger HB (Symphysodon aequifasciatus, dòng Tiger HB / Heckel cross) là dòng cá đĩa cao cấp với hoa văn sọc dọc đậm nét trên nền thân ánh kim, phối màu xanh lục, đỏ và nâu đặc trưng. Cá tính cách hiền, thích hợp bể rộng có nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên để cá dạn và lên màu đẹp.",
     gallery: ["assets/img/cá_đĩa_tiger_hb.jpg"]
       },
@@ -360,7 +360,7 @@ const FISH = [
       origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:190000,5:185000,10:165000}, gallery: ["assets/img/c_a_xanh_cobalt_1.jpg", "assets/img/c_a_xanh_cobalt_2.jpg"]
     },
 {
-      vn: "Cá Đĩa Beo Bi EL", en: "Leopard Discus EL", img: "c_a_beo_bi_el_1.jpg", photo: true, price: 396000,
+      vn: "Cá Đĩa Beo Bi", en: "Leopard Discus", img: "c_a_beo_bi_el_1.jpg", photo: true, price: 396000,
       desc: "Cá Đĩa Beo Bi (Symphysodon aequifasciatus, dòng Leopard EL) là dòng cá đĩa lai tạo nổi bật với hoa văn đốm beo trên nền ánh kim. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
       origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/c_a_beo_bi_el_1.jpg", "assets/img/c_a_beo_bi_el_2.jpg"]
     },
