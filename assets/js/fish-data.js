@@ -362,108 +362,108 @@ const FISH = [
 {
       vn: "Cá Đĩa Beo Bi", en: "Leopard Discus", img: "c_a_beo_bi_el_1.jpg", photo: true, price: 396000,
       desc: "Cá Đĩa Beo Bi (Symphysodon aequifasciatus, dòng Leopard EL) là dòng cá đĩa lai tạo nổi bật với hoa văn đốm beo trên nền ánh kim. Cá hiền, thích hợp bể rộng nhiều cây, ánh sáng dịu, nước mềm ấm 28–31°C. Nên nuôi nhóm từ 5 con trở lên.",
-      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/c_a_beo_bi_el_1.jpg", "assets/img/c_a_beo_bi_el_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "7–8 cm", promo: "Không có", contactText: "", combo: {3:369000,5:351000,10:324000}, gallery: ["assets/img/c_a_beo_bi_el_1.jpg"]
     },
 {
       vn: "Cá Thần Tiên Altum Atabapo F1", en: "Altum Atabapo F1 Angelfish", img: "c_th_n_ti_n_altum_atabapo_f1_1.jpg", photo: true, price: "592.000đ",
       desc: "Cá Thần Tiên Altum Atabapo F1 (Pterophyllum altum) là dòng thần tiên hoang dã F1 quý hiếm có nguồn gốc từ lưu vực sông Atabapo, Nam Mỹ. Cá nổi bật với dáng cao, vây dài uyển chuyển và sọc dọc đậm nét. Cá hiền, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Sông Atabapo, Nam Mỹ", size: "1–3 cm", promo: "Không có", contactText: "", combo: {3:"544.000đ",5:"512.000đ",10:"480.000đ"}, gallery: ["assets/img/c_th_n_ti_n_altum_atabapo_f1_1.jpg", "assets/img/c_th_n_ti_n_altum_atabapo_f1_2.jpg"]
+      origin: "Sông Atabapo, Nam Mỹ", size: "1–3 cm", promo: "Không có", contactText: "", combo: {3:"544.000đ",5:"512.000đ",10:"480.000đ"}, gallery: ["assets/img/c_th_n_ti_n_altum_atabapo_f1_1.jpg"]
     },
 {
       vn: "Cá Hồng My Bóng Đêm Fila", en: "Fila Shark Minnow", img: "c_h_ng_my_b_ng_m_fila_1.jpg", photo: true, price: "111.000đ - 114.000đ",
       desc: "Cá Hồng My Bóng Đêm Fila là dòng cá cảnh bơi đàn nổi bật với thân ánh kim và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "7–10 cm", promo: "Không có", contactText: "", combo: {3:"100.000đ - 104.000đ",5:"94.000đ - 96.000đ",10:"83.000đ - 88.000đ"}, gallery: ["assets/img/c_h_ng_my_b_ng_m_fila_1.jpg", "assets/img/c_h_ng_my_b_ng_m_fila_2.jpg"]
+      origin: "Đông Nam Á", size: "7–10 cm", promo: "Không có", contactText: "", combo: {3:"100.000đ - 104.000đ",5:"94.000đ - 96.000đ",10:"83.000đ - 88.000đ"}, gallery: ["assets/img/c_h_ng_my_b_ng_m_fila_1.jpg"]
     },
 {
       vn: "Cá Hồng My Bóng Đêm Tambra", en: "Tambra Shark Minnow", img: "c_h_ng_my_b_ng_m_tambra_1.jpg", photo: true, price: "70.000đ - 278.000đ",
       desc: "Cá Hồng My Bóng Đêm Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và màu ánh kim đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:"64.000đ - 250.000đ",5:"60.000đ - 236.000đ",10:"56.000đ - 208.000đ"}, gallery: ["assets/img/c_h_ng_my_b_ng_m_tambra_1.jpg", "assets/img/c_h_ng_my_b_ng_m_tambra_2.jpg"]
+      origin: "Đông Nam Á", size: "4–9 cm", promo: "Không có", contactText: "", combo: {3:"64.000đ - 250.000đ",5:"60.000đ - 236.000đ",10:"56.000đ - 208.000đ"}, gallery: ["assets/img/c_h_ng_my_b_ng_m_tambra_1.jpg"]
     },
 {
       vn: "Cá Hồng My Ấn Độ", en: "Rosy Barb", img: "c_h_ng_my_n_1.jpg", photo: true, price: "16.000đ - 108.000đ",
       desc: "Cá Hồng My Ấn Độ / Rosy Barb (Pethia conchonius) là dòng cá cảnh bơi đàn nổi bật với sắc hồng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên để cá dạn và lên màu đẹp, nước 22–26°C.",
-      origin: "Ấn Độ, Bangladesh", size: "2–10 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ - 96.000đ",5:"44.000đ - 84.000đ",10:"35.000đ - 80.000đ"}, gallery: ["assets/img/c_h_ng_my_n_1.jpg", "assets/img/c_h_ng_my_n_2.jpg"]
+      origin: "Ấn Độ, Bangladesh", size: "2–10 cm", promo: "Không có", contactText: "", combo: {3:"15.000đ - 96.000đ",5:"44.000đ - 84.000đ",10:"35.000đ - 80.000đ"}, gallery: ["assets/img/c_h_ng_my_n_1.jpg"]
     },
 {
       vn: "Cá Chuột Cafe", en: "Corydoras Cafe", img: "c_chu_t_cafe_1.jpg", photo: true, price: "15.000đ - 35.000đ",
       desc: "Cá Chuột Cafe (Corydoras sp.) là dòng cá chuột cảnh nhỏ nổi bật với thân ánh nâu cafe và các vệt sáng đặc trưng. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây và lũa, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-      origin: "Nam Mỹ", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"14.000đ - 33.000đ",5:"13.000đ - 31.000đ",10:"12.000đ - 29.000đ"}, gallery: ["assets/img/c_chu_t_cafe_1.jpg", "assets/img/c_chu_t_cafe_2.jpg"]
+      origin: "Nam Mỹ", size: "6–7 cm", promo: "Không có", contactText: "", combo: {3:"14.000đ - 33.000đ",5:"13.000đ - 31.000đ",10:"12.000đ - 29.000đ"}, gallery: ["assets/img/c_chu_t_cafe_1.jpg"]
     },
 {
       vn: "Cá Mị Nương Ngọc Lam", en: "Blue Crystal Parrotfish", img: "c_m_n_ng_ng_c_lam_1.jpg", photo: true, price: "200.000đ - 630.000đ",
       desc: "Cá Mị Nương Ngọc Lam là dòng cá cảnh Trung Quốc nổi bật với sắc xanh ngọc lam ánh kim và dáng thuôn dài đặc trưng. Cá hiền, thích hợp bể cộng đồng rộng, nước mềm 22–26°C.",
-      origin: "Trung Quốc", size: "10–18 cm", promo: "Không có", contactText: "", combo: {3:"184.000đ - 600.000đ",5:"168.000đ - 570.000đ",10:"152.000đ - 540.000đ"}, gallery: ["assets/img/c_m_n_ng_ng_c_lam_1.jpg", "assets/img/c_m_n_ng_ng_c_lam_2.jpg"]
+      origin: "Trung Quốc", size: "10–18 cm", promo: "Không có", contactText: "", combo: {3:"184.000đ - 600.000đ",5:"168.000đ - 570.000đ",10:"152.000đ - 540.000đ"}, gallery: ["assets/img/c_m_n_ng_ng_c_lam_1.jpg"]
     },
 {
       vn: "Cá Thần Tiên Mana Red Black Phẩm Cao", en: "Mana Red Black Premium Angelfish", img: "c_th_n_ti_n_mana_red_black_ph_m_cao_1.jpg", photo: true, price: 100000,
       desc: "Cá Thần Tiên Mana Red Black Phẩm Cao (Pterophyllum scalare, dòng Manacapuru Red Back phẩm cao size 3-4) là thần tiên hoang dã nổi bật với viền lưng đỏ cam đậm — dòng phẩm cao chọn lọc. Cá có dáng đĩa dẹp đặc trưng, thích hợp bể cao, nước mềm hơi acid 26–30°C. Nuôi theo cặp hoặc nhóm nhỏ.",
-      origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/c_th_n_ti_n_mana_red_black_ph_m_cao_1.jpg", "assets/img/c_th_n_ti_n_mana_red_black_ph_m_cao_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "3–4 cm", promo: "Không có", contactText: "", combo: {3:93000,5:85000,10:80000}, gallery: ["assets/img/c_th_n_ti_n_mana_red_black_ph_m_cao_1.jpg"]
     },
 {
       vn: "Cá Chuột Black Vene", en: "Black Vene Cory", img: "c_chu_t_black_vene_1.jpg", photo: true, price: "116.000đ",
       desc: "Cá Chuột Black Vene là dòng cá chuột cảnh nổi bật với thân đen ánh kim và hoa văn đặc trưng. Cá hiền, sống theo đàn, ăn tạp đáy, phù hợp bể thủy sinh nhiều cây và lũa, nước mềm hơi acid 22–26°C. Nuôi nhóm 6+ con.",
-      origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"107.000đ",5:"99.000đ",10:"96.000đ"}, gallery: ["assets/img/c_chu_t_black_vene_1.jpg", "assets/img/c_chu_t_black_vene_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "4–5 cm", promo: "Không có", contactText: "", combo: {3:"107.000đ",5:"99.000đ",10:"96.000đ"}, gallery: ["assets/img/c_chu_t_black_vene_1.jpg"]
     },
 {
       vn: "Cá HMBD Tambra", en: "HMBD Tambra Shark", img: "c_hmbd_tambra_1.jpg", photo: true, price: "368.000đ",
       desc: "Cá HMBD Tambra là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"345.000đ",5:"334.000đ",10:"322.000đ"}, gallery: ["assets/img/c_hmbd_tambra_1.jpg", "assets/img/c_hmbd_tambra_2.jpg"]
+      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"345.000đ",5:"334.000đ",10:"322.000đ"}, gallery: ["assets/img/c_hmbd_tambra_1.jpg"]
     },
 {
       vn: "Cá Tambra 10 Kì Dài", en: "Tambra Long Fin 10cm", img: "c_tambra_10_k_d_i_1.jpg", photo: true, price: "414.000đ",
       desc: "Cá Tambra 10 Kì Dài là dòng cá cảnh bơi đàn nổi bật với vây kì dài uyển chuyển và màu ánh kim. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "10 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_tambra_10_k_d_i_1.jpg", "assets/img/c_tambra_10_k_d_i_2.jpg"]
+      origin: "Đông Nam Á", size: "10 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_tambra_10_k_d_i_1.jpg"]
     },
 {
       vn: "Cá HMBD Rohani", en: "HMBD Rohani Shark", img: "c_hmbd_rohani_1.jpg", photo: true, price: "117.000đ - 124.000đ",
       desc: "Cá HMBD Rohani là dòng cá cảnh bơi đàn nổi bật với dáng thon dài và vây dài đặc trưng. Cá hiền, khỏe, phù hợp bể cộng đồng rộng, nên nuôi nhóm 6+ con, nước 22–26°C.",
-      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"111.000đ",5:"104.000đ",10:"98.000đ"}, gallery: ["assets/img/c_hmbd_rohani_1.jpg", "assets/img/c_hmbd_rohani_2.jpg"]
+      origin: "Đông Nam Á", size: "8–10 cm", promo: "Không có", contactText: "", combo: {3:"111.000đ",5:"104.000đ",10:"98.000đ"}, gallery: ["assets/img/c_hmbd_rohani_1.jpg"]
     },
 {
       vn: "Cá Hồng My Gold", en: "Gold Rosy Barb", img: "c_h_ng_my_gold_1.jpg", photo: true, price: 449000,
       desc: "Cá Hồng My Gold là dòng cá cảnh bơi đàn nổi bật với sắc vàng ánh kim phủ đều thân và vây. Cá hiền, khỏe, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Nên nuôi nhóm 6–8 con trở lên, nước 22–26°C.",
-      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_h_ng_my_gold_1.jpg", "assets/img/c_h_ng_my_gold_2.jpg"]
+      origin: "Lai tạo chọn lọc", size: "6–7 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/c_h_ng_my_gold_1.jpg"]
     },
 {
     vn: "Cá Mị Nương Ngọc Lam TQ", en: "Cá Mị Nương Ngọc Lam TQ", img: "c_m_n_ng_ng_c_lam_tq_1.jpg", photo: true, price: "1.547.000đ",
     desc: "Cá Mị nương ngọc lam TQ là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "16–18 cm", promo: "Không có", contactText: "", combo: {3:"1.392.000đ",5:"1.315.000đ",10:"1.237.000đ"},
-    gallery: ["assets/img/c_m_n_ng_ng_c_lam_tq_1.jpg", "assets/img/c_m_n_ng_ng_c_lam_tq_2.jpg"]
+    gallery: ["assets/img/c_m_n_ng_ng_c_lam_tq_1.jpg"]
   },
 {
     vn: "Cá Thần Tiên Dantum", en: "Cá Thần Tiên Dantum", img: "c_th_n_ti_n_dantum_1.jpg", photo: true, price: "380.000đ",
     desc: "Cá Thần tiên Dantum là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "2–3 cm", promo: "Không có", contactText: "", combo: {3:"360.000đ",5:"350.000đ",10:"320.000đ"},
-    gallery: ["assets/img/c_th_n_ti_n_dantum_1.jpg", "assets/img/c_th_n_ti_n_dantum_2.jpg"]
+    gallery: ["assets/img/c_th_n_ti_n_dantum_1.jpg"]
   },
 {
     vn: "Cá Whitefin Tetra", en: "Cá Whitefin Tetra", img: "c_whitefin_tetra_1.jpg", photo: true, price: "25.000đ",
     desc: "Cá Whitefin tetra là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"23.000đ",5:"22.000đ",10:"19.000đ"},
-    gallery: ["assets/img/c_whitefin_tetra_1.jpg", "assets/img/c_whitefin_tetra_2.jpg"]
+    gallery: ["assets/img/c_whitefin_tetra_1.jpg"]
   },
 {
     vn: "Cá Chuột Optimus Prime", en: "Cá Chuột Optimus Prime", img: "c_chu_t_optimus_prime_1.jpg", photo: true, price: "88.000đ",
     desc: "Cá Chuột optimus prime là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"83.000đ",5:"78.000đ",10:"74.000đ"},
-    gallery: ["assets/img/c_chu_t_optimus_prime_1.jpg", "assets/img/c_chu_t_optimus_prime_2.jpg"]
+    gallery: ["assets/img/c_chu_t_optimus_prime_1.jpg"]
   },
 {
     vn: "Cá Mương Lục An Phẩm Cao", en: "Cá Mương Lục An Phẩm Cao", img: "c_m_ng_l_c_an_ph_m_cao_1.jpg", photo: true, price: "362.000đ",
     desc: "Cá Mương lục an phẩm cao là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "12–14 cm", promo: "Không có", contactText: "", combo: {3:"326.000đ",5:"308.000đ",10:"271.000đ"},
-    gallery: ["assets/img/c_m_ng_l_c_an_ph_m_cao_1.jpg", "assets/img/c_m_ng_l_c_an_ph_m_cao_2.jpg"]
+    gallery: ["assets/img/c_m_ng_l_c_an_ph_m_cao_1.jpg"]
   },
 {
     vn: "Cá Kim Thơm", en: "Cá Kim Thơm", img: "c_kim_th_m_1.jpg", photo: true, price: "270.000đ",
     desc: "Cá Kim thơm là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "8–9 cm", promo: "Không có", contactText: "", combo: {3:"248.000đ",5:"240.000đ",10:"225.000đ"},
-    gallery: ["assets/img/c_kim_th_m_1.jpg", "assets/img/c_kim_th_m_2.jpg"]
+    gallery: ["assets/img/c_kim_th_m_1.jpg"]
   },
 {
     vn: "Cá Hải Hồ Short", en: "Cá Hải Hồ Short", img: "c_h_i_h_short_1.jpg", photo: true, price: "473.000đ",
     desc: "Cá Hải hồ short là dòng cá cảnh được HPZ tuyển chọn, chăm sóc kỹ trước khi bán. Cá khỏe mạnh, dễ nuôi, phù hợp bể thủy sinh cộng đồng. Liên hệ HPZ để được tư vấn size phù hợp.",
     origin: "Việt Nam", size: "", promo: "Không có", contactText: "", combo: {3:"455.000đ",5:"438.000đ",10:"420.000đ"},
-    gallery: ["assets/img/c_h_i_h_short_1.jpg", "assets/img/c_h_i_h_short_2.jpg"]
+    gallery: ["assets/img/c_h_i_h_short_1.jpg"]
   }
 ].map(f => ({ ...f, src: (f.photo ? 'assets/img/' : SPR) + f.img, filter: f.hue ? `hue-rotate(${f.hue}deg) saturate(1.25)` : '' }));
