@@ -160,7 +160,8 @@
   for (let i = 0; i < PERF.rays; i++) {
     rays.push({
       x: Math.random(), w: rand(50, 160),
-      slant: rand(-0.35, 0.35), len: rand(0.55, 1.0),
+      slant: rand(-0.35, 0.35),
+      len: i < 3 ? rand(1.0, 1.3) : rand(0.55, 0.9),   // vài tia dài xuống 1/3-1/2 dưới
       speed: rand(0.05, 0.18), phase: Math.random() * Math.PI * 2,
       amp: rand(30, 90), peak: rand(0.13, 0.26),
       wf: rand(0.3, 0.8), wp: Math.random() * 6.283   // thở bề rộng
@@ -253,8 +254,8 @@
     const cBot = [lerp(5, 2, scrollP), lerp(29, 10, scrollP), lerp(49, 18, scrollP)];
     const g = ctx.createLinearGradient(0, 0, 0, H);
     g.addColorStop(0, 'rgb(' + Math.round(cTop[0]) + ',' + Math.round(cTop[1]) + ',' + Math.round(cTop[2]) + ')');
-    g.addColorStop(0.45, 'rgb(' + Math.round(cMid[0]) + ',' + Math.round(cMid[1]) + ',' + Math.round(cMid[2]) + ')');
-    g.addColorStop(1, 'rgb(' + Math.round(cBot[0]) + ',' + Math.round(cBot[1]) + ',' + Math.round(cBot[2]) + ')');
+    g.addColorStop(0.45, 'rgb(' + Math.round(cMid[0] + 2) + ',' + Math.round(cMid[1] + 12) + ',' + Math.round(cMid[2] + 20) + ')');
+    g.addColorStop(1, 'rgb(' + Math.round(cBot[0] + 1) + ',' + Math.round(cBot[1] + 8) + ',' + Math.round(cBot[2] + 14) + ')');
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, W, H);
 
@@ -275,29 +276,48 @@
     });
     ctx.restore();
 
-    // ---- God rays (tắt dần khi lặn sâu) ----
-    const rayDim = 1 - scrollP * 0.65;
+    // ---- God rays: thoa mềm như nắng xuyên nước (nhiều lớp gradient, không block) ----
+    const rayDim = 1 - scrollP * 0.55;
     const tilt = mActive ? ((mx / W) - 0.5) * 0.05 : 0;
     ctx.save();
     ctx.globalCompositeOperation = 'lighter';
     rays.forEach(function (r) {
       const env = 0.5 + 0.5 * Math.sin(t * r.speed * 1.7 + r.phase * 2);
       if (env < 0.06) return;
+      const breathe = 0.75 + 0.25 * Math.sin(t * r.wf + r.wp);   // bề rộng thở
       const cx = r.x * W + Math.sin(t * r.speed + r.phase) * r.amp + tilt * r.w * 2.4;
       const yEnd = H * r.len;
       const spread = yEnd * r.slant + r.w * 2.2;
-      const rg = ctx.createLinearGradient(cx, 0, cx + spread * 0.4, yEnd);
-      rg.addColorStop(0, 'rgba(205,242,255,' + (r.peak * env * rayDim).toFixed(3) + ')');
-      rg.addColorStop(0.35, 'rgba(155,222,255,' + (r.peak * env * 0.45 * rayDim).toFixed(3) + ')');
-      rg.addColorStop(1, 'rgba(120,200,240,0)');
-      ctx.fillStyle = rg;
-      ctx.beginPath();
-      ctx.moveTo(cx - r.w / 2, -20);
-      ctx.lineTo(cx + r.w / 2, -20);
-      ctx.lineTo(cx + r.w / 2 + spread, yEnd);
-      ctx.lineTo(cx - r.w / 2 + spread * 0.5, yEnd);
-      ctx.closePath();
-      ctx.fill();
+      // vẽ 3 lớp lồng nhau: hẹp sáng (lõi) -> rộng mờ (thoa) -> rất rộng rất mờ (loang)
+      for (let L = 0; L < 3; L++) {
+        const lw = r.w * (1 + L * 1.6) * breathe;
+        const la = r.peak * env * rayDim * (L === 0 ? 1 : L === 1 ? 0.32 : 0.14);
+        if (la < 0.01) continue;
+        const yEnd2 = yEnd * (1 - L * 0.12);   // lớp ngoài ngắn hơn, thoa loang
+        const spread2 = spread * (1 + L * 0.15);
+        // gradient chéo dọc: đậm trên, tan dần xuống
+        const g1 = ctx.createLinearGradient(cx, 0, cx + spread2 * 0.4, yEnd2);
+        g1.addColorStop(0, 'rgba(205,242,255,' + la.toFixed(3) + ')');
+        g1.addColorStop(0.45, 'rgba(160,224,255,' + (la * 0.4).toFixed(3) + ')');
+        g1.addColorStop(1, 'rgba(120,200,240,0)');
+        ctx.beginPath();
+        ctx.moveTo(cx - lw / 2, -20);
+        ctx.lineTo(cx + lw / 2, -20);
+        ctx.lineTo(cx + lw / 2 + spread2, yEnd2);
+        ctx.lineTo(cx - lw / 2 + spread2 * 0.5, yEnd2);
+        ctx.closePath();
+        ctx.fillStyle = g1;
+        ctx.fill();
+        // gradient ngang thoa 2 mép: giữa đậm, mép tan (làm tia mềm không block)
+        const g2 = ctx.createLinearGradient(cx - lw / 2, 0, cx + lw / 2, 0);
+        g2.addColorStop(0, 'rgba(255,255,255,0)');
+        g2.addColorStop(0.5, 'rgba(255,255,255,' + Math.min(1, la * 1.6).toFixed(3) + ')');
+        g2.addColorStop(1, 'rgba(255,255,255,0)');
+        ctx.fillStyle = g2;
+        ctx.globalAlpha = 0.3;
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      }
     });
     ctx.restore();
 
@@ -493,47 +513,27 @@
       }
     }
 
-    // ---- Mặt sóng thật ở mép trên (nhìn từ dưới nước lên) ----
+    // ---- Mặt nước phía trên: chỉ vệt sáng trôi rất nhẹ (không vẽ sóng giả) ----
     ctx.save();
     ctx.globalCompositeOperation = 'lighter';
     const dim = 1 - scrollP * 0.8;
-    for (let L = 0; L < 3; L++) {
-      ctx.beginPath();
-      ctx.moveTo(0, -4);
-      const amp = 5 + L * 3;
-      const yBase = 4 + L * 9;
-      for (let x = 0; x <= W; x += 14) {
-        const y = yBase
-          + Math.sin(x * 0.012 + t * (0.9 + L * 0.35) + L * 2.4) * amp
-          + Math.sin(x * 0.03 + t * (1.6 - L * 0.3)) * amp * 0.45;
-        ctx.lineTo(x, y);
-      }
-      ctx.lineTo(W, -4);
-      ctx.closePath();
-      ctx.fillStyle = 'rgba(175,232,255,' + ((0.05 + L * 0.03) * dim).toFixed(3) + ')';
-      ctx.fill();
-    }
-    ctx.restore();
-
-    // ---- Vầng sáng mặt nước ----
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
     const breathe = 0.5 + 0.5 * Math.sin(t * 0.35);
     const sg = ctx.createLinearGradient(0, 0, 0, H * 0.42);
     sg.addColorStop(0, 'rgba(175,232,255,' + ((0.16 + 0.08 * breathe) * dim).toFixed(3) + ')');
     sg.addColorStop(1, 'rgba(175,232,255,0)');
     ctx.fillStyle = sg;
     ctx.fillRect(0, 0, W, H * 0.42);
-    for (let i = 0; i < 3; i++) {
-      ctx.beginPath();
-      const y0 = 8 + i * 14;
-      ctx.moveTo(0, y0);
-      for (let x = 0; x <= W; x += 18) {
-        ctx.lineTo(x, y0 + Math.sin(x * 0.02 + t * (0.7 + i * 0.3) + i * 2) * 3);
-      }
-      ctx.strokeStyle = 'rgba(215,245,255,' + ((0.08 + i * 0.02) * dim).toFixed(3) + ')';
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
+    // vài vệt sáng dài trôi ngang như nắng lóe trên mặt nước
+    for (let i = 0; i < 4; i++) {
+      const yl = (14 + i * 12) + Math.sin(t * 0.3 + i * 1.7) * 4;
+      const x0 = ((t * (12 + i * 9) + i * W / 4) % (W + 300)) - 150;
+      const len = 120 + i * 40;
+      const lg = ctx.createLinearGradient(x0, yl, x0 + len, yl);
+      lg.addColorStop(0, 'rgba(215,245,255,0)');
+      lg.addColorStop(0.5, 'rgba(215,245,255,' + ((0.06 + i * 0.015) * dim).toFixed(3) + ')');
+      lg.addColorStop(1, 'rgba(215,245,255,0)');
+      ctx.fillStyle = lg;
+      ctx.fillRect(x0, yl, len, 2.5);
     }
     ctx.restore();
 
@@ -557,10 +557,10 @@
       ctx.restore();
     }
 
-    // ---- Vignette ----
+    // ---- Vignette (nhẹ hơn cho dưới bớt tối) ----
     const vg = ctx.createLinearGradient(0, H * 0.7, 0, H);
     vg.addColorStop(0, 'rgba(4,23,38,0)');
-    vg.addColorStop(1, 'rgba(4,21,35,0.5)');
+    vg.addColorStop(1, 'rgba(4,21,35,0.28)');
     ctx.fillStyle = vg;
     ctx.fillRect(0, H * 0.7, W, H * 0.3);
 
