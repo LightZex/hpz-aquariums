@@ -18,7 +18,7 @@ const FISH = [
     origin: "Sông Amazon, Brazil", size: "12–15 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/pleco_1.jpg", "assets/img/pleco_2.jpg"]
   },
 {
-    vn: "Cá Diếc Vảy Rồng", en: "Odessa Barb", img: "odiec_1.jpg", photo: true, price: "48.000đ",
+    vn: "Cá Diếc Vảy Rồng", en: "Odessa Barb", img: "odiec_1.jpg", photo: true, price: "32.000đ - 48.000đ",
         desc: "Cá Diếc Vảy Rồng (Pethia padamya, thường gọi là Odessa Barb) là dòng cá cảnh nhỏ thuộc họ Cyprinidae có nguồn gốc từ miền trung Myanmar, đặc biệt ở hạ lưu sông Chindwin. Cá nổi bật với thân bạc ánh kim có sọc đen dọc lưng kết hợp dải đỏ cam rực rỡ chạy dọc thân tạo vẻ ngoài sặc sỡ bắt mắt. Là loài cá bơi đàn linh hoạt, hiền lành, dễ chăm — rất phù hợp thả trong các bể thủy sinh cộng đồng, nên nuôi nhóm từ 6–8 con trở lên để cá dạn, lên màu đẹp và bơi theo đàn.",
         origin: "Hạ lưu sông Chindwin, Myanmar", size: "4–5 cm", promo: "Không có", contactText: "", combo: {}, gallery: ["assets/img/odiec_1.jpg", "assets/img/odiec_2.jpg"],
         video: "https://www.facebook.com/reel/4592676834339117/"
