@@ -175,6 +175,82 @@
   </footer>
 </div>
 
+<script>
+  // Sinh vật dưới cát + rong cắm từ cát + đá trang trí (random vị trí tự nhiên)
+  (function(){
+    const box = document.getElementById('sandlife');
+    if(!box) return;
+    const slots = [
+      // --- BÊN TRÁI ---
+      {src:'assets/img/scene/coral_orange.png',    left:5,   w:[110,140], b:[54,66], sway:true},
+      {src:'assets/img/scene/starfish.png',        left:15,  w:[78,94],   b:[12,24], rot:[-14,-5]},
+      {src:'assets/img/scene/coral_purple_fan.png',left:21,  w:[104,130], b:[52,64], sway:true},
+      {src:'assets/img/scene/coral_pink.png',      left:29,  w:[96,120],  b:[50,62], sway:true},
+      {src:'assets/img/scene/coral_red_brain.png', left:12,  w:[86,106],  b:[10,20]},
+      {src:'assets/img/scene/background_rock_a.png',left:8,  w:[56,72],   b:[18,28]},
+      {src:'assets/img/scene/rock_b.png',          left:17.5,w:[44,58],   b:[14,24]},
+      {src:'assets/img/scene/seaweed_green_a.png', left:2.5, w:[90,120],  b:[0,8],  weed:true, hmul:1.45},
+      {src:'assets/img/scene/seaweed_green_b.png', left:11,  w:[60,80],   b:[0,6],  weed:true, hmul:1.35},
+      {src:'assets/img/scene/seaweed_pink_a.png',  left:26.5,w:[54,70],   b:[0,5],  weed:true, hmul:1.25},
+      {src:'assets/img/scene/seaweed_grass_a.png', left:34,  w:[70,92],   b:[0,5],  weed:true, hmul:1.3},
+      // --- GIỮA: creature thấp + nhỏ rải rác, không che chữ footer ---
+      {src:'assets/img/scene/rock_a.png',          left:39.5,w:[34,50],   b:[8,18]},
+      {src:'assets/img/scene/background_rock_a.png',left:44.5,w:[30,44],  b:[6,14]},
+      {src:'assets/img/scene/starfish_small.png',  left:49.5,w:[40,56],   b:[8,18], rot:[-12,12]},
+      {src:'assets/img/scene/coral_red_brain.png', left:55,  w:[54,74],   b:[10,22]},
+      {src:'assets/img/scene/rock_b.png',          left:59.5,w:[32,46],   b:[6,16], flip:true},
+      {src:'assets/img/scene/starfish_small.png',  left:43,  w:[36,48],   b:[4,12], rot:[-15,15], flip:true},
+      {src:'assets/img/scene/pearl_shell.png',     left:48,  w:[46,62],   b:[4,14]},
+      {src:'assets/img/scene/coral_blue_tube.png', left:60.5,w:[58,76],   b:[12,24]},
+      {src:'assets/img/scene/seaweed_green_c.png', left:37.5,w:[64,84],   b:[0,6],  weed:true, hmul:1.3},
+      {src:'assets/img/scene/seaweed_grass_b.png', left:63.5,w:[58,76],   b:[0,6],  weed:true, hmul:1.35},
+      // --- BÊN PHẢI ---
+      {src:'assets/img/scene/starfish_small.png',  left:63,  w:[52,64],   b:[10,20], rot:[8,18]},
+      {src:'assets/img/scene/coral_blue_tube.png', left:70,  w:[96,118],  b:[48,60]},
+      {src:'assets/img/scene/coral_green_branch.png',left:77,w:[88,110],  b:[52,64], sway:true},
+      {src:'assets/img/scene/pearl_shell.png',     left:85,  w:[84,102],  b:[14,26], flip:true},
+      {src:'assets/img/scene/seaweed_grass_b.png', left:90.5,w:[58,72],  b:[46,60], sway:true},
+      {src:'assets/img/scene/coral_orange.png',    left:95.5,w:[100,124], b:[56,68], sway:true, flip:true},
+      {src:'assets/img/scene/rock_b.png',          left:67,  w:[42,56],   b:[12,22]},
+      {src:'assets/img/scene/seaweed_green_d.png', left:92.5,w:[80,104],  b:[0,6],   weed:true, hmul:1.4},
+      {src:'assets/img/scene/seaweed_pink_b.png',  left:75.5,w:[50,66],   b:[0,5],   weed:true, hmul:1.25},
+      {src:'assets/img/scene/seaweed_orange_a.png',left:84.5,w:[56,72],  b:[0,5],   weed:true, hmul:1.2}
+    ];
+    const R = (a,b) => a + Math.random()*(b-a);
+    slots.forEach(s=>{
+      const img = document.createElement('img');
+      img.src = s.src;
+      img.alt = '';
+      img.style.left = 'calc(' + s.left + '% + ' + R(-2.5,2.5).toFixed(1) + '%)';
+      if (s.weed) {
+        // RONG: cắm gốc ở đáy cát, vươn lên trên, đu đưa quanh gốc
+        const w = Math.round(R(s.w[0], s.w[1]));
+        img.style.width = w + 'px';
+        img.style.height = Math.round(w * s.hmul) + 'px';
+        img.style.bottom = Math.round(R(s.b[0], s.b[1])) + 'px';
+        img.classList.add('weed-sway');
+        img.style.animationDelay = (-R(0,5)).toFixed(2) + 's';
+        img.style.animationDuration = R(4.4,6.8).toFixed(2) + 's';
+        img.style.transformOrigin = 'bottom center';
+      } else {
+        img.style.bottom = Math.round(R(s.b[0], s.b[1])) + 'px';
+        img.style.width = Math.round(R(s.w[0], s.w[1])) + 'px';
+        if(s.sway){
+          img.classList.add('sway');
+          img.style.animationDelay = (-R(0,5)).toFixed(2) + 's';
+          img.style.animationDuration = R(4.4,6.6).toFixed(2) + 's';
+        } else {
+          const tf = [];
+          if(s.flip) tf.push('scaleX(-1)');
+          if(s.rot) tf.push('rotate(' + R(s.rot[0], s.rot[1]).toFixed(1) + 'deg)');
+          else if(!s.flip) tf.push('rotate(' + R(-4,4).toFixed(1) + 'deg)');
+          img.style.transform = tf.join(' ');
+        }
+      }
+      box.appendChild(img);
+    });
+  })();
+</script>
 <script src="assets/js/scene.js?v=5"></script>
 </body>
 </html>
