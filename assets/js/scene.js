@@ -20,10 +20,7 @@
 
   const FISH_SPRITES = ['fish_blue', 'fish_brown', 'fish_green', 'fish_grey', 'fish_grey_long_a', 'fish_grey_long_b', 'fish_orange', 'fish_pink', 'fish_red'];
   const SMALL_FISH = ['fish_grey', 'fish_green', 'fish_blue'];
-  const ROCK_SPRITES = ['rock_a', 'rock_b'];
   const BUBBLE_SPRITES = ['bubble_a', 'bubble_b', 'bubble_c'];
-  const WEED_SPRITES = ['seaweed_green_a', 'seaweed_green_b', 'seaweed_green_c', 'seaweed_green_d', 'seaweed_grass_a', 'seaweed_grass_b', 'seaweed_orange_a', 'seaweed_pink_a', 'seaweed_pink_b'];
-  const WEED_BG = ['background_seaweed_a'];
 
   const imgs = {};
   function load(name) {
@@ -32,10 +29,7 @@
     imgs[name] = i;
   }
   FISH_SPRITES.forEach(load);
-  ROCK_SPRITES.forEach(load);
   BUBBLE_SPRITES.forEach(load);
-  WEED_SPRITES.forEach(load);
-  WEED_BG.forEach(load);
   if (PERF.flock) SMALL_FISH.forEach(load);
   if (PERF.big) load('turtle2');
 
@@ -211,72 +205,6 @@
     }
   }
 
-  const rocks = [];
-  for (let i = 0; i < 6; i++) {
-    rocks.push({ name: pick(ROCK_SPRITES), x: rand(0, W), s: rand(0.7, 1.6) });
-  }
-
-  // ---- Rong rêu vươn lên từ đáy (2 tầng: xa mờ lớn + gần rõ nhỏ) ----
-  const weedsBack = [];   // tầng xa: to, mờ, lắc chậm
-  const weedsFront = [];  // tầng gần: nhỏ, rõ, lắc nhanh hơn
-  const weedCountBack = isMobile ? 5 : 9;
-  const weedCountFront = isMobile ? 5 : 10;
-  for (let i = 0; i < weedCountBack; i++) {
-    weedsBack.push({
-      name: pick(WEED_SPRITES),
-      x: rand(0, 1),
-      s: rand(1.7, 2.6),
-      sway: rand(2.2, 4.5),
-      phase: rand(0, 6.283),
-      alpha: rand(0.2, 0.32),
-      par: rand(0.05, 0.1)
-    });
-  }
-  for (let i = 0; i < weedCountFront; i++) {
-    weedsFront.push({
-      name: pick(WEED_SPRITES),
-      x: rand(0, 1),
-      s: rand(0.9, 1.4),
-      sway: rand(3.5, 6.5),
-      phase: rand(0, 6.283),
-      alpha: rand(0.55, 0.8),
-      par: rand(0.12, 0.22)
-    });
-  }
-  // rong nền xa lớn lấp khe
-  const weedBg = [];
-  if (!isMobile) {
-    for (let i = 0; i < 4; i++) {
-      weedBg.push({
-        name: WEED_BG[0],
-        x: rand(0.03, 0.97),
-        s: rand(2.8, 3.6),
-        sway: rand(1.2, 2),
-        phase: rand(0, 6.283),
-        alpha: rand(0.12, 0.2),
-        par: 0.04
-      });
-    }
-  }
-
-  // vẽ 1 bụi rong: neo đáy, lắc quanh gốc theo sóng, vươn thẳng lên
-  function drawWeed(wd, t, H, W, scrollPx) {
-    const im = imgs[wd.name];
-    if (!im || !im.complete || !im.naturalWidth) return;
-    const w = 80 * wd.s;
-    const h = im.naturalHeight / im.naturalWidth * w;
-    const bx = wd.x * W;
-    const yBase = H + 14 - scrollPx * wd.par;
-    // đu đưa quanh gốc đáy: xoay + trượt ngang nhẹ, biên độ nhỏ ở gốc lớn ở ngọn
-    const sway = Math.sin(t * wd.sway + wd.phase);
-    ctx.save();
-    ctx.globalAlpha = wd.alpha;
-    ctx.translate(bx, yBase);
-    ctx.rotate(sway * 0.07);
-    ctx.drawImage(im, -w / 2 + sway * 6, -h, w, h);
-    ctx.restore();
-  }
-
   function drawSprite(name, x, y, w, h, flipX, alpha) {
     const im = imgs[name];
     if (!im || !im.complete || !im.naturalWidth) return;
@@ -437,16 +365,6 @@
     });
     ctx.restore();
 
-    // ---- Đá ----
-    rocks.forEach(function (r) {
-      const w = 80 * r.s, h = 80 * r.s;
-      drawSprite(r.name, r.x - w / 2, H - h * 0.7, w, h, false, 0.9);
-    });
-
-    // ---- Rong rêu tầng xa (sau đá, trước cá) ----
-    weedBg.forEach(function (wd) { drawWeed(wd, t, H, W, scrollPx); });
-    weedsBack.forEach(function (wd) { drawWeed(wd, t, H, W, scrollPx); });
-
     // ---- Bầy cá nhỏ (parallax + sprite) ----
     if (PERF.flock) {
       flock.forEach(function (b) {
@@ -574,9 +492,6 @@
         ctx.restore();
       }
     }
-
-    // ---- Rong rêu tầng gần (trước cá, sau bubble) ----
-    weedsFront.forEach(function (wd) { drawWeed(wd, t, H, W, scrollPx); });
 
     // ---- Mặt sóng thật ở mép trên (nhìn từ dưới nước lên) ----
     ctx.save();

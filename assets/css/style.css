@@ -320,6 +320,12 @@ footer.site a{color:var(--cyan);text-decoration:none}
 .shore .foot-center a:hover{color:#ffffff}
 .shore .sandlife img{position:absolute;bottom:0;filter:drop-shadow(0 3px 5px rgba(0,0,0,.35))}
 .shore .sandlife img.sway{animation:sandsway 5.5s ease-in-out infinite alternate;transform-origin:bottom center}
+/* rong vươn lên: đu đưa quanh gốc cắm trong cát */
+.shore .sandlife img.weed-sway{animation:weedsway 5.5s ease-in-out infinite alternate;transform-origin:bottom center}
+@keyframes weedsway{
+  from{transform:rotate(-3.5deg) scaleX(1)}
+  to{transform:rotate(3.5deg) scaleX(1)}
+}
 @keyframes sandsway{
   from{transform:rotate(-2.5deg)}
   to{transform:rotate(2.5deg)}
